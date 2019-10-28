@@ -1,0 +1,48 @@
+Flu:
+- runny/blocked nose, inflammations, sneezes
+- loss of appetite and sleep deprivation
+- headache
+- chills
+- high(-er) temperature
+- tiredness, weakness, exhausted, fatigue
+- dry, chesty cough
+- (general unwellness) -> how to describe this?
+- wants you to stay in bed
+- not to be confused with a cold (a milder variant)
+- nausea, vomiting
+
+Diarrhoea:
+- headache
+- loss of appetite; weight loss
+- nausea, vomiting
+- stomach cramps
+- loosy/watery poo
+- dehydration
+
+Cholera:
+
+Ebola:
+
+Tuberculosis:
+- loss of appetite; weight loss
+- high(-er) temperature
+- tiredness, fatigue
+- night sweats
+- bloody phlegm, (extreme) coughing
+- short breath
+
+Hepatitis A/B/C:
+- constipation
+- unwellness
+- itchy rash (skin)
+- feeling sick
+- loss of appetite
+- pain in the upper-right part of the tummy
+- jaundice (yellowing of skin and eyes)
+- dark urine
+
+Pneumonia:
+- 
+
+STDs:
+- 
