@@ -1,0 +1,22 @@
+What is the BCHI about?
+- BCHI - Big Cities Health Inventory#
+- 30000 records on 30 cities across the USA
+- it "provides a snapshot of health" in 30 of the largest cities in the USA
+- comparability between the members of the BCHI
+
+History of the BCHI
+The BCHI was created to help address this continuing need for more comprehensive data and comparative perspective on the most pressing health issues facing the nation’s urban areas. 
+The BCHI is the longest running initiative to make comparable city-level data publicly accessible. 
+It was started in 1994 as a collaboration of local health departments, led by the Chicago Department of Public Health, to collect and release a report that presented an overview of health in a number of US cities. 
+By 2003, four editions had been published with improvements in methodology and increased data. In 2014, BCHC assumed ownership over the BCHI, and at that point, the data moved to an online platform. 
+This allowed users to better explore the data and for those data to be updated on a more regular, and rolling, basis. Currently, data are included only for BCHC member jurisdictions (30 cities), slightly smaller than the previous print editions. 
+Regardless of BCHC’s role, the BCHI has always been, and continues to be, a collaborative project among the cities themselves.
+
+Contents of th BCHI
+The indicators encompass nine broad categories of public health importance: Behavioral Health and Substance Abuse; Cancer; Chronic Disease; Environmental Health; Food Safety; HIV/AIDs; Infectious Disease; Injury and Violence; and Maternal and Child Health. 
+Two additional categories include demographics and life expectancy/overall death rate. These indicators were chosen based on their relationship to the leading causes of morbidity and mortality in the United States and their role in creating healthier, safer communities.
+
+Data provenience
+Much of these data come directly from cities, while some were also secured from the U.S. Census or other similar publicly available data set for which city data are available. Where sample sizes allow, indicators are broken down into subpopulations for race and ethnicity categories. 
+The city-specific data in the BCHI can help direct city health policies and priorities and allows for relative comparability across major urban centers in the US. The data can be organized by city, by indicator, and sorted by year, race, and sex. It features downloadable and shareable charts and data points. 
+Additionally, the entire dataset is available for download as a csv file. This data can be analyzed to inform public health programs, used for dissertation or thesis research, or for grant applications, among other things
