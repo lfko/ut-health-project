@@ -13,6 +13,7 @@ Projekt für das Modul "Urbane Technologien", WS19/20
 - Data: * https://www.cdc.gov/ (USA)
         * https://daten.berlin.de/datensaetze/gesundheitsberichterstattung-berlin-kontext-gesundheitsmonitoring-2018 (Berlin)
         * Twitter
+        * data.census.gov
         * https://www.nhsinform.scot/illnesses-and-condition
         * https://www.bigcitieshealth.org/
         * https://www.ruralhealthinfo.org (Data Explorer on rural data)
