@@ -1,0 +1,80 @@
+(Indicators to use for comparison)
+BCHI | Rural Data
+#* Percent of Adults Who Are Obese | Obesity prevalence
+#* diabetes | diagnosed diabetes prevalence
+#* life expectancy (at birth) | life expectancy (at birth) (only for 2010, 2014)
+#* (median) household income | (median) household income 
+#* percent unemployed | poverty?/unemployment rates
+#* education levels (i.e. better education -> higher income -> better food/healt awareness?)
+#* percent of population >65/<18 | percent of population >65/<18 (only 2011, 2017) + age median 
+#*  | access to medical services
+
+(As of 2018)
+(States)
+* California
+    - total population: 39,536,653 (39,046,835 noninstitutionalized**)
+    - male: 49.7 %
+    - female: 50.3 %
+    - age median: 36.5 
+    - <18: 6.2 % + 16.7 %
+    - >18: 77.1 %
+    - private health insurance: 63.6 % **
+    - public coverage: 38.4 % **
+    - no health insurance: 7.2 % **
+    - poverty rate <18: 18.1 %
+    - poverty rate >18: 11.9 %
+    - employed population: 18,757,501
+
+    (following are based on >3 population)
+    - preschool: 5.7 %
+    - kindergarten: 5 %
+    - elementary school: 38 %
+    - high school: 20.4 %
+    - college/graduate: 30.9 %
+
+    (following are based on >25 population)
+    - less than high school: 16.7 %
+    - high school graduates: 20.8 %
+    - college: 28.9 %
+    - bachelor's degree: 21.1 %
+    - graduate: 12.6 %
+
+* Colorado
+    - total population: 5,695,564 (2018) (M: 50.3 %, F: 49.7 %)
+    - age median: 36.9
+    - <18: 22.2 %
+    - >18: 77.8 %
+    - private health insurance: 70.7 %
+    - public coverage: 32.7 %
+    - no health insurance: 7.5 %
+    - poverty rate <18: 11.9 %
+    - poverty rate >18: 9 %
+    - employed population: 2,982,794
+    - median household income (past 12 months, inflation-adjusted, 2016): 65,685 (71,953 in 2018)
+
+    (following are based on >3 population)
+    - preschool: 6.7 %
+    - kindergarten: 4.8 %
+    - elementary school: 40.5 %
+    - high school: 20.9 %
+    - college/graduate: 27 %
+
+    (following are based on >25 population)
+    - less than high school: 8.1 %
+    - high school graduates: 20.8 %
+    - college: 29.4 %
+    - bachelor's degree: 26 %
+    - graduate: 15.7 %
+(Cities)
+* San Diego County (California), Metro Area San Diego County
+    - total population (2017): 1,419,488 (M: 50.8 %, F: 49.2 %)
+    - age median: 34.5 
+    - <18: 20 %
+    - >18: 80 %
+* Denver (Colorado)
+* Boston (Massachusetts)
+
+* Las Vegas
+* San Antonio
+
+** https://en.wikipedia.org/wiki/Civilian_noninstitutional_population
