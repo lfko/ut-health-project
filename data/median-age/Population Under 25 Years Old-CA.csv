@@ -1,0 +1,117 @@
+metro_nonmetro,year,county_name,state_abbr,geoId,value
+Metropolitan,2011,"Alameda County",CA,us-ca-001,0.32508315070949
+Metropolitan,2011,"Butte County",CA,us-ca-007,0.3634552161562
+Metropolitan,2011,"Contra Costa County",CA,us-ca-013,0.33282842736243
+Metropolitan,2011,"El Dorado County",CA,us-ca-017,0.30461757413358
+Metropolitan,2011,"Fresno County",CA,us-ca-019,0.4155816224448
+Metropolitan,2011,"Imperial County",CA,us-ca-025,0.40445188890121
+Metropolitan,2011,"Kern County",CA,us-ca-029,0.41474867772721
+Metropolitan,2011,"Kings County",CA,us-ca-031,0.3955230249122
+Metropolitan,2011,"Los Angeles County",CA,us-ca-037,0.35446788724719
+Metropolitan,2011,"Madera County",CA,us-ca-039,0.38993122163477
+Metropolitan,2011,"Marin County",CA,us-ca-041,0.26485043843202
+Metropolitan,2011,"Merced County",CA,us-ca-047,0.43539585025591
+Metropolitan,2011,"Monterey County",CA,us-ca-053,0.37968812669397
+Metropolitan,2011,"Napa County",CA,us-ca-055,0.32126579847389
+Metropolitan,2011,"Orange County",CA,us-ca-059,0.34688362473194
+Metropolitan,2011,"Placer County",CA,us-ca-061,0.32289538180315
+Metropolitan,2011,"Riverside County",CA,us-ca-065,0.38910102076995
+Metropolitan,2011,"Sacramento County",CA,us-ca-067,0.35773883903215
+Metropolitan,2011,"San Benito County",CA,us-ca-069,0.38605507262224
+Metropolitan,2011,"San Bernardino County",CA,us-ca-071,0.40766472345279
+Metropolitan,2011,"San Diego County",CA,us-ca-073,0.35371918052802
+Metropolitan,2011,"San Francisco County",CA,us-ca-075,0.22800109776775
+Metropolitan,2011,"San Joaquin County",CA,us-ca-077,0.3987875527175
+Metropolitan,2011,"San Luis Obispo County",CA,us-ca-079,0.34303078720728
+Metropolitan,2011,"San Mateo County",CA,us-ca-081,0.29930637332741
+Metropolitan,2011,"Santa Barbara County",CA,us-ca-083,0.38599023804589
+Metropolitan,2011,"Santa Clara County",CA,us-ca-085,0.33032175788567
+Metropolitan,2011,"Santa Cruz County",CA,us-ca-087,0.35608823370676
+Metropolitan,2011,"Shasta County",CA,us-ca-089,0.31756859691589
+Metropolitan,2011,"Solano County",CA,us-ca-095,0.34668383460473
+Metropolitan,2011,"Sonoma County",CA,us-ca-097,0.31689830342012
+Metropolitan,2011,"Stanislaus County",CA,us-ca-099,0.39319646651797
+Metropolitan,2011,"Sutter County",CA,us-ca-101,0.37260064549006
+Metropolitan,2011,"Tulare County",CA,us-ca-107,0.43334999105984
+Metropolitan,2011,"Ventura County",CA,us-ca-111,0.35833011541597
+Metropolitan,2011,"Yolo County",CA,us-ca-113,0.42583551629301
+Metropolitan,2011,"Yuba County",CA,us-ca-115,0.39671665483103
+Metropolitan,2017,"Alameda County",CA,us-ca-001,0.30097047462131
+Metropolitan,2017,"Butte County",CA,us-ca-007,0.35207164963789
+Metropolitan,2017,"Contra Costa County",CA,us-ca-013,0.3173026436399
+Metropolitan,2017,"El Dorado County",CA,us-ca-017,0.28252303867254
+Metropolitan,2017,"Fresno County",CA,us-ca-019,0.39431730230873
+Metropolitan,2017,"Imperial County",CA,us-ca-025,0.39695593947443
+Metropolitan,2017,"Kern County",CA,us-ca-029,0.40109292353632
+Metropolitan,2017,"Kings County",CA,us-ca-031,0.38815311986044
+Metropolitan,2017,"Los Angeles County",CA,us-ca-037,0.32693072301019
+Metropolitan,2017,"Madera County",CA,us-ca-039,0.37777777777778
+Metropolitan,2017,"Marin County",CA,us-ca-041,0.26746647035819
+Metropolitan,2017,"Merced County",CA,us-ca-047,0.41448072104417
+Metropolitan,2017,"Monterey County",CA,us-ca-053,0.36846673807853
+Metropolitan,2017,"Napa County",CA,us-ca-055,0.30552817275983
+Metropolitan,2017,"Orange County",CA,us-ca-059,0.32437188986937
+Metropolitan,2017,"Placer County",CA,us-ca-061,0.3045001800072
+Metropolitan,2017,"Riverside County",CA,us-ca-065,0.36282941585612
+Metropolitan,2017,"Sacramento County",CA,us-ca-067,0.33382706968035
+Metropolitan,2017,"San Benito County",CA,us-ca-069,0.36327998500111
+Metropolitan,2017,"San Bernardino County",CA,us-ca-071,0.38087609960306
+Metropolitan,2017,"San Diego County",CA,us-ca-073,0.33091682616832
+Metropolitan,2017,"San Francisco County",CA,us-ca-075,0.20964567498551
+Metropolitan,2017,"San Joaquin County",CA,us-ca-077,0.37740090837157
+Metropolitan,2017,"San Luis Obispo County",CA,us-ca-079,0.33669975974497
+Metropolitan,2017,"San Mateo County",CA,us-ca-081,0.28700504289737
+Metropolitan,2017,"Santa Barbara County",CA,us-ca-083,0.38415245284382
+Metropolitan,2017,"Santa Clara County",CA,us-ca-085,0.31425012007999
+Metropolitan,2017,"Santa Cruz County",CA,us-ca-087,0.3499778601567
+Metropolitan,2017,"Shasta County",CA,us-ca-089,0.30084004493654
+Metropolitan,2017,"Solano County",CA,us-ca-095,0.32127610171479
+Metropolitan,2017,"Sonoma County",CA,us-ca-097,0.29073168005142
+Metropolitan,2017,"Stanislaus County",CA,us-ca-099,0.37260399787935
+Metropolitan,2017,"Sutter County",CA,us-ca-101,0.35377629913269
+Metropolitan,2017,"Tulare County",CA,us-ca-107,0.41896954942035
+Metropolitan,2017,"Ventura County",CA,us-ca-111,0.33667911407186
+Metropolitan,2017,"Yolo County",CA,us-ca-113,0.41566755250347
+Metropolitan,2017,"Yuba County",CA,us-ca-115,0.37594448314667
+Nonmetropolitan,2011,"Alpine County",CA,us-ca-003,0.38903170522708
+Nonmetropolitan,2011,"Amador County",CA,us-ca-005,0.24160652651396
+Nonmetropolitan,2011,"Calaveras County",CA,us-ca-009,0.26243612700354
+Nonmetropolitan,2011,"Colusa County",CA,us-ca-011,0.38827064844814
+Nonmetropolitan,2011,"Del Norte County",CA,us-ca-015,0.31329435243864
+Nonmetropolitan,2011,"Glenn County",CA,us-ca-021,0.37535233881614
+Nonmetropolitan,2011,"Humboldt County",CA,us-ca-023,0.33188606505221
+Nonmetropolitan,2011,"Inyo County",CA,us-ca-027,0.28016470715718
+Nonmetropolitan,2011,"Lake County",CA,us-ca-033,0.28910423655112
+Nonmetropolitan,2011,"Lassen County",CA,us-ca-035,0.2873346475815
+Nonmetropolitan,2011,"Mariposa County",CA,us-ca-043,0.24204483324221
+Nonmetropolitan,2011,"Mendocino County",CA,us-ca-045,0.30624393030563
+Nonmetropolitan,2011,"Modoc County",CA,us-ca-049,0.27693751955773
+Nonmetropolitan,2011,"Mono County",CA,us-ca-051,0.31749429223744
+Nonmetropolitan,2011,"Nevada County",CA,us-ca-057,0.2640052036751
+Nonmetropolitan,2011,"Plumas County",CA,us-ca-063,0.24950475435816
+Nonmetropolitan,2011,"Sierra County",CA,us-ca-091,0.23008849557522
+Nonmetropolitan,2011,"Siskiyou County",CA,us-ca-093,0.28014858907512
+Nonmetropolitan,2011,"Tehama County",CA,us-ca-103,0.33971580535048
+Nonmetropolitan,2011,"Trinity County",CA,us-ca-105,0.24491284370214
+Nonmetropolitan,2011,"Tuolumne County",CA,us-ca-109,0.25816348500072
+Nonmetropolitan,2017,"Alpine County",CA,us-ca-003,0.32585203657523
+Nonmetropolitan,2017,"Amador County",CA,us-ca-005,0.22390500187637
+Nonmetropolitan,2017,"Calaveras County",CA,us-ca-009,0.23985174334732
+Nonmetropolitan,2017,"Colusa County",CA,us-ca-011,0.37106010521905
+Nonmetropolitan,2017,"Del Norte County",CA,us-ca-015,0.29217987027185
+Nonmetropolitan,2017,"Glenn County",CA,us-ca-021,0.35826024700197
+Nonmetropolitan,2017,"Humboldt County",CA,us-ca-023,0.32571407483947
+Nonmetropolitan,2017,"Inyo County",CA,us-ca-027,0.27287716405606
+Nonmetropolitan,2017,"Lake County",CA,us-ca-033,0.2762930025743
+Nonmetropolitan,2017,"Lassen County",CA,us-ca-035,0.28751191611058
+Nonmetropolitan,2017,"Mariposa County",CA,us-ca-043,0.22663948352022
+Nonmetropolitan,2017,"Mendocino County",CA,us-ca-045,0.29514154771021
+Nonmetropolitan,2017,"Modoc County",CA,us-ca-049,0.24010202949983
+Nonmetropolitan,2017,"Mono County",CA,us-ca-051,0.31057049366909
+Nonmetropolitan,2017,"Nevada County",CA,us-ca-057,0.24106113033449
+Nonmetropolitan,2017,"Plumas County",CA,us-ca-063,0.22666096987823
+Nonmetropolitan,2017,"Sierra County",CA,us-ca-091,0.19826689774697
+Nonmetropolitan,2017,"Siskiyou County",CA,us-ca-093,0.27064093728463
+Nonmetropolitan,2017,"Tehama County",CA,us-ca-103,0.31833920976489
+Nonmetropolitan,2017,"Trinity County",CA,us-ca-105,0.2254352995321
+Nonmetropolitan,2017,"Tuolumne County",CA,us-ca-109,0.2405239429303

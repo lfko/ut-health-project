@@ -1,0 +1,129 @@
+metro_nonmetro,year,county_name,state_abbr,geoId,value
+Metropolitan,2010,"Adams County",CO,us-co-001,79.85
+Metropolitan,2010,"Arapahoe County",CO,us-co-005,79.85
+Metropolitan,2010,"Boulder County",CO,us-co-013,79.85
+Metropolitan,2010,"Broomfield County",CO,us-co-014,79.85
+Metropolitan,2010,"Clear Creek County",CO,us-co-019,81.25
+Metropolitan,2010,"Denver County",CO,us-co-031,79.85
+Metropolitan,2010,"Douglas County",CO,us-co-035,83.27
+Metropolitan,2010,"El Paso County",CO,us-co-041,79.82
+Metropolitan,2010,"Elbert County",CO,us-co-039,81.37
+Metropolitan,2010,"Gilpin County",CO,us-co-047,80.56
+Metropolitan,2010,"Jefferson County",CO,us-co-059,79.85
+Metropolitan,2010,"Larimer County",CO,us-co-069,81.47
+Metropolitan,2010,"Mesa County",CO,us-co-077,78.89
+Metropolitan,2010,"Park County",CO,us-co-093,82.09
+Metropolitan,2010,"Pueblo County",CO,us-co-101,77.53
+Metropolitan,2010,"Teller County",CO,us-co-119,80.6
+Metropolitan,2010,"Weld County",CO,us-co-123,79.85
+Metropolitan,2014,"Adams County",CO,us-co-001,80.02
+Metropolitan,2014,"Arapahoe County",CO,us-co-005,80.02
+Metropolitan,2014,"Boulder County",CO,us-co-013,80.02
+Metropolitan,2014,"Broomfield County",CO,us-co-014,80.02
+Metropolitan,2014,"Clear Creek County",CO,us-co-019,81.63
+Metropolitan,2014,"Denver County",CO,us-co-031,80.02
+Metropolitan,2014,"Douglas County",CO,us-co-035,83.72
+Metropolitan,2014,"El Paso County",CO,us-co-041,79.83
+Metropolitan,2014,"Elbert County",CO,us-co-039,81.68
+Metropolitan,2014,"Gilpin County",CO,us-co-047,80.79
+Metropolitan,2014,"Jefferson County",CO,us-co-059,80.02
+Metropolitan,2014,"Larimer County",CO,us-co-069,81.72
+Metropolitan,2014,"Mesa County",CO,us-co-077,78.77
+Metropolitan,2014,"Park County",CO,us-co-093,82.37
+Metropolitan,2014,"Pueblo County",CO,us-co-101,77.5
+Metropolitan,2014,"Teller County",CO,us-co-119,80.76
+Metropolitan,2014,"Weld County",CO,us-co-123,80.02
+Nonmetropolitan,2010,"Alamosa County",CO,us-co-003,77.36
+Nonmetropolitan,2010,"Archuleta County",CO,us-co-007,81.87
+Nonmetropolitan,2010,"Baca County",CO,us-co-009,77.98
+Nonmetropolitan,2010,"Bent County",CO,us-co-011,76.78
+Nonmetropolitan,2010,"Chaffee County",CO,us-co-015,80.76
+Nonmetropolitan,2010,"Cheyenne County",CO,us-co-017,79.6
+Nonmetropolitan,2010,"Conejos County",CO,us-co-021,78.07
+Nonmetropolitan,2010,"Costilla County",CO,us-co-023,77.9
+Nonmetropolitan,2010,"Crowley County",CO,us-co-025,77.88
+Nonmetropolitan,2010,"Custer County",CO,us-co-027,81.2
+Nonmetropolitan,2010,"Delta County",CO,us-co-029,78.93
+Nonmetropolitan,2010,"Dolores County",CO,us-co-033,79.45
+Nonmetropolitan,2010,"Eagle County",CO,us-co-037,85.35
+Nonmetropolitan,2010,"Fremont County",CO,us-co-043,77.77
+Nonmetropolitan,2010,"Garfield County",CO,us-co-045,80.37
+Nonmetropolitan,2010,"Grand County",CO,us-co-049,82.35
+Nonmetropolitan,2010,"Gunnison County",CO,us-co-051,81.57
+Nonmetropolitan,2010,"Hinsdale County",CO,us-co-053,83.24
+Nonmetropolitan,2010,"Huerfano County",CO,us-co-055,77.44
+Nonmetropolitan,2010,"Jackson County",CO,us-co-057,80.23
+Nonmetropolitan,2010,"Kiowa County",CO,us-co-061,78.66
+Nonmetropolitan,2010,"Kit Carson County",CO,us-co-063,79.37
+Nonmetropolitan,2010,"La Plata County",CO,us-co-067,81.39
+Nonmetropolitan,2010,"Lake County",CO,us-co-065,79.64
+Nonmetropolitan,2010,"Las Animas County",CO,us-co-071,77.57
+Nonmetropolitan,2010,"Lincoln County",CO,us-co-073,79.48
+Nonmetropolitan,2010,"Logan County",CO,us-co-075,79.46
+Nonmetropolitan,2010,"Mineral County",CO,us-co-079,81.23
+Nonmetropolitan,2010,"Moffat County",CO,us-co-081,78.54
+Nonmetropolitan,2010,"Montezuma County",CO,us-co-083,77.51
+Nonmetropolitan,2010,"Montrose County",CO,us-co-085,79.5
+Nonmetropolitan,2010,"Morgan County",CO,us-co-087,78.85
+Nonmetropolitan,2010,"Otero County",CO,us-co-089,76.72
+Nonmetropolitan,2010,"Ouray County",CO,us-co-091,82.68
+Nonmetropolitan,2010,"Phillips County",CO,us-co-095,80.27
+Nonmetropolitan,2010,"Pitkin County",CO,us-co-097,86
+Nonmetropolitan,2010,"Prowers County",CO,us-co-099,77.55
+Nonmetropolitan,2010,"Rio Blanco County",CO,us-co-103,79.19
+Nonmetropolitan,2010,"Rio Grande County",CO,us-co-105,77.72
+Nonmetropolitan,2010,"Routt County",CO,us-co-107,82.3
+Nonmetropolitan,2010,"Saguache County",CO,us-co-109,79.55
+Nonmetropolitan,2010,"San Juan County",CO,us-co-111,79.63
+Nonmetropolitan,2010,"San Miguel County",CO,us-co-113,83.42
+Nonmetropolitan,2010,"Sedgwick County",CO,us-co-115,78.26
+Nonmetropolitan,2010,"Summit County",CO,us-co-117,86.33
+Nonmetropolitan,2010,"Washington County",CO,us-co-121,79.99
+Nonmetropolitan,2010,"Yuma County",CO,us-co-125,79.29
+Nonmetropolitan,2014,"Alamosa County",CO,us-co-003,77.43
+Nonmetropolitan,2014,"Archuleta County",CO,us-co-007,82.08
+Nonmetropolitan,2014,"Baca County",CO,us-co-009,77.95
+Nonmetropolitan,2014,"Bent County",CO,us-co-011,76.78
+Nonmetropolitan,2014,"Chaffee County",CO,us-co-015,81.22
+Nonmetropolitan,2014,"Cheyenne County",CO,us-co-017,79.56
+Nonmetropolitan,2014,"Conejos County",CO,us-co-021,78.11
+Nonmetropolitan,2014,"Costilla County",CO,us-co-023,77.72
+Nonmetropolitan,2014,"Crowley County",CO,us-co-025,77.94
+Nonmetropolitan,2014,"Custer County",CO,us-co-027,81.46
+Nonmetropolitan,2014,"Delta County",CO,us-co-029,78.85
+Nonmetropolitan,2014,"Dolores County",CO,us-co-033,79.5
+Nonmetropolitan,2014,"Eagle County",CO,us-co-037,85.94
+Nonmetropolitan,2014,"Fremont County",CO,us-co-043,77.86
+Nonmetropolitan,2014,"Garfield County",CO,us-co-045,80.61
+Nonmetropolitan,2014,"Grand County",CO,us-co-049,82.73
+Nonmetropolitan,2014,"Gunnison County",CO,us-co-051,81.94
+Nonmetropolitan,2014,"Hinsdale County",CO,us-co-053,83.66
+Nonmetropolitan,2014,"Huerfano County",CO,us-co-055,77.41
+Nonmetropolitan,2014,"Jackson County",CO,us-co-057,80.54
+Nonmetropolitan,2014,"Kiowa County",CO,us-co-061,78.65
+Nonmetropolitan,2014,"Kit Carson County",CO,us-co-063,79.52
+Nonmetropolitan,2014,"La Plata County",CO,us-co-067,81.57
+Nonmetropolitan,2014,"Lake County",CO,us-co-065,80.11
+Nonmetropolitan,2014,"Las Animas County",CO,us-co-071,77.65
+Nonmetropolitan,2014,"Lincoln County",CO,us-co-073,79.69
+Nonmetropolitan,2014,"Logan County",CO,us-co-075,79.5
+Nonmetropolitan,2014,"Mineral County",CO,us-co-079,81.25
+Nonmetropolitan,2014,"Moffat County",CO,us-co-081,78.46
+Nonmetropolitan,2014,"Montezuma County",CO,us-co-083,77.64
+Nonmetropolitan,2014,"Montrose County",CO,us-co-085,79.59
+Nonmetropolitan,2014,"Morgan County",CO,us-co-087,79.14
+Nonmetropolitan,2014,"Otero County",CO,us-co-089,76.44
+Nonmetropolitan,2014,"Ouray County",CO,us-co-091,83
+Nonmetropolitan,2014,"Phillips County",CO,us-co-095,80.42
+Nonmetropolitan,2014,"Pitkin County",CO,us-co-097,86.52
+Nonmetropolitan,2014,"Prowers County",CO,us-co-099,77.69
+Nonmetropolitan,2014,"Rio Blanco County",CO,us-co-103,79.25
+Nonmetropolitan,2014,"Rio Grande County",CO,us-co-105,77.71
+Nonmetropolitan,2014,"Routt County",CO,us-co-107,82.73
+Nonmetropolitan,2014,"Saguache County",CO,us-co-109,79.75
+Nonmetropolitan,2014,"San Juan County",CO,us-co-111,79.89
+Nonmetropolitan,2014,"San Miguel County",CO,us-co-113,83.73
+Nonmetropolitan,2014,"Sedgwick County",CO,us-co-115,78.22
+Nonmetropolitan,2014,"Summit County",CO,us-co-117,86.83
+Nonmetropolitan,2014,"Washington County",CO,us-co-121,80.28
+Nonmetropolitan,2014,"Yuma County",CO,us-co-125,79.43

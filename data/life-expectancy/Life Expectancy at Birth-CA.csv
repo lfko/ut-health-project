@@ -1,0 +1,117 @@
+metro_nonmetro,year,county_name,state_abbr,geoId,value
+Metropolitan,2010,"Alameda County",CA,us-ca-001,80.92
+Metropolitan,2010,"Butte County",CA,us-ca-007,77.95
+Metropolitan,2010,"Contra Costa County",CA,us-ca-013,80.95
+Metropolitan,2010,"El Dorado County",CA,us-ca-017,80.83
+Metropolitan,2010,"Fresno County",CA,us-ca-019,78.63
+Metropolitan,2010,"Imperial County",CA,us-ca-025,79.92
+Metropolitan,2010,"Kern County",CA,us-ca-029,77.28
+Metropolitan,2010,"Kings County",CA,us-ca-031,78.77
+Metropolitan,2010,"Los Angeles County",CA,us-ca-037,80.73
+Metropolitan,2010,"Madera County",CA,us-ca-039,78.91
+Metropolitan,2010,"Marin County",CA,us-ca-041,83.09
+Metropolitan,2010,"Merced County",CA,us-ca-047,78.78
+Metropolitan,2010,"Monterey County",CA,us-ca-053,81.34
+Metropolitan,2010,"Napa County",CA,us-ca-055,80.2
+Metropolitan,2010,"Orange County",CA,us-ca-059,81.85
+Metropolitan,2010,"Placer County",CA,us-ca-061,81.04
+Metropolitan,2010,"Riverside County",CA,us-ca-065,79.75
+Metropolitan,2010,"Sacramento County",CA,us-ca-067,78.86
+Metropolitan,2010,"San Benito County",CA,us-ca-069,81.38
+Metropolitan,2010,"San Bernardino County",CA,us-ca-071,78.23
+Metropolitan,2010,"San Diego County",CA,us-ca-073,80.86
+Metropolitan,2010,"San Francisco County",CA,us-ca-075,81.11
+Metropolitan,2010,"San Joaquin County",CA,us-ca-077,78.12
+Metropolitan,2010,"San Luis Obispo County",CA,us-ca-079,80.82
+Metropolitan,2010,"San Mateo County",CA,us-ca-081,82.35
+Metropolitan,2010,"Santa Barbara County",CA,us-ca-083,81.38
+Metropolitan,2010,"Santa Clara County",CA,us-ca-085,82.7
+Metropolitan,2010,"Santa Cruz County",CA,us-ca-087,81.15
+Metropolitan,2010,"Shasta County",CA,us-ca-089,76.59
+Metropolitan,2010,"Solano County",CA,us-ca-095,79.15
+Metropolitan,2010,"Sonoma County",CA,us-ca-097,80.35
+Metropolitan,2010,"Stanislaus County",CA,us-ca-099,77.94
+Metropolitan,2010,"Sutter County",CA,us-ca-101,78.56
+Metropolitan,2010,"Tulare County",CA,us-ca-107,77.86
+Metropolitan,2010,"Ventura County",CA,us-ca-111,81.39
+Metropolitan,2010,"Yolo County",CA,us-ca-113,80.07
+Metropolitan,2010,"Yuba County",CA,us-ca-115,76.1
+Metropolitan,2014,"Alameda County",CA,us-ca-001,81.46
+Metropolitan,2014,"Butte County",CA,us-ca-007,78.24
+Metropolitan,2014,"Contra Costa County",CA,us-ca-013,81.39
+Metropolitan,2014,"El Dorado County",CA,us-ca-017,81.06
+Metropolitan,2014,"Fresno County",CA,us-ca-019,78.76
+Metropolitan,2014,"Imperial County",CA,us-ca-025,80.42
+Metropolitan,2014,"Kern County",CA,us-ca-029,77.26
+Metropolitan,2014,"Kings County",CA,us-ca-031,79.21
+Metropolitan,2014,"Los Angeles County",CA,us-ca-037,81.36
+Metropolitan,2014,"Madera County",CA,us-ca-039,79.35
+Metropolitan,2014,"Marin County",CA,us-ca-041,83.8
+Metropolitan,2014,"Merced County",CA,us-ca-047,78.92
+Metropolitan,2014,"Monterey County",CA,us-ca-053,81.85
+Metropolitan,2014,"Napa County",CA,us-ca-055,80.49
+Metropolitan,2014,"Orange County",CA,us-ca-059,82.27
+Metropolitan,2014,"Placer County",CA,us-ca-061,81.46
+Metropolitan,2014,"Riverside County",CA,us-ca-065,80.21
+Metropolitan,2014,"Sacramento County",CA,us-ca-067,79.12
+Metropolitan,2014,"San Benito County",CA,us-ca-069,81.77
+Metropolitan,2014,"San Bernardino County",CA,us-ca-071,78.65
+Metropolitan,2014,"San Diego County",CA,us-ca-073,81.43
+Metropolitan,2014,"San Francisco County",CA,us-ca-075,81.97
+Metropolitan,2014,"San Joaquin County",CA,us-ca-077,78.1
+Metropolitan,2014,"San Luis Obispo County",CA,us-ca-079,81.37
+Metropolitan,2014,"San Mateo County",CA,us-ca-081,83.11
+Metropolitan,2014,"Santa Barbara County",CA,us-ca-083,81.65
+Metropolitan,2014,"Santa Clara County",CA,us-ca-085,83.14
+Metropolitan,2014,"Santa Cruz County",CA,us-ca-087,81.37
+Metropolitan,2014,"Shasta County",CA,us-ca-089,76.68
+Metropolitan,2014,"Solano County",CA,us-ca-095,79.65
+Metropolitan,2014,"Sonoma County",CA,us-ca-097,81.09
+Metropolitan,2014,"Stanislaus County",CA,us-ca-099,78.25
+Metropolitan,2014,"Sutter County",CA,us-ca-101,78.99
+Metropolitan,2014,"Tulare County",CA,us-ca-107,78.3
+Metropolitan,2014,"Ventura County",CA,us-ca-111,81.71
+Metropolitan,2014,"Yolo County",CA,us-ca-113,80.55
+Metropolitan,2014,"Yuba County",CA,us-ca-115,76.12
+Nonmetropolitan,2010,"Alpine County",CA,us-ca-003,78.83
+Nonmetropolitan,2010,"Amador County",CA,us-ca-005,79.56
+Nonmetropolitan,2010,"Calaveras County",CA,us-ca-009,79.71
+Nonmetropolitan,2010,"Colusa County",CA,us-ca-011,79.65
+Nonmetropolitan,2010,"Del Norte County",CA,us-ca-015,76.21
+Nonmetropolitan,2010,"Glenn County",CA,us-ca-021,78.17
+Nonmetropolitan,2010,"Humboldt County",CA,us-ca-023,77.23
+Nonmetropolitan,2010,"Inyo County",CA,us-ca-027,78.49
+Nonmetropolitan,2010,"Lake County",CA,us-ca-033,75.66
+Nonmetropolitan,2010,"Lassen County",CA,us-ca-035,78.6
+Nonmetropolitan,2010,"Mariposa County",CA,us-ca-043,79.83
+Nonmetropolitan,2010,"Mendocino County",CA,us-ca-045,78.25
+Nonmetropolitan,2010,"Modoc County",CA,us-ca-049,77.49
+Nonmetropolitan,2010,"Mono County",CA,us-ca-051,82.62
+Nonmetropolitan,2010,"Nevada County",CA,us-ca-057,81.06
+Nonmetropolitan,2010,"Plumas County",CA,us-ca-063,78.22
+Nonmetropolitan,2010,"Sierra County",CA,us-ca-091,78.95
+Nonmetropolitan,2010,"Siskiyou County",CA,us-ca-093,77.51
+Nonmetropolitan,2010,"Tehama County",CA,us-ca-103,77.66
+Nonmetropolitan,2010,"Trinity County",CA,us-ca-105,77.07
+Nonmetropolitan,2010,"Tuolumne County",CA,us-ca-109,79.23
+Nonmetropolitan,2014,"Alpine County",CA,us-ca-003,79.06
+Nonmetropolitan,2014,"Amador County",CA,us-ca-005,79.8
+Nonmetropolitan,2014,"Calaveras County",CA,us-ca-009,79.84
+Nonmetropolitan,2014,"Colusa County",CA,us-ca-011,80.19
+Nonmetropolitan,2014,"Del Norte County",CA,us-ca-015,76.38
+Nonmetropolitan,2014,"Glenn County",CA,us-ca-021,78.29
+Nonmetropolitan,2014,"Humboldt County",CA,us-ca-023,77.21
+Nonmetropolitan,2014,"Inyo County",CA,us-ca-027,78.83
+Nonmetropolitan,2014,"Lake County",CA,us-ca-033,75.8
+Nonmetropolitan,2014,"Lassen County",CA,us-ca-035,78.94
+Nonmetropolitan,2014,"Mariposa County",CA,us-ca-043,80.1
+Nonmetropolitan,2014,"Mendocino County",CA,us-ca-045,78.54
+Nonmetropolitan,2014,"Modoc County",CA,us-ca-049,77.5
+Nonmetropolitan,2014,"Mono County",CA,us-ca-051,82.96
+Nonmetropolitan,2014,"Nevada County",CA,us-ca-057,81.3
+Nonmetropolitan,2014,"Plumas County",CA,us-ca-063,78.33
+Nonmetropolitan,2014,"Sierra County",CA,us-ca-091,79.01
+Nonmetropolitan,2014,"Siskiyou County",CA,us-ca-093,77.66
+Nonmetropolitan,2014,"Tehama County",CA,us-ca-103,77.74
+Nonmetropolitan,2014,"Trinity County",CA,us-ca-105,77.28
+Nonmetropolitan,2014,"Tuolumne County",CA,us-ca-109,79.28

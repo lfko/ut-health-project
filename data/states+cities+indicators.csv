@@ -1,0 +1,52 @@
+State	City	Indicator	Value	Year
+California	San Diego	total_population	39536653	2018
+California	San Diego	male_ratio	49.7	2018
+California	San Diego	female_ratio	50.3	2018
+California	San Diego	age_median	36.5	2018
+California	San Diego	over_18_ratio	77.1	2018
+California	San Diego	under_18_ratio	22.9	2018
+California	San Diego	under_18_poverty	18.1	2018
+California	San Diego	over_18_poverty	11.9	2018
+California	San Diego	private_health_insurance	63.6	2018
+California	San Diego	public_health_insurance	38.4	2018
+California	San Diego	no_health_insurance	7.2	2018
+California	San Diego	employed_population	18757501	2018
+California	San Diego	over_25_no_high_school_degree	16.7	2018
+California	San Diego	over_25_high_school_degree	20.8	2018
+California	San Diego	over_25_college_degree	28.9	2018
+California	San Diego	over_25_bachelor_degree	21.1	2018
+California	San Diego	over_25_graduate_degree	12.6	2018
+Colorado	Denver	total_population	5695564	2018
+Colorado	Denver	male_ratio	50.3	2018
+Colorado	Denver	female_ratio	49.7	2018
+Colorado	Denver	age_median	36.9	2018
+Colorado	Denver	over_18_ratio	77.8	2018
+Colorado	Denver	under_18_ratio	22.2	2018
+Colorado	Denver	under_18_poverty	11.9	2018
+Colorado	Denver	over_18_poverty	9	2018
+Colorado	Denver	private_health_insurance	70.7	2018
+Colorado	Denver	public_health_insurance	32.7	2018
+Colorado	Denver	no_health_insurance	7.5	2018
+Colorado	Denver	employed_population	2982794	2018
+Colorado	Denver	over_25_no_high_school_degree	8.1	2018
+Colorado	Denver	over_25_high_school_degree	20.8	2018
+Colorado	Denver	over_25_college_degree	29.4	2018
+Colorado	Denver	over_25_bachelor_degree	26	2018
+Colorado	Denver	over_25_graduate_degree	15.7	2018
+Massachusetts	Boston	total_population		2018
+Massachusetts	Boston	male_ratio		2018
+Massachusetts	Boston	female_ratio		2018
+Massachusetts	Boston	age_median		2018
+Massachusetts	Boston	over_18_ratio		2018
+Massachusetts	Boston	under_18_ratio		2018
+Massachusetts	Boston	under_18_poverty		2018
+Massachusetts	Boston	over_18_poverty		2018
+Massachusetts	Boston	private_health_insurance		2018
+Massachusetts	Boston	public_health_insurance		2018
+Massachusetts	Boston	no_health_insurance		2018
+Massachusetts	Boston	employed_population		2018
+Massachusetts	Boston	over_25_no_high_school_degree		2018
+Massachusetts	Boston	over_25_high_school_degree		2018
+Massachusetts	Boston	over_25_college_degree		2018
+Massachusetts	Boston	over_25_bachelor_degree		2018
+Massachusetts	Boston	over_25_graduate_degree		2018
