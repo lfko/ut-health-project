@@ -1,0 +1,273 @@
+metro_nonmetro,year,county_name,state_abbr,geoId,value
+Metropolitan,2011,Alameda County,CA,us-ca-001,0.32508315070949
+Metropolitan,2011,Butte County,CA,us-ca-007,0.3634552161562
+Metropolitan,2011,Contra Costa County,CA,us-ca-013,0.33282842736243
+Metropolitan,2011,El Dorado County,CA,us-ca-017,0.30461757413358
+Metropolitan,2011,Fresno County,CA,us-ca-019,0.4155816224448
+Metropolitan,2011,Imperial County,CA,us-ca-025,0.40445188890121
+Metropolitan,2011,Kern County,CA,us-ca-029,0.41474867772721
+Metropolitan,2011,Kings County,CA,us-ca-031,0.3955230249122
+Metropolitan,2011,Los Angeles County,CA,us-ca-037,0.35446788724719
+Metropolitan,2011,Madera County,CA,us-ca-039,0.38993122163477
+Metropolitan,2011,Marin County,CA,us-ca-041,0.26485043843202
+Metropolitan,2011,Merced County,CA,us-ca-047,0.43539585025591
+Metropolitan,2011,Monterey County,CA,us-ca-053,0.37968812669397
+Metropolitan,2011,Napa County,CA,us-ca-055,0.32126579847389
+Metropolitan,2011,Orange County,CA,us-ca-059,0.34688362473194
+Metropolitan,2011,Placer County,CA,us-ca-061,0.32289538180315
+Metropolitan,2011,Riverside County,CA,us-ca-065,0.38910102076995
+Metropolitan,2011,Sacramento County,CA,us-ca-067,0.35773883903215
+Metropolitan,2011,San Benito County,CA,us-ca-069,0.38605507262224
+Metropolitan,2011,San Bernardino County,CA,us-ca-071,0.40766472345279
+Metropolitan,2011,San Diego County,CA,us-ca-073,0.35371918052802
+Metropolitan,2011,San Francisco County,CA,us-ca-075,0.22800109776775
+Metropolitan,2011,San Joaquin County,CA,us-ca-077,0.3987875527175
+Metropolitan,2011,San Luis Obispo County,CA,us-ca-079,0.34303078720728
+Metropolitan,2011,San Mateo County,CA,us-ca-081,0.29930637332741
+Metropolitan,2011,Santa Barbara County,CA,us-ca-083,0.38599023804589
+Metropolitan,2011,Santa Clara County,CA,us-ca-085,0.33032175788567
+Metropolitan,2011,Santa Cruz County,CA,us-ca-087,0.35608823370676
+Metropolitan,2011,Shasta County,CA,us-ca-089,0.31756859691589
+Metropolitan,2011,Solano County,CA,us-ca-095,0.34668383460473
+Metropolitan,2011,Sonoma County,CA,us-ca-097,0.31689830342012
+Metropolitan,2011,Stanislaus County,CA,us-ca-099,0.39319646651797
+Metropolitan,2011,Sutter County,CA,us-ca-101,0.37260064549006
+Metropolitan,2011,Tulare County,CA,us-ca-107,0.43334999105984
+Metropolitan,2011,Ventura County,CA,us-ca-111,0.35833011541597
+Metropolitan,2011,Yolo County,CA,us-ca-113,0.42583551629301
+Metropolitan,2011,Yuba County,CA,us-ca-115,0.39671665483103
+Metropolitan,2017,Alameda County,CA,us-ca-001,0.30097047462131
+Metropolitan,2017,Butte County,CA,us-ca-007,0.35207164963789
+Metropolitan,2017,Contra Costa County,CA,us-ca-013,0.3173026436399
+Metropolitan,2017,El Dorado County,CA,us-ca-017,0.28252303867254
+Metropolitan,2017,Fresno County,CA,us-ca-019,0.39431730230873
+Metropolitan,2017,Imperial County,CA,us-ca-025,0.39695593947443
+Metropolitan,2017,Kern County,CA,us-ca-029,0.40109292353632
+Metropolitan,2017,Kings County,CA,us-ca-031,0.38815311986044
+Metropolitan,2017,Los Angeles County,CA,us-ca-037,0.32693072301019
+Metropolitan,2017,Madera County,CA,us-ca-039,0.37777777777778
+Metropolitan,2017,Marin County,CA,us-ca-041,0.26746647035819
+Metropolitan,2017,Merced County,CA,us-ca-047,0.41448072104417
+Metropolitan,2017,Monterey County,CA,us-ca-053,0.36846673807853
+Metropolitan,2017,Napa County,CA,us-ca-055,0.30552817275983
+Metropolitan,2017,Orange County,CA,us-ca-059,0.32437188986937
+Metropolitan,2017,Placer County,CA,us-ca-061,0.3045001800072
+Metropolitan,2017,Riverside County,CA,us-ca-065,0.36282941585612
+Metropolitan,2017,Sacramento County,CA,us-ca-067,0.33382706968035
+Metropolitan,2017,San Benito County,CA,us-ca-069,0.36327998500111
+Metropolitan,2017,San Bernardino County,CA,us-ca-071,0.38087609960306
+Metropolitan,2017,San Diego County,CA,us-ca-073,0.33091682616832
+Metropolitan,2017,San Francisco County,CA,us-ca-075,0.20964567498551
+Metropolitan,2017,San Joaquin County,CA,us-ca-077,0.37740090837157
+Metropolitan,2017,San Luis Obispo County,CA,us-ca-079,0.33669975974497
+Metropolitan,2017,San Mateo County,CA,us-ca-081,0.28700504289737
+Metropolitan,2017,Santa Barbara County,CA,us-ca-083,0.38415245284382
+Metropolitan,2017,Santa Clara County,CA,us-ca-085,0.31425012007999
+Metropolitan,2017,Santa Cruz County,CA,us-ca-087,0.3499778601567
+Metropolitan,2017,Shasta County,CA,us-ca-089,0.30084004493654
+Metropolitan,2017,Solano County,CA,us-ca-095,0.32127610171479
+Metropolitan,2017,Sonoma County,CA,us-ca-097,0.29073168005142
+Metropolitan,2017,Stanislaus County,CA,us-ca-099,0.37260399787935
+Metropolitan,2017,Sutter County,CA,us-ca-101,0.35377629913269
+Metropolitan,2017,Tulare County,CA,us-ca-107,0.41896954942035
+Metropolitan,2017,Ventura County,CA,us-ca-111,0.33667911407186
+Metropolitan,2017,Yolo County,CA,us-ca-113,0.41566755250347
+Metropolitan,2017,Yuba County,CA,us-ca-115,0.37594448314667
+Nonmetropolitan,2011,Alpine County,CA,us-ca-003,0.38903170522708
+Nonmetropolitan,2011,Amador County,CA,us-ca-005,0.24160652651396
+Nonmetropolitan,2011,Calaveras County,CA,us-ca-009,0.26243612700354
+Nonmetropolitan,2011,Colusa County,CA,us-ca-011,0.38827064844814
+Nonmetropolitan,2011,Del Norte County,CA,us-ca-015,0.31329435243864
+Nonmetropolitan,2011,Glenn County,CA,us-ca-021,0.37535233881614
+Nonmetropolitan,2011,Humboldt County,CA,us-ca-023,0.33188606505221
+Nonmetropolitan,2011,Inyo County,CA,us-ca-027,0.28016470715718
+Nonmetropolitan,2011,Lake County,CA,us-ca-033,0.28910423655112
+Nonmetropolitan,2011,Lassen County,CA,us-ca-035,0.2873346475815
+Nonmetropolitan,2011,Mariposa County,CA,us-ca-043,0.24204483324221
+Nonmetropolitan,2011,Mendocino County,CA,us-ca-045,0.30624393030563
+Nonmetropolitan,2011,Modoc County,CA,us-ca-049,0.27693751955773
+Nonmetropolitan,2011,Mono County,CA,us-ca-051,0.31749429223744
+Nonmetropolitan,2011,Nevada County,CA,us-ca-057,0.2640052036751
+Nonmetropolitan,2011,Plumas County,CA,us-ca-063,0.24950475435816
+Nonmetropolitan,2011,Sierra County,CA,us-ca-091,0.23008849557522
+Nonmetropolitan,2011,Siskiyou County,CA,us-ca-093,0.28014858907512
+Nonmetropolitan,2011,Tehama County,CA,us-ca-103,0.33971580535048
+Nonmetropolitan,2011,Trinity County,CA,us-ca-105,0.24491284370214
+Nonmetropolitan,2011,Tuolumne County,CA,us-ca-109,0.25816348500072
+Nonmetropolitan,2017,Alpine County,CA,us-ca-003,0.32585203657523
+Nonmetropolitan,2017,Amador County,CA,us-ca-005,0.22390500187637
+Nonmetropolitan,2017,Calaveras County,CA,us-ca-009,0.23985174334732
+Nonmetropolitan,2017,Colusa County,CA,us-ca-011,0.37106010521905
+Nonmetropolitan,2017,Del Norte County,CA,us-ca-015,0.29217987027185
+Nonmetropolitan,2017,Glenn County,CA,us-ca-021,0.35826024700197
+Nonmetropolitan,2017,Humboldt County,CA,us-ca-023,0.32571407483947
+Nonmetropolitan,2017,Inyo County,CA,us-ca-027,0.27287716405606
+Nonmetropolitan,2017,Lake County,CA,us-ca-033,0.2762930025743
+Nonmetropolitan,2017,Lassen County,CA,us-ca-035,0.28751191611058
+Nonmetropolitan,2017,Mariposa County,CA,us-ca-043,0.22663948352022
+Nonmetropolitan,2017,Mendocino County,CA,us-ca-045,0.29514154771021
+Nonmetropolitan,2017,Modoc County,CA,us-ca-049,0.24010202949983
+Nonmetropolitan,2017,Mono County,CA,us-ca-051,0.31057049366909
+Nonmetropolitan,2017,Nevada County,CA,us-ca-057,0.24106113033449
+Nonmetropolitan,2017,Plumas County,CA,us-ca-063,0.22666096987823
+Nonmetropolitan,2017,Sierra County,CA,us-ca-091,0.19826689774697
+Nonmetropolitan,2017,Siskiyou County,CA,us-ca-093,0.27064093728463
+Nonmetropolitan,2017,Tehama County,CA,us-ca-103,0.31833920976489
+Nonmetropolitan,2017,Trinity County,CA,us-ca-105,0.2254352995321
+Nonmetropolitan,2017,Tuolumne County,CA,us-ca-109,0.2405239429303
+Metropolitan,2011,Adams County,CO,us-co-001,0.37946787321982
+Metropolitan,2011,Arapahoe County,CO,us-co-005,0.3432267155036
+Metropolitan,2011,Boulder County,CO,us-co-013,0.36110230043826
+Metropolitan,2011,Broomfield County,CO,us-co-014,0.34534364009379
+Metropolitan,2011,Clear Creek County,CO,us-co-019,0.23527468897941
+Metropolitan,2011,Denver County,CO,us-co-031,0.31810291833966
+Metropolitan,2011,Douglas County,CO,us-co-035,0.35906471923404
+Metropolitan,2011,El Paso County,CO,us-co-041,0.37006462460969
+Metropolitan,2011,Elbert County,CO,us-co-039,0.31689925193578
+Metropolitan,2011,Gilpin County,CO,us-co-047,0.22915474146155
+Metropolitan,2011,Jefferson County,CO,us-co-059,0.30994113590973
+Metropolitan,2011,Larimer County,CO,us-co-069,0.36037986268477
+Metropolitan,2011,Mesa County,CO,us-co-077,0.33448461655361
+Metropolitan,2011,Park County,CO,us-co-093,0.25087643766529
+Metropolitan,2011,Pueblo County,CO,us-co-101,0.33974902814886
+Metropolitan,2011,Teller County,CO,us-co-119,0.26186238332972
+Metropolitan,2011,Weld County,CO,us-co-123,0.38844635144763
+Metropolitan,2017,Adams County,CO,us-co-001,0.36334939018141
+Metropolitan,2017,Arapahoe County,CO,us-co-005,0.3272535476499
+Metropolitan,2017,Boulder County,CO,us-co-013,0.35047761552108
+Metropolitan,2017,Broomfield County,CO,us-co-014,0.31467106388936
+Metropolitan,2017,Clear Creek County,CO,us-co-019,0.23236469698606
+Metropolitan,2017,Denver County,CO,us-co-031,0.2879123081889
+Metropolitan,2017,Douglas County,CO,us-co-035,0.34868822832928
+Metropolitan,2017,El Paso County,CO,us-co-041,0.35957417171241
+Metropolitan,2017,Elbert County,CO,us-co-039,0.29507595813139
+Metropolitan,2017,Gilpin County,CO,us-co-047,0.22458139133437
+Metropolitan,2017,Jefferson County,CO,us-co-059,0.28657569025706
+Metropolitan,2017,Larimer County,CO,us-co-069,0.34960238808856
+Metropolitan,2017,Mesa County,CO,us-co-077,0.31877444589309
+Metropolitan,2017,Park County,CO,us-co-093,0.21544378698225
+Metropolitan,2017,Pueblo County,CO,us-co-101,0.32396797414426
+Metropolitan,2017,Teller County,CO,us-co-119,0.24569817829947
+Metropolitan,2017,Weld County,CO,us-co-123,0.36362077353016
+Nonmetropolitan,2011,Alamosa County,CO,us-co-003,0.40012991230919
+Nonmetropolitan,2011,Archuleta County,CO,us-co-007,0.28135286372614
+Nonmetropolitan,2011,Baca County,CO,us-co-009,0.27318098240084
+Nonmetropolitan,2011,Bent County,CO,us-co-011,0.26038286826736
+Nonmetropolitan,2011,Chaffee County,CO,us-co-015,0.22663353476026
+Nonmetropolitan,2011,Cheyenne County,CO,us-co-017,0.34935469514909
+Nonmetropolitan,2011,Conejos County,CO,us-co-021,0.37068546426835
+Nonmetropolitan,2011,Costilla County,CO,us-co-023,0.29358830146232
+Nonmetropolitan,2011,Crowley County,CO,us-co-025,0.23968632799182
+Nonmetropolitan,2011,Custer County,CO,us-co-027,0.22008824292759
+Nonmetropolitan,2011,Delta County,CO,us-co-029,0.28125611426335
+Nonmetropolitan,2011,Dolores County,CO,us-co-033,0.27802251590798
+Nonmetropolitan,2011,Eagle County,CO,us-co-037,0.34158617875119
+Nonmetropolitan,2011,Fremont County,CO,us-co-043,0.2359268707483
+Nonmetropolitan,2011,Garfield County,CO,us-co-045,0.35562697500718
+Nonmetropolitan,2011,Grand County,CO,us-co-049,0.27149104824382
+Nonmetropolitan,2011,Gunnison County,CO,us-co-051,0.37632578237528
+Nonmetropolitan,2011,Hinsdale County,CO,us-co-053,0.12722298221614
+Nonmetropolitan,2011,Huerfano County,CO,us-co-055,0.24469175574755
+Nonmetropolitan,2011,Jackson County,CO,us-co-057,0.29986613119143
+Nonmetropolitan,2011,Kiowa County,CO,us-co-061,0.34085648148148
+Nonmetropolitan,2011,Kit Carson County,CO,us-co-063,0.30545365615065
+Nonmetropolitan,2011,La Plata County,CO,us-co-067,0.32687918142464
+Nonmetropolitan,2011,Lake County,CO,us-co-065,0.3453637660485
+Nonmetropolitan,2011,Las Animas County,CO,us-co-071,0.30284905781722
+Nonmetropolitan,2011,Lincoln County,CO,us-co-073,0.27316001464665
+Nonmetropolitan,2011,Logan County,CO,us-co-075,0.33519204175403
+Nonmetropolitan,2011,Mineral County,CO,us-co-079,0.12448132780083
+Nonmetropolitan,2011,Moffat County,CO,us-co-081,0.35190637420874
+Nonmetropolitan,2011,Montezuma County,CO,us-co-083,0.30407535866309
+Nonmetropolitan,2011,Montrose County,CO,us-co-085,0.31306968538665
+Nonmetropolitan,2011,Morgan County,CO,us-co-087,0.36306051605053
+Nonmetropolitan,2011,Otero County,CO,us-co-089,0.33370577281192
+Nonmetropolitan,2011,Ouray County,CO,us-co-091,0.24250743536948
+Nonmetropolitan,2011,Phillips County,CO,us-co-095,0.33409246185379
+Nonmetropolitan,2011,Pitkin County,CO,us-co-097,0.23633969716919
+Nonmetropolitan,2011,Prowers County,CO,us-co-099,0.37027348394768
+Nonmetropolitan,2011,Rio Blanco County,CO,us-co-103,0.33857315598549
+Nonmetropolitan,2011,Rio Grande County,CO,us-co-105,0.3418954083774
+Nonmetropolitan,2011,Routt County,CO,us-co-107,0.29899573294255
+Nonmetropolitan,2011,Saguache County,CO,us-co-109,0.31630170316302
+Nonmetropolitan,2011,San Juan County,CO,us-co-111,0.18976279650437
+Nonmetropolitan,2011,San Miguel County,CO,us-co-113,0.26019233373967
+Nonmetropolitan,2011,Sedgwick County,CO,us-co-115,0.25146443514644
+Nonmetropolitan,2011,Summit County,CO,us-co-117,0.27673116089613
+Nonmetropolitan,2011,Washington County,CO,us-co-121,0.28371204077299
+Nonmetropolitan,2011,Yuma County,CO,us-co-125,0.33303212851406
+Nonmetropolitan,2017,Alamosa County,CO,us-co-003,0.42422759253594
+Nonmetropolitan,2017,Archuleta County,CO,us-co-007,0.24642630241423
+Nonmetropolitan,2017,Baca County,CO,us-co-009,0.27171181234292
+Nonmetropolitan,2017,Bent County,CO,us-co-011,0.21253875301412
+Nonmetropolitan,2017,Chaffee County,CO,us-co-015,0.20783292592199
+Nonmetropolitan,2017,Cheyenne County,CO,us-co-017,0.37705688763517
+Nonmetropolitan,2017,Conejos County,CO,us-co-021,0.3521541671781
+Nonmetropolitan,2017,Costilla County,CO,us-co-023,0.26957001102536
+Nonmetropolitan,2017,Crowley County,CO,us-co-025,0.2879941965905
+Nonmetropolitan,2017,Custer County,CO,us-co-027,0.21287458379578
+Nonmetropolitan,2017,Delta County,CO,us-co-029,0.27249561505113
+Nonmetropolitan,2017,Dolores County,CO,us-co-033,0.24423963133641
+Nonmetropolitan,2017,Eagle County,CO,us-co-037,0.30166027621636
+Nonmetropolitan,2017,Fremont County,CO,us-co-043,0.21984506770241
+Nonmetropolitan,2017,Garfield County,CO,us-co-045,0.33925273966693
+Nonmetropolitan,2017,Grand County,CO,us-co-049,0.2470087203407
+Nonmetropolitan,2017,Gunnison County,CO,us-co-051,0.36145544249152
+Nonmetropolitan,2017,Hinsdale County,CO,us-co-053,0.19024390243902
+Nonmetropolitan,2017,Huerfano County,CO,us-co-055,0.20867959372114
+Nonmetropolitan,2017,Jackson County,CO,us-co-057,0.27623906705539
+Nonmetropolitan,2017,Kiowa County,CO,us-co-061,0.33406432748538
+Nonmetropolitan,2017,Kit Carson County,CO,us-co-063,0.2898292123375
+Nonmetropolitan,2017,La Plata County,CO,us-co-067,0.29324937120197
+Nonmetropolitan,2017,Lake County,CO,us-co-065,0.27549792808448
+Nonmetropolitan,2017,Las Animas County,CO,us-co-071,0.27058158434033
+Nonmetropolitan,2017,Lincoln County,CO,us-co-073,0.26503623188406
+Nonmetropolitan,2017,Logan County,CO,us-co-075,0.33324194653873
+Nonmetropolitan,2017,Mineral County,CO,us-co-079,0.1294964028777
+Nonmetropolitan,2017,Moffat County,CO,us-co-081,0.32192095588235
+Nonmetropolitan,2017,Montezuma County,CO,us-co-083,0.29755529685681
+Nonmetropolitan,2017,Montrose County,CO,us-co-085,0.29211890094847
+Nonmetropolitan,2017,Morgan County,CO,us-co-087,0.35344735625644
+Nonmetropolitan,2017,Otero County,CO,us-co-089,0.32971350613915
+Nonmetropolitan,2017,Ouray County,CO,us-co-091,0.19449817322158
+Nonmetropolitan,2017,Phillips County,CO,us-co-095,0.32747862260226
+Nonmetropolitan,2017,Pitkin County,CO,us-co-097,0.23485659548093
+Nonmetropolitan,2017,Prowers County,CO,us-co-099,0.35195299569679
+Nonmetropolitan,2017,Rio Blanco County,CO,us-co-103,0.35031264297697
+Nonmetropolitan,2017,Rio Grande County,CO,us-co-105,0.3172353455818
+Nonmetropolitan,2017,Routt County,CO,us-co-107,0.26758077096761
+Nonmetropolitan,2017,Saguache County,CO,us-co-109,0.28195014200063
+Nonmetropolitan,2017,San Juan County,CO,us-co-111,0.2390158172232
+Nonmetropolitan,2017,San Miguel County,CO,us-co-113,0.25128139415684
+Nonmetropolitan,2017,Sedgwick County,CO,us-co-115,0.29741196436148
+Nonmetropolitan,2017,Summit County,CO,us-co-117,0.24705605275553
+Nonmetropolitan,2017,Washington County,CO,us-co-121,0.29777500519859
+Nonmetropolitan,2017,Yuma County,CO,us-co-125,0.34226926501138
+Metropolitan,2011,Barnstable County,MA,us-ma-001,0.24291563384248
+Metropolitan,2011,Berkshire County,MA,us-ma-003,0.28943538000777
+Metropolitan,2011,Bristol County,MA,us-ma-005,0.32005189062771
+Metropolitan,2011,Essex County,MA,us-ma-009,0.32043191053475
+Metropolitan,2011,Hampden County,MA,us-ma-013,0.34373271212226
+Metropolitan,2011,Hampshire County,MA,us-ma-015,0.38879020491023
+Metropolitan,2011,Middlesex County,MA,us-ma-017,0.30939117634046
+Metropolitan,2011,Norfolk County,MA,us-ma-021,0.30911909199221
+Metropolitan,2011,Plymouth County,MA,us-ma-023,0.32407786843675
+Metropolitan,2011,Suffolk County,MA,us-ma-025,0.35274278526243
+Metropolitan,2011,Worcester County,MA,us-ma-027,0.33148087815935
+Metropolitan,2017,Barnstable County,MA,us-ma-001,0.22813931743806
+Metropolitan,2017,Berkshire County,MA,us-ma-003,0.27282760996
+Metropolitan,2017,Bristol County,MA,us-ma-005,0.30447778878883
+Metropolitan,2017,Essex County,MA,us-ma-009,0.31136029696079
+Metropolitan,2017,Hampden County,MA,us-ma-013,0.32903441690751
+Metropolitan,2017,Hampshire County,MA,us-ma-015,0.38541039845655
+Metropolitan,2017,Middlesex County,MA,us-ma-017,0.3009204242708
+Metropolitan,2017,Norfolk County,MA,us-ma-021,0.30123317045633
+Metropolitan,2017,Plymouth County,MA,us-ma-023,0.30853404149169
+Metropolitan,2017,Suffolk County,MA,us-ma-025,0.3129700199184
+Metropolitan,2017,Worcester County,MA,us-ma-027,0.316484346452
+Nonmetropolitan,2011,Dukes County,MA,us-ma-007,0.27456735767138
+Nonmetropolitan,2011,Franklin County,MA,us-ma-011,0.28243933142178
+Nonmetropolitan,2011,Nantucket County,MA,us-ma-019,0.27853971386285
+Nonmetropolitan,2017,Dukes County,MA,us-ma-007,0.26327062228654
+Nonmetropolitan,2017,Franklin County,MA,us-ma-011,0.25468798466007
+Nonmetropolitan,2017,Nantucket County,MA,us-ma-019,0.27318548387097

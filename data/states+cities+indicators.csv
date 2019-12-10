@@ -1,52 +1,62 @@
-State	City	Indicator	Value	Year
-California	San Diego	total_population	39536653	2018
-California	San Diego	male_ratio	49.7	2018
-California	San Diego	female_ratio	50.3	2018
-California	San Diego	age_median	36.5	2018
-California	San Diego	over_18_ratio	77.1	2018
-California	San Diego	under_18_ratio	22.9	2018
-California	San Diego	under_18_poverty	18.1	2018
-California	San Diego	over_18_poverty	11.9	2018
-California	San Diego	private_health_insurance	63.6	2018
-California	San Diego	public_health_insurance	38.4	2018
-California	San Diego	no_health_insurance	7.2	2018
-California	San Diego	employed_population	18757501	2018
-California	San Diego	over_25_no_high_school_degree	16.7	2018
-California	San Diego	over_25_high_school_degree	20.8	2018
-California	San Diego	over_25_college_degree	28.9	2018
-California	San Diego	over_25_bachelor_degree	21.1	2018
-California	San Diego	over_25_graduate_degree	12.6	2018
-Colorado	Denver	total_population	5695564	2018
-Colorado	Denver	male_ratio	50.3	2018
-Colorado	Denver	female_ratio	49.7	2018
-Colorado	Denver	age_median	36.9	2018
-Colorado	Denver	over_18_ratio	77.8	2018
-Colorado	Denver	under_18_ratio	22.2	2018
-Colorado	Denver	under_18_poverty	11.9	2018
-Colorado	Denver	over_18_poverty	9	2018
-Colorado	Denver	private_health_insurance	70.7	2018
-Colorado	Denver	public_health_insurance	32.7	2018
-Colorado	Denver	no_health_insurance	7.5	2018
-Colorado	Denver	employed_population	2982794	2018
-Colorado	Denver	over_25_no_high_school_degree	8.1	2018
-Colorado	Denver	over_25_high_school_degree	20.8	2018
-Colorado	Denver	over_25_college_degree	29.4	2018
-Colorado	Denver	over_25_bachelor_degree	26	2018
-Colorado	Denver	over_25_graduate_degree	15.7	2018
-Massachusetts	Boston	total_population		2018
-Massachusetts	Boston	male_ratio		2018
-Massachusetts	Boston	female_ratio		2018
-Massachusetts	Boston	age_median		2018
-Massachusetts	Boston	over_18_ratio		2018
-Massachusetts	Boston	under_18_ratio		2018
-Massachusetts	Boston	under_18_poverty		2018
-Massachusetts	Boston	over_18_poverty		2018
-Massachusetts	Boston	private_health_insurance		2018
-Massachusetts	Boston	public_health_insurance		2018
-Massachusetts	Boston	no_health_insurance		2018
-Massachusetts	Boston	employed_population		2018
-Massachusetts	Boston	over_25_no_high_school_degree		2018
-Massachusetts	Boston	over_25_high_school_degree		2018
-Massachusetts	Boston	over_25_college_degree		2018
-Massachusetts	Boston	over_25_bachelor_degree		2018
-Massachusetts	Boston	over_25_graduate_degree		2018
+State,City,Indicator,2018,2017,2016
+USA,USA,age_median,38.2,38.1,37.9
+USA,USA,male_ratio,49.2,49.2,49.2
+USA,USA,female_ratio,50.8,50.8,50.8
+USA,USA,total_population,327167439,325719178,323127515
+USA,USA,employed_population,156783165,155058331,152571041
+USA,USA,over_25_no_high_school_degree,11.7,12,12.5
+USA,USA,over_25_high_school_degree,26.9,27.1,27.2
+USA,USA,over_25_college_degree,28.9,28.9,29
+USA,USA,over_25_bachelor_degree,20,19.7,19.3
+USA,USA,over_25_graduate_degree,12.6,12.3,11.9
+California,San Diego,total_population,39536653,,
+California,San Diego,male_ratio,49.7,,
+California,San Diego,female_ratio,50.3,,
+California,San Diego,age_median,36.5,,
+California,San Diego,over_18_ratio,77.1,,
+California,San Diego,under_18_ratio,22.9,,
+California,San Diego,under_18_poverty,18.1,,
+California,San Diego,over_18_poverty,11.9,,
+California,San Diego,private_health_insurance,63.6,,
+California,San Diego,public_health_insurance,38.4,,
+California,San Diego,no_health_insurance,7.2,,
+California,San Diego,employed_population,18757501,,
+California,San Diego,over_25_no_high_school_degree,16.7,,
+California,San Diego,over_25_high_school_degree,20.8,,
+California,San Diego,over_25_college_degree,28.9,,
+California,San Diego,over_25_bachelor_degree,21.1,,
+California,San Diego,over_25_graduate_degree,12.6,,
+Colorado,Denver,total_population   ,5695564,5607154,5540545
+Colorado,Denver,male_ratio,50.3,50.3,50.4
+Colorado,Denver,female_ratio,49.7,49.7,49.6
+Colorado,Denver,age_median,36.9,36.8,36.7
+Colorado,Denver,over_18_ratio,77.8,77.5,77.2
+Colorado,Denver,under_18_ratio,22.2,22.5,22.7
+Colorado,Denver,under_18_poverty,11.9,12,13.4
+Colorado,Denver,over_18_poverty,9,9.8,10.4
+Colorado,Denver,private_health_insurance,70.7,70,70.2
+Colorado,Denver,public_health_insurance,32.7,33.2,32.8
+Colorado,Denver,no_health_insurance,7.5,7.5,7.5
+Colorado,Denver,employed_population,2982794,2899926,2827340
+Colorado,Denver,over_25_no_high_school_degree,8.1,8.4,8.6
+Colorado,Denver,over_25_high_school_degree,20.8,21.3,22
+Colorado,Denver,over_25_college_degree,29.4,29.1,29.6
+Colorado,Denver,over_25_bachelor_degree,26,26,24.9
+Colorado,Denver,over_25_graduate_degree,15.7,15.2,14.9
+Massachusetts,Boston,total_population,,,
+Massachusetts,Boston,male_ratio,,,
+Massachusetts,Boston,female_ratio,,,
+Massachusetts,Boston,age_median,,,
+Massachusetts,Boston,over_18_ratio,,,
+Massachusetts,Boston,under_18_ratio,,,
+Massachusetts,Boston,under_18_poverty,,,
+Massachusetts,Boston,over_18_poverty,,,
+Massachusetts,Boston,private_health_insurance,,,
+Massachusetts,Boston,public_health_insurance,,,
+Massachusetts,Boston,no_health_insurance,,,
+Massachusetts,Boston,employed_population,,,
+Massachusetts,Boston,over_25_no_high_school_degree,,,
+Massachusetts,Boston,over_25_high_school_degree,,,
+Massachusetts,Boston,over_25_college_degree,,,
+Massachusetts,Boston,over_25_bachelor_degree,,,
+Massachusetts,Boston,over_25_graduate_degree,,,
