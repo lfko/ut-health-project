@@ -37,6 +37,33 @@ class TwitterUrbanHealth():
         stream = tweepy.Stream(auth = self.__authWithTwitter__(), listener = StreamListener())
         stream.filter(track = filter)
 
+    def crawlTweets(self, username):
+        crawler = TweetCrawler('12/19/19', '09/01/19', self.api)
+        crawler.crawlUser('')
+
+class TweetCrawler():
+    """
+        crawls all tweets for a given user between to specific dates
+        https://gist.github.com/alexdeloy/fdb36ad251f70855d5d6
+    """
+
+    def __init__(self, from_date, to_date, api):
+        self.user_tweets = []
+        self.filtered_tweets = []
+        self.from_date = datetime.strptime(from_date, '%m/%d/%y')
+        self.to_date = datetime.strptime(to_date, '%m/%d/%y')
+
+        # tweepy API handle
+        self.api = api
+
+    def crawlUser(username):
+        self.user_tweets = self.api.user_timeline(username)
+        
+        for tw in self.user_tweets:
+            if tw.created_at > self.from_date and tw.created_at < self.to_date:
+                self.filtered_tweets.append(tw)
+
+        return self.user_tweets
 
 class StreamListener(tweepy.StreamListener):
 
