@@ -5,9 +5,12 @@
     https://realpython.com/twitter-bot-python-tweepy/
 '''
 
+import json
+import pprint
 import tweepy
 import os
 import nltk
+import pandas as pd
 from tinydb import TinyDB
 
 class TwitterUrbanHealth():
@@ -51,13 +54,25 @@ class TwitterUrbanHealth():
     def getAPIHandle(self):
         return self.api
 
-    def startListen(self, filter, loc):
+    def startListen(self, loc = None, useTrack = True, max_tweets = 10000, debug=False):
         '''
             @param loc: The location is a rectangle whose first two coordinates (longitude and latitude) are the bottom left corner and the last two are the top right corner
         '''
 
-        stream = tweepy.Stream(auth = self.api.auth, listener = StreamListener(maxTweets = 1000))
-        stream.filter(track = self.__loadKeywords__(), languages = ['en'], locations = loc, is_async = True) # use track for applying filter terms to the stream
+        stream = tweepy.Stream(auth = self.api.auth, listener = StreamListener(maxTweets = max_tweets, debug = debug))
+        
+        '''
+            @track filter for tweets containing certain words
+            @languagese well, obvious
+            @locations 
+            @is_async run stream in new thread
+
+            ??? cannot apply both track AND locations
+        '''
+        if(useTrack == True):
+            stream.filter(track = self.__loadKeywords__(), languages = ['en'], is_async = True)
+        else:
+            stream.filter(locations = loc, languages = ['en'], is_async = True)
 
     def crawlTweets(self, username):
         crawler = TweetCrawler('12/19/19', '09/01/19', self.api)
@@ -101,10 +116,11 @@ class TweetCrawler():
 
 class StreamListener(tweepy.StreamListener):
 
-    def __init__(self, maxTweets):
+    def __init__(self, maxTweets, debug = False):
         self.numTweets = 0
         self.maxTweets = maxTweets
-        self.twDao = TweetDAO()
+        self.twDao = TweetDAO.getInstance()
+        self.debug = debug
 
         print('set maxTweets = ',self.maxTweets)
 
@@ -121,7 +137,10 @@ class StreamListener(tweepy.StreamListener):
             print('stopping the StreamListener')
             return False
         else:
-            self.processTweet(status)
+            if(self.debug == False):
+                self.processTweet(status)
+            else:
+                print(status)
 
 
     def on_error(self, status_code):
@@ -162,6 +181,9 @@ class TweetDAO():
             TweetDAO()
         return TweetDAO.__instance
 
+    def getDBName(self):
+        return self.dbFile
+
     def __init__(self):
         self.dbFile = '../db/tweets.json'
         TweetDAO.__instance = self
@@ -183,12 +205,31 @@ class TweetDAO():
     def get(self, docId):
         return self.db.get(doc_id = docId)
 
+    def JSONToDF(self):
+        """
+            convert db records to a pandas dataframe
+        """
+        df = pd.DataFrame()
+        self.tweets = self.db.all()
+        for i, tweet in enumerate(self.tweets):
+            df = df.append(pd.DataFrame(tweet, index = [i]))
+
+        print(df)
+        return df
+
 class TweetProcessor():
     """
         process a tweet, e.g. apply some NLP to extract relevant information from it
     """
-    def __init__(self, dao):
+    def __init__(self):
+        self.dao = TweetDAO.getInstance()
         self.tweets_raw = self.dao.getAll()
+
+    def showSummary(self):
+        #print(len(self.tweets_raw))
+        #print(self.tweets_raw[0])
+        self.tweets = self.dao.JSONToDF()
+        print(self.tweets.head())
 
     def process(self, tweetText):
         porter = nltk.PorterStemmer()
@@ -198,11 +239,31 @@ class TweetProcessor():
 
         stemmedTokens = [porter.stem(t) for t in tokens]
 
+    def readJSON(self):
+        """
+            read the db.json file and convert it to a pandas dataframe
+        """
+        # reading the JSON data using json.load()
+        with open(self.dao.getDBName()) as train_file:
+            dict_tweets = json.load(train_file)
+
+        # converting json dataset from dictionary to dataframe
+        train = pd.DataFrame.from_dict(dict_tweets)
+        #train.reset_index(level=0, inplace=True)
+        print(train.head())
+        print(train.tail())
+        print(len(train))
+        print(train[0])
 
 if __name__ == "__main__":
     tuh = TwitterUrbanHealth()
     #tc = TweetCrawler(api = tuh.getAPIHandle())
     #tc.crawlTweets('python', loc = '39.778889, -104.9825, 600km') # Denver
     #tc.crawlTweets('python')
-    tuh.startListen(filter = None, loc = [-109.165421, 36.886651, -102.137268, 40.787197]) # should be Colorado
-    #tuh.startListen(['johnson', 'trump'])
+    #tuh.startListen(max_tweets=10000) # should be Colorado
+    tuh.startListen(loc = [-109.165421, 36.886651, -102.137268, 40.787197], useTrack=False, max_tweets=10000)
+
+    # after recording tweets we'll continue with processing them
+    #tp = TweetProcessor()
+    #tp.showSummary()
+    #tp.readJSON()
