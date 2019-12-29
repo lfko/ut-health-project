@@ -5,6 +5,8 @@
     https://realpython.com/twitter-bot-python-tweepy/
 '''
 
+import csv
+import re
 import json
 import pprint
 import tweepy
@@ -12,6 +14,10 @@ import os
 import nltk
 import pandas as pd
 from tinydb import TinyDB
+
+# for handling many tweets at once
+from queue import Queue
+from threading import Thread
 
 class TwitterUrbanHealth():
 
@@ -58,6 +64,7 @@ class TwitterUrbanHealth():
         '''
             @param loc: The location is a rectangle whose first two coordinates (longitude and latitude) are the bottom left corner and the last two are the top right corner
         '''
+        print('streamign tweets for', loc)
 
         stream = tweepy.Stream(auth = self.api.auth, listener = StreamListener(maxTweets = max_tweets, debug = debug))
         
@@ -116,11 +123,17 @@ class TweetCrawler():
 
 class StreamListener(tweepy.StreamListener):
 
-    def __init__(self, maxTweets, debug = False):
+    def __init__(self, maxTweets, debug = False, q = Queue()):
         self.numTweets = 0
         self.maxTweets = maxTweets
-        self.twDao = TweetDAO.getInstance()
+        self.twDao = TweetDAO.getInstance(mode='csv')
         self.debug = debug
+        self.q = q
+
+        #for i in range(4):
+        #    t = Thread(target=self.processTweet)
+        #    t.daemon = True
+        #    t.start()
 
         print('set maxTweets = ',self.maxTweets)
 
@@ -139,6 +152,7 @@ class StreamListener(tweepy.StreamListener):
         else:
             if(self.debug == False):
                 self.processTweet(status)
+                #self.q.put(status) # put the new tweet in the queue
             else:
                 print(status)
 
@@ -147,7 +161,7 @@ class StreamListener(tweepy.StreamListener):
         if status_code == 420:
             return False
 
-    def processTweet(self, status):
+    def processTweet(self, status = None):
         '''
             status is a wrapper for all tweet-related properties, e.g. user, text, location
         
@@ -163,37 +177,52 @@ class StreamListener(tweepy.StreamListener):
         retweets = status.retweet_count
         bg_color = status.user.profile_background_color
         '''
-        
-        tweet = {'id':status.id_str, 'created':status.created_at.isoformat(), 
-        'user':status.user.screen_name, 'coords':status.coordinates, 'loc':status.user.location, 
-        'text':status.text}
+        #while True:
+        #    status = self.q.get()
+        loc = ''
+        if (status.user.location != None):
+            loc = re.sub('[^A-Za-z0-9]+', ' ', status.user.location)
+        tweet = {'id':status.id_str, 'created':status.created_at.isoformat(), 'loc':loc, 
+        'text':re.sub('[^A-Za-z0-9]+', ' ', status.text)}
 
-        self.twDao.save(tweet)
+        self.twDao.writeToCSV(tweet)
         self.numTweets += 1
+
+        #self.q.task_done()
 
 class TweetDAO():
     """
     """
     __instance = None
     @staticmethod
-    def getInstance():
+    def getInstance(mode):
         if TweetDAO.__instance is None:
-            TweetDAO()
+            TweetDAO(mode)
         return TweetDAO.__instance
 
     def getDBName(self):
         return self.dbFile
 
-    def __init__(self):
-        self.dbFile = '../db/tweets.json'
+    def __init__(self, mode = 'json'):
+        self.dbFile = '../db/tweets.' + mode
         TweetDAO.__instance = self
 
-        # check if the db file already exists
-        if(os.path.isfile(self.dbFile) == False):
-            self.db = TinyDB(self.dbFile)
-        else:
-            print('TinyDB already initiated!')
-            self.db = TinyDB(self.dbFile)
+        if(mode == 'json'):
+            # check if the db file already exists
+            if(os.path.isfile(self.dbFile) == False):
+                self.db = TinyDB(self.dbFile)
+            else:
+                print('TinyDB already initiated!')
+                self.db = TinyDB(self.dbFile)
+        elif(mode == 'csv'):
+            pass
+
+    def writeToCSV(self, tweet):
+        print('Saving new Tweet:', tweet)
+        with open(self.dbFile, mode='a') as tweets_file:
+            #fieldnames = ['id_str', 'created_at', 'location', 'text']
+            tweets_writer = csv.writer(tweets_file, delimiter=',', quotechar='"', quoting=csv.QUOTE_MINIMAL)
+            tweets_writer.writerow([tweet['id'], tweet['created'], tweet['loc'], tweet['text']])
 
     def save(self, tweet):
         print('Saving new Tweet:', tweet)
@@ -222,7 +251,7 @@ class TweetProcessor():
         process a tweet, e.g. apply some NLP to extract relevant information from it
     """
     def __init__(self):
-        self.dao = TweetDAO.getInstance()
+        self.dao = TweetDAO.getInstance(mode = 'csv')
         self.tweets_raw = self.dao.getAll()
 
     def showSummary(self):
@@ -260,8 +289,12 @@ if __name__ == "__main__":
     #tc = TweetCrawler(api = tuh.getAPIHandle())
     #tc.crawlTweets('python', loc = '39.778889, -104.9825, 600km') # Denver
     #tc.crawlTweets('python')
-    #tuh.startListen(max_tweets=10000) # should be Colorado
-    tuh.startListen(loc = [-109.165421, 36.886651, -102.137268, 40.787197], useTrack=False, max_tweets=10000)
+    # https://boundingbox.klokantech.com/
+    colorado = [-109.51,36.81,-101.51,41.01]
+    massachussetts = [-74.16,40.92,-69.62,43.09]
+    california = [-126.02,31.45,-114.31,42.197]
+    usa = [-125.55,27.75,-66.05,48.93]
+    tuh.startListen(loc = massachussetts, useTrack=False, max_tweets=50000)
 
     # after recording tweets we'll continue with processing them
     #tp = TweetProcessor()
