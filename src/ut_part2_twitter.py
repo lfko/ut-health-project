@@ -183,7 +183,7 @@ class StreamListener(tweepy.StreamListener):
         if (status.user.location != None):
             loc = re.sub('[^A-Za-z0-9]+', ' ', status.user.location)
         tweet = {'id':status.id_str, 'created':status.created_at.isoformat(), 'loc':loc, 
-        'text':re.sub('[^A-Za-z0-9]+', ' ', status.text)}
+        'text':status.text}
 
         self.twDao.writeToCSV(tweet)
         self.numTweets += 1
@@ -294,7 +294,7 @@ if __name__ == "__main__":
     massachussetts = [-74.16,40.92,-69.62,43.09]
     california = [-126.02,31.45,-114.31,42.197]
     usa = [-125.55,27.75,-66.05,48.93]
-    tuh.startListen(loc = massachussetts, useTrack=False, max_tweets=50000)
+    tuh.startListen(loc = california, useTrack=False, max_tweets=50000)
 
     # after recording tweets we'll continue with processing them
     #tp = TweetProcessor()
