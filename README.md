@@ -27,6 +27,7 @@ Projekt für das Modul "Urbane Technologien", WS19/20
 
 - Twitter-API: * https://www.tweepy.org/ (already existing python implementation for accessing the Twitter-API) (pip install tweepy)
 - Python: * http://www.laurentluce.com/posts/twitter-sentiment-analysis-using-python-and-nltk/
+- https://www.dataquest.io/blog/streaming-data-python/
 
 
 ## New project approach (11/21/19)
