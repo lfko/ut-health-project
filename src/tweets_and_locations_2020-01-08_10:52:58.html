@@ -1,0 +1,3345 @@
+<!DOCTYPE html>
+<head>    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.5.1/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.5.1/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://rawcdn.githack.com/python-visualization/folium/master/folium/templates/leaflet.awesome.rotate.css"/>
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_13ff94fb36d4408c821496a7b782ad3a {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+            </style>
+        
+</head>
+<body>    
+    
+            <div class="folium-map" id="map_13ff94fb36d4408c821496a7b782ad3a" ></div>
+        
+</body>
+<script>    
+    
+            var map_13ff94fb36d4408c821496a7b782ad3a = L.map(
+                "map_13ff94fb36d4408c821496a7b782ad3a",
+                {
+                    center: [37.0902, -95.7129],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 5,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_0dda019c95954c6d803e3ae663b487a3 = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_13ff94fb36d4408c821496a7b782ad3a);
+        
+    
+            var circle_marker_68bb590a963f4e2dabda5bd2bcd755e1 = L.circleMarker(
+                [29.76328, -95.36327],
+                {"bubblingMouseEvents": true, "color": "#007849", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#007849", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1.5, "stroke": true, "weight": 3}
+            ).addTo(map_13ff94fb36d4408c821496a7b782ad3a);
+        
+    
+        var popup_ef7045bcaa4641ef8f8b6f64ce54f24c = L.popup({"maxWidth": "100%"});
+
+        
+            var html_e37ab9e16aaf459db3acc827f4140e3e = $(`<div id="html_e37ab9e16aaf459db3acc827f4140e3e" style="width: 100.0%; height: 100.0%;">City: Houston<br>Tweet: (cough. iowans. cough.)</div>`)[0];
+            popup_ef7045bcaa4641ef8f8b6f64ce54f24c.setContent(html_e37ab9e16aaf459db3acc827f4140e3e);
+        
+
+        circle_marker_68bb590a963f4e2dabda5bd2bcd755e1.bindPopup(popup_ef7045bcaa4641ef8f8b6f64ce54f24c)
+        ;
+
+        
+    
+    
+            var circle_marker_1d2782e52d8f4cb0a46999b6dfa3b87f = L.circleMarker(
+                [36.09719, -115.14666],
+                {"bubblingMouseEvents": true, "color": "#007849", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#007849", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1.5, "stroke": true, "weight": 3}
+            ).addTo(map_13ff94fb36d4408c821496a7b782ad3a);
+        
+    
+        var popup_d98f877162704dd5ac0421aa3d270ced = L.popup({"maxWidth": "100%"});
+
+        
+            var html_f3978119d1ba4cb186a738ee752cbb82 = $(`<div id="html_f3978119d1ba4cb186a738ee752cbb82" style="width: 100.0%; height: 100.0%;">City: Paradise<br>Tweet: i’m just so sick of waiting</div>`)[0];
+            popup_d98f877162704dd5ac0421aa3d270ced.setContent(html_f3978119d1ba4cb186a738ee752cbb82);
+        
+
+        circle_marker_1d2782e52d8f4cb0a46999b6dfa3b87f.bindPopup(popup_d98f877162704dd5ac0421aa3d270ced)
+        ;
+
+        
+    
+    
+            var circle_marker_e574734204e34e418d6d4ac77480c13c = L.circleMarker(
+                [32.72541, -97.32085],
+                {"bubblingMouseEvents": true, "color": "#007849", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#007849", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1.5, "stroke": true, "weight": 3}
+            ).addTo(map_13ff94fb36d4408c821496a7b782ad3a);
+        
+    
+        var popup_7ec9ff733a684bb38ee1a69aba2d3512 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_61e42f8d60a64bf39dadc03021f29d6d = $(`<div id="html_61e42f8d60a64bf39dadc03021f29d6d" style="width: 100.0%; height: 100.0%;">City: Fort Worth<br>Tweet: weak people project their insecurities onto you. dont be weak.</div>`)[0];
+            popup_7ec9ff733a684bb38ee1a69aba2d3512.setContent(html_61e42f8d60a64bf39dadc03021f29d6d);
+        
+
+        circle_marker_e574734204e34e418d6d4ac77480c13c.bindPopup(popup_7ec9ff733a684bb38ee1a69aba2d3512)
+        ;
+
+        
+    
+    
+            var circle_marker_d902d920fadb4df7b11353be785a6f30 = L.circleMarker(
+                [41.52005, -81.55624],
+                {"bubblingMouseEvents": true, "color": "#007849", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#007849", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1.5, "stroke": true, "weight": 3}
+            ).addTo(map_13ff94fb36d4408c821496a7b782ad3a);
+        
+    
+        var popup_4bcc1fedebfd4050a9806b958eacfc9a = L.popup({"maxWidth": "100%"});
+
+        
+            var html_2f4e6b7f7a95493f95cddc3e3ab4d7fb = $(`<div id="html_2f4e6b7f7a95493f95cddc3e3ab4d7fb" style="width: 100.0%; height: 100.0%;">City: Cleveland Heights<br>Tweet: this city weak af man🤦🏽‍♂️</div>`)[0];
+            popup_4bcc1fedebfd4050a9806b958eacfc9a.setContent(html_2f4e6b7f7a95493f95cddc3e3ab4d7fb);
+        
+
+        circle_marker_d902d920fadb4df7b11353be785a6f30.bindPopup(popup_4bcc1fedebfd4050a9806b958eacfc9a)
+        ;
+
+        
+    
+    
+            var circle_marker_d6c718647bd64ee3bdcdc62a0f3b2481 = L.circleMarker(
+                [30.50826, -97.6789],
+                {"bubblingMouseEvents": true, "color": "#007849", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#007849", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1.5, "stroke": true, "weight": 3}
+            ).addTo(map_13ff94fb36d4408c821496a7b782ad3a);
+        
+    
+        var popup_0ba53f6f10514a79bc197a1942833a8b = L.popup({"maxWidth": "100%"});
+
+        
+            var html_fd09f34b285a40b898abae954e975258 = $(`<div id="html_fd09f34b285a40b898abae954e975258" style="width: 100.0%; height: 100.0%;">City: Round Rock<br>Tweet: nothing like getting the flu shot yesterday and having symptoms of the flu today... happy new year to me... 😞😪</div>`)[0];
+            popup_0ba53f6f10514a79bc197a1942833a8b.setContent(html_fd09f34b285a40b898abae954e975258);
+        
+
+        circle_marker_d6c718647bd64ee3bdcdc62a0f3b2481.bindPopup(popup_0ba53f6f10514a79bc197a1942833a8b)
+        ;
+
+        
+    
+    
+            var circle_marker_f7851079569044e1bdad63d91c068c8b = L.circleMarker(
+                [29.42412, -98.49363],
+                {"bubblingMouseEvents": true, "color": "#007849", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#007849", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1.5, "stroke": true, "weight": 3}
+            ).addTo(map_13ff94fb36d4408c821496a7b782ad3a);
+        
+    
+        var popup_a2f95c0ca2f74e3c8fec761685790e11 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_2bcf68a411604f47b2f516f1231b05f3 = $(`<div id="html_2bcf68a411604f47b2f516f1231b05f3" style="width: 100.0%; height: 100.0%;">City: San Antonio<br>Tweet: damn wtf?!? woke up with a headache and i didnt even drink 🙄 https://t.co/mlotesr9sf</div>`)[0];
+            popup_a2f95c0ca2f74e3c8fec761685790e11.setContent(html_2bcf68a411604f47b2f516f1231b05f3);
+        
+
+        circle_marker_f7851079569044e1bdad63d91c068c8b.bindPopup(popup_a2f95c0ca2f74e3c8fec761685790e11)
+        ;
+
+        
+    
+    
+            var circle_marker_4c08de9f0eba4b6ba84cf0a59726a52c = L.circleMarker(
+                [40.71427, -74.00597],
+                {"bubblingMouseEvents": true, "color": "#007849", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#007849", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1.5, "stroke": true, "weight": 3}
+            ).addTo(map_13ff94fb36d4408c821496a7b782ad3a);
+        
+    
+        var popup_4691d5390193481fb4cacd69c0c6d66f = L.popup({"maxWidth": "100%"});
+
+        
+            var html_bdc1f536391b457d9f96b8c208305d97 = $(`<div id="html_bdc1f536391b457d9f96b8c208305d97" style="width: 100.0%; height: 100.0%;">City: New York<br>Tweet: i’m so sick of this. where does it end☹️</div>`)[0];
+            popup_4691d5390193481fb4cacd69c0c6d66f.setContent(html_bdc1f536391b457d9f96b8c208305d97);
+        
+
+        circle_marker_4c08de9f0eba4b6ba84cf0a59726a52c.bindPopup(popup_4691d5390193481fb4cacd69c0c6d66f)
+        ;
+
+        
+    
+    
+            var circle_marker_309fef7bea8841b18ada65e42a5c56fe = L.circleMarker(
+                [33.749, -84.38798],
+                {"bubblingMouseEvents": true, "color": "#007849", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#007849", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1.5, "stroke": true, "weight": 3}
+            ).addTo(map_13ff94fb36d4408c821496a7b782ad3a);
+        
+    
+        var popup_2462c51f4dd14640afe84785a67dfa1c = L.popup({"maxWidth": "100%"});
+
+        
+            var html_ecb1f928b31640cba2452db8204cd320 = $(`<div id="html_ecb1f928b31640cba2452db8204cd320" style="width: 100.0%; height: 100.0%;">City: Atlanta<br>Tweet: waking up sick to start 2020 sick 🤒 🤕</div>`)[0];
+            popup_2462c51f4dd14640afe84785a67dfa1c.setContent(html_ecb1f928b31640cba2452db8204cd320);
+        
+
+        circle_marker_309fef7bea8841b18ada65e42a5c56fe.bindPopup(popup_2462c51f4dd14640afe84785a67dfa1c)
+        ;
+
+        
+    
+    
+            var circle_marker_caf9d6f97d264857a8ba3b929ab5caa1 = L.circleMarker(
+                [29.76328, -95.36327],
+                {"bubblingMouseEvents": true, "color": "#007849", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#007849", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1.5, "stroke": true, "weight": 3}
+            ).addTo(map_13ff94fb36d4408c821496a7b782ad3a);
+        
+    
+        var popup_e657130ccbe340499518e461e82b982e = L.popup({"maxWidth": "100%"});
+
+        
+            var html_0fb765010f4d4e10a5b58d1244eaa8b9 = $(`<div id="html_0fb765010f4d4e10a5b58d1244eaa8b9" style="width: 100.0%; height: 100.0%;">City: Houston<br>Tweet: i have a headache 🙄</div>`)[0];
+            popup_e657130ccbe340499518e461e82b982e.setContent(html_0fb765010f4d4e10a5b58d1244eaa8b9);
+        
+
+        circle_marker_caf9d6f97d264857a8ba3b929ab5caa1.bindPopup(popup_e657130ccbe340499518e461e82b982e)
+        ;
+
+        
+    
+    
+            var circle_marker_51c45e1e70f8465d9c69c087765a25ca = L.circleMarker(
+                [40.71427, -74.00597],
+                {"bubblingMouseEvents": true, "color": "#007849", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#007849", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1.5, "stroke": true, "weight": 3}
+            ).addTo(map_13ff94fb36d4408c821496a7b782ad3a);
+        
+    
+        var popup_b312e7656a204b9cbdd79bf66f266066 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_708d76c138e242ff9fbe79bb28cae7a3 = $(`<div id="html_708d76c138e242ff9fbe79bb28cae7a3" style="width: 100.0%; height: 100.0%;">City: New York<br>Tweet: @zubi_47 no more weak body moves</div>`)[0];
+            popup_b312e7656a204b9cbdd79bf66f266066.setContent(html_708d76c138e242ff9fbe79bb28cae7a3);
+        
+
+        circle_marker_51c45e1e70f8465d9c69c087765a25ca.bindPopup(popup_b312e7656a204b9cbdd79bf66f266066)
+        ;
+
+        
+    
+    
+            var circle_marker_2fe51376495b4bd19d682f42229c1738 = L.circleMarker(
+                [29.88519, -93.94233],
+                {"bubblingMouseEvents": true, "color": "#007849", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#007849", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1.5, "stroke": true, "weight": 3}
+            ).addTo(map_13ff94fb36d4408c821496a7b782ad3a);
+        
+    
+        var popup_a9a0f7a9838a4b8d8629c5337eaf351a = L.popup({"maxWidth": "100%"});
+
+        
+            var html_df2e70d610e74cbc9366c12a092b318a = $(`<div id="html_df2e70d610e74cbc9366c12a092b318a" style="width: 100.0%; height: 100.0%;">City: Port Arthur<br>Tweet: me tryna get my ass up from bed this morning with this fat ass headache</div>`)[0];
+            popup_a9a0f7a9838a4b8d8629c5337eaf351a.setContent(html_df2e70d610e74cbc9366c12a092b318a);
+        
+
+        circle_marker_2fe51376495b4bd19d682f42229c1738.bindPopup(popup_a9a0f7a9838a4b8d8629c5337eaf351a)
+        ;
+
+        
+    
+    
+            var circle_marker_fd82d52ee1574ff48be4959ba59e46b2 = L.circleMarker(
+                [34.05223, -118.24368],
+                {"bubblingMouseEvents": true, "color": "#007849", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#007849", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1.5, "stroke": true, "weight": 3}
+            ).addTo(map_13ff94fb36d4408c821496a7b782ad3a);
+        
+    
+        var popup_b710586f0a8143469ae793e4279a8501 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_75b6444078994b4a8203fa0c45688f15 = $(`<div id="html_75b6444078994b4a8203fa0c45688f15" style="width: 100.0%; height: 100.0%;">City: Los Angeles<br>Tweet: @equitybruin ill report back once we stop walking lmao</div>`)[0];
+            popup_b710586f0a8143469ae793e4279a8501.setContent(html_75b6444078994b4a8203fa0c45688f15);
+        
+
+        circle_marker_fd82d52ee1574ff48be4959ba59e46b2.bindPopup(popup_b710586f0a8143469ae793e4279a8501)
+        ;
+
+        
+    
+    
+            var circle_marker_fbf2c576fdbe496eab45cfd6650bf2da = L.circleMarker(
+                [36.09719, -115.14666],
+                {"bubblingMouseEvents": true, "color": "#007849", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#007849", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1.5, "stroke": true, "weight": 3}
+            ).addTo(map_13ff94fb36d4408c821496a7b782ad3a);
+        
+    
+        var popup_fea203d404ed4bf8b1f3b2b76a66fb33 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_ad5b605be23b4fe582dd6ac29dbab364 = $(`<div id="html_ad5b605be23b4fe582dd6ac29dbab364" style="width: 100.0%; height: 100.0%;">City: Paradise<br>Tweet: this year is all about financial growth. 
+ 
+ ill be completely debt free by june and by the end of the year ill have… https://t.co/z46vkn6kdz</div>`)[0];
+            popup_fea203d404ed4bf8b1f3b2b76a66fb33.setContent(html_ad5b605be23b4fe582dd6ac29dbab364);
+        
+
+        circle_marker_fbf2c576fdbe496eab45cfd6650bf2da.bindPopup(popup_fea203d404ed4bf8b1f3b2b76a66fb33)
+        ;
+
+        
+    
+    
+            var circle_marker_1e2fad3fa3bc4cd4af58aa6d227573c8 = L.circleMarker(
+                [41.417, -81.60596],
+                {"bubblingMouseEvents": true, "color": "#007849", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#007849", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1.5, "stroke": true, "weight": 3}
+            ).addTo(map_13ff94fb36d4408c821496a7b782ad3a);
+        
+    
+        var popup_fd0b5982764b4c4daf9be752f0e08feb = L.popup({"maxWidth": "100%"});
+
+        
+            var html_7766c20252ec47c091a13219ef1fb7c2 = $(`<div id="html_7766c20252ec47c091a13219ef1fb7c2" style="width: 100.0%; height: 100.0%;">City: Garfield Heights<br>Tweet: your sick 😂😂😂😂😂😂😂😂</div>`)[0];
+            popup_fd0b5982764b4c4daf9be752f0e08feb.setContent(html_7766c20252ec47c091a13219ef1fb7c2);
+        
+
+        circle_marker_1e2fad3fa3bc4cd4af58aa6d227573c8.bindPopup(popup_fd0b5982764b4c4daf9be752f0e08feb)
+        ;
+
+        
+    
+    
+            var circle_marker_876a21801fb94c0aa506d309f471e26b = L.circleMarker(
+                [29.42412, -98.49363],
+                {"bubblingMouseEvents": true, "color": "#007849", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#007849", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1.5, "stroke": true, "weight": 3}
+            ).addTo(map_13ff94fb36d4408c821496a7b782ad3a);
+        
+    
+        var popup_8162f9643b2c4e48bfb4af3b7f7ed7e3 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_ec44d4a460ca4cd886f263a3264bdc2b = $(`<div id="html_ec44d4a460ca4cd886f263a3264bdc2b" style="width: 100.0%; height: 100.0%;">City: San Antonio<br>Tweet: i have a fat headache</div>`)[0];
+            popup_8162f9643b2c4e48bfb4af3b7f7ed7e3.setContent(html_ec44d4a460ca4cd886f263a3264bdc2b);
+        
+
+        circle_marker_876a21801fb94c0aa506d309f471e26b.bindPopup(popup_8162f9643b2c4e48bfb4af3b7f7ed7e3)
+        ;
+
+        
+    
+    
+            var circle_marker_38f89b6ba5fa4b9e8eede25ff70b0387 = L.circleMarker(
+                [29.42412, -98.49363],
+                {"bubblingMouseEvents": true, "color": "#007849", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#007849", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1.5, "stroke": true, "weight": 3}
+            ).addTo(map_13ff94fb36d4408c821496a7b782ad3a);
+        
+    
+        var popup_8b9c59861df045608502597398e952d0 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_b5110716d9e9489c82b4a1b8c2e8a8d5 = $(`<div id="html_b5110716d9e9489c82b4a1b8c2e8a8d5" style="width: 100.0%; height: 100.0%;">City: San Antonio<br>Tweet: my stomach has been trash for like 4 days 🥴😩 i have no idea what’s wrong</div>`)[0];
+            popup_8b9c59861df045608502597398e952d0.setContent(html_b5110716d9e9489c82b4a1b8c2e8a8d5);
+        
+
+        circle_marker_38f89b6ba5fa4b9e8eede25ff70b0387.bindPopup(popup_8b9c59861df045608502597398e952d0)
+        ;
+
+        
+    
+    
+            var circle_marker_3008251f4bf34aad82da552e652cc776 = L.circleMarker(
+                [41.30815, -72.92816],
+                {"bubblingMouseEvents": true, "color": "#007849", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#007849", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1.5, "stroke": true, "weight": 3}
+            ).addTo(map_13ff94fb36d4408c821496a7b782ad3a);
+        
+    
+        var popup_27684799c8504aff82e9371cb1a0eb67 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_fc24757f47ac4779ac86e57ef84e487c = $(`<div id="html_fc24757f47ac4779ac86e57ef84e487c" style="width: 100.0%; height: 100.0%;">City: New Haven<br>Tweet: i didn’t even drink but i have a headache</div>`)[0];
+            popup_27684799c8504aff82e9371cb1a0eb67.setContent(html_fc24757f47ac4779ac86e57ef84e487c);
+        
+
+        circle_marker_3008251f4bf34aad82da552e652cc776.bindPopup(popup_27684799c8504aff82e9371cb1a0eb67)
+        ;
+
+        
+    
+    
+            var circle_marker_40be863576ff4aa694a831629a44996b = L.circleMarker(
+                [30.44332, -91.18747],
+                {"bubblingMouseEvents": true, "color": "#007849", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#007849", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1.5, "stroke": true, "weight": 3}
+            ).addTo(map_13ff94fb36d4408c821496a7b782ad3a);
+        
+    
+        var popup_9a62ffc584b548db8d97f711459a9f8a = L.popup({"maxWidth": "100%"});
+
+        
+            var html_ea82aa33a94c4db49ddbda022d99e814 = $(`<div id="html_ea82aa33a94c4db49ddbda022d99e814" style="width: 100.0%; height: 100.0%;">City: Baton Rouge<br>Tweet: stomach be toe up every time after i drink</div>`)[0];
+            popup_9a62ffc584b548db8d97f711459a9f8a.setContent(html_ea82aa33a94c4db49ddbda022d99e814);
+        
+
+        circle_marker_40be863576ff4aa694a831629a44996b.bindPopup(popup_9a62ffc584b548db8d97f711459a9f8a)
+        ;
+
+        
+    
+    
+            var circle_marker_dd11d16b8e9340889b7fd3499718025a = L.circleMarker(
+                [-34.4985, 150.4512],
+                {"bubblingMouseEvents": true, "color": "#007849", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#007849", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1.5, "stroke": true, "weight": 3}
+            ).addTo(map_13ff94fb36d4408c821496a7b782ad3a);
+        
+    
+        var popup_d9207c19fb54489d83c5e5b28ddf4e22 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_ca0259a878ab4b0d9fb97eca3f3a3056 = $(`<div id="html_ca0259a878ab4b0d9fb97eca3f3a3056" style="width: 100.0%; height: 100.0%;">City: College Park<br>Tweet: @justlovinglex if it’s too cold i ain’t going lol</div>`)[0];
+            popup_d9207c19fb54489d83c5e5b28ddf4e22.setContent(html_ca0259a878ab4b0d9fb97eca3f3a3056);
+        
+
+        circle_marker_dd11d16b8e9340889b7fd3499718025a.bindPopup(popup_d9207c19fb54489d83c5e5b28ddf4e22)
+        ;
+
+        
+    
+    
+            var circle_marker_6bff13c56f654f12b56f6cbbfc833cc3 = L.circleMarker(
+                [40.71427, -74.00597],
+                {"bubblingMouseEvents": true, "color": "#007849", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#007849", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1.5, "stroke": true, "weight": 3}
+            ).addTo(map_13ff94fb36d4408c821496a7b782ad3a);
+        
+    
+        var popup_b56783d42afa4876a6da409ebd3ff09b = L.popup({"maxWidth": "100%"});
+
+        
+            var html_b202d839336046e8bc56a8820d2ee74c = $(`<div id="html_b202d839336046e8bc56a8820d2ee74c" style="width: 100.0%; height: 100.0%;">City: New York<br>Tweet: 2020 and i’m still sick 🙄</div>`)[0];
+            popup_b56783d42afa4876a6da409ebd3ff09b.setContent(html_b202d839336046e8bc56a8820d2ee74c);
+        
+
+        circle_marker_6bff13c56f654f12b56f6cbbfc833cc3.bindPopup(popup_b56783d42afa4876a6da409ebd3ff09b)
+        ;
+
+        
+    
+    
+            var circle_marker_21868ba9bcc145f0a6a1f8b16ac3e958 = L.circleMarker(
+                [38.34982, -81.63262],
+                {"bubblingMouseEvents": true, "color": "#007849", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#007849", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1.5, "stroke": true, "weight": 3}
+            ).addTo(map_13ff94fb36d4408c821496a7b782ad3a);
+        
+    
+        var popup_989c1798d31d486ea344b6263a7864e5 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_d3dbf7de18234b6ab55d0557767c0e41 = $(`<div id="html_d3dbf7de18234b6ab55d0557767c0e41" style="width: 100.0%; height: 100.0%;">City: Virginia<br>Tweet: waking up new years morning is not for the weak. https://t.co/dsvwptvyee</div>`)[0];
+            popup_989c1798d31d486ea344b6263a7864e5.setContent(html_d3dbf7de18234b6ab55d0557767c0e41);
+        
+
+        circle_marker_21868ba9bcc145f0a6a1f8b16ac3e958.bindPopup(popup_989c1798d31d486ea344b6263a7864e5)
+        ;
+
+        
+    
+    
+            var circle_marker_ce4bda5ea1a94762918880ed4d4d7451 = L.circleMarker(
+                [29.42412, -98.49363],
+                {"bubblingMouseEvents": true, "color": "#007849", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#007849", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1.5, "stroke": true, "weight": 3}
+            ).addTo(map_13ff94fb36d4408c821496a7b782ad3a);
+        
+    
+        var popup_356869702578488992d345f6f8d3ac07 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_56980500d4bf4bb6baac9bd7338dfbff = $(`<div id="html_56980500d4bf4bb6baac9bd7338dfbff" style="width: 100.0%; height: 100.0%;">City: San Antonio<br>Tweet: my poor baby is so sick. he was up every two hours coughing. my boyfriend and i are exhausted. baby is exhausted. m… https://t.co/xahphfiiqj</div>`)[0];
+            popup_356869702578488992d345f6f8d3ac07.setContent(html_56980500d4bf4bb6baac9bd7338dfbff);
+        
+
+        circle_marker_ce4bda5ea1a94762918880ed4d4d7451.bindPopup(popup_356869702578488992d345f6f8d3ac07)
+        ;
+
+        
+    
+    
+            var circle_marker_4fce6a743f2546a2b7b4a2a38a631669 = L.circleMarker(
+                [34.05223, -118.24368],
+                {"bubblingMouseEvents": true, "color": "#007849", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#007849", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1.5, "stroke": true, "weight": 3}
+            ).addTo(map_13ff94fb36d4408c821496a7b782ad3a);
+        
+    
+        var popup_9cdda3a68c494348bbe89dfe85ce586e = L.popup({"maxWidth": "100%"});
+
+        
+            var html_5a127cc0eda744a59425661206d0ea7d = $(`<div id="html_5a127cc0eda744a59425661206d0ea7d" style="width: 100.0%; height: 100.0%;">City: Los Angeles<br>Tweet: @the_kurt_boyd @popsacuna @cbs8 still sick??</div>`)[0];
+            popup_9cdda3a68c494348bbe89dfe85ce586e.setContent(html_5a127cc0eda744a59425661206d0ea7d);
+        
+
+        circle_marker_4fce6a743f2546a2b7b4a2a38a631669.bindPopup(popup_9cdda3a68c494348bbe89dfe85ce586e)
+        ;
+
+        
+    
+    
+            var circle_marker_b3e9e5f6bbc644a8b7e3afdba1ce0bba = L.circleMarker(
+                [38.63162, -90.24925],
+                {"bubblingMouseEvents": true, "color": "#007849", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#007849", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1.5, "stroke": true, "weight": 3}
+            ).addTo(map_13ff94fb36d4408c821496a7b782ad3a);
+        
+    
+        var popup_4d0b328d3a364d4d9635114009bd7fdc = L.popup({"maxWidth": "100%"});
+
+        
+            var html_59c92f0bd2b849669d4b16c51bd18d0d = $(`<div id="html_59c92f0bd2b849669d4b16c51bd18d0d" style="width: 100.0%; height: 100.0%;">City: Missouri<br>Tweet: this cold can fuck off</div>`)[0];
+            popup_4d0b328d3a364d4d9635114009bd7fdc.setContent(html_59c92f0bd2b849669d4b16c51bd18d0d);
+        
+
+        circle_marker_b3e9e5f6bbc644a8b7e3afdba1ce0bba.bindPopup(popup_4d0b328d3a364d4d9635114009bd7fdc)
+        ;
+
+        
+    
+    
+            var circle_marker_70a3595f5def40749e39cde1444053f6 = L.circleMarker(
+                [32.72541, -97.32085],
+                {"bubblingMouseEvents": true, "color": "#007849", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#007849", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1.5, "stroke": true, "weight": 3}
+            ).addTo(map_13ff94fb36d4408c821496a7b782ad3a);
+        
+    
+        var popup_866fb31dcebf4cb98010873994c06289 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_82f2d9302a5148f29bab56116f1941e6 = $(`<div id="html_82f2d9302a5148f29bab56116f1941e6" style="width: 100.0%; height: 100.0%;">City: Fort Worth<br>Tweet: wook flu 😂</div>`)[0];
+            popup_866fb31dcebf4cb98010873994c06289.setContent(html_82f2d9302a5148f29bab56116f1941e6);
+        
+
+        circle_marker_70a3595f5def40749e39cde1444053f6.bindPopup(popup_866fb31dcebf4cb98010873994c06289)
+        ;
+
+        
+    
+    
+            var circle_marker_2d83263b58204d88a2f84110ccb5f497 = L.circleMarker(
+                [32.71571, -117.16472],
+                {"bubblingMouseEvents": true, "color": "#007849", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#007849", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1.5, "stroke": true, "weight": 3}
+            ).addTo(map_13ff94fb36d4408c821496a7b782ad3a);
+        
+    
+        var popup_96a5298ceac4450eb8c00cbfdc539030 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_8ae7a7e586d74a1faa4e2846f878a7e0 = $(`<div id="html_8ae7a7e586d74a1faa4e2846f878a7e0" style="width: 100.0%; height: 100.0%;">City: San Diego<br>Tweet: @ohhwowmatt hold up.. is she why i got sick?</div>`)[0];
+            popup_96a5298ceac4450eb8c00cbfdc539030.setContent(html_8ae7a7e586d74a1faa4e2846f878a7e0);
+        
+
+        circle_marker_2d83263b58204d88a2f84110ccb5f497.bindPopup(popup_96a5298ceac4450eb8c00cbfdc539030)
+        ;
+
+        
+    
+    
+            var circle_marker_fbb43e5188d6499094099ba384cbddb3 = L.circleMarker(
+                [33.68906, -78.88669],
+                {"bubblingMouseEvents": true, "color": "#007849", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#007849", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1.5, "stroke": true, "weight": 3}
+            ).addTo(map_13ff94fb36d4408c821496a7b782ad3a);
+        
+    
+        var popup_7d4fbd3428604e4f878cb485e01b3316 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_d3f659e6a156454fb49b6ffcb70dd476 = $(`<div id="html_d3f659e6a156454fb49b6ffcb70dd476" style="width: 100.0%; height: 100.0%;">City: Myrtle Beach<br>Tweet: i’m cold &amp; sick &amp; just wanna go crawl into my bed😷😴</div>`)[0];
+            popup_7d4fbd3428604e4f878cb485e01b3316.setContent(html_d3f659e6a156454fb49b6ffcb70dd476);
+        
+
+        circle_marker_fbb43e5188d6499094099ba384cbddb3.bindPopup(popup_7d4fbd3428604e4f878cb485e01b3316)
+        ;
+
+        
+    
+    
+            var circle_marker_a1309d77b2244776a36fddb302c6dbb9 = L.circleMarker(
+                [34.06862, -117.93895],
+                {"bubblingMouseEvents": true, "color": "#007849", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#007849", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1.5, "stroke": true, "weight": 3}
+            ).addTo(map_13ff94fb36d4408c821496a7b782ad3a);
+        
+    
+        var popup_329871d5dfea4190ad632c7989be1a89 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_b35a606dd72e4440b62c8bb5ba675284 = $(`<div id="html_b35a606dd72e4440b62c8bb5ba675284" style="width: 100.0%; height: 100.0%;">City: West Covina<br>Tweet: runners cough yayyyyy</div>`)[0];
+            popup_329871d5dfea4190ad632c7989be1a89.setContent(html_b35a606dd72e4440b62c8bb5ba675284);
+        
+
+        circle_marker_a1309d77b2244776a36fddb302c6dbb9.bindPopup(popup_329871d5dfea4190ad632c7989be1a89)
+        ;
+
+        
+    
+    
+            var circle_marker_c1a91c4cca434bbe8bc213df78270a1b = L.circleMarker(
+                [29.42412, -98.49363],
+                {"bubblingMouseEvents": true, "color": "#007849", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#007849", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1.5, "stroke": true, "weight": 3}
+            ).addTo(map_13ff94fb36d4408c821496a7b782ad3a);
+        
+    
+        var popup_a0ef0d383b3b4926b2dc73f80f6db0f8 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_a4989d65e8ac45ed9886c150b4bf556e = $(`<div id="html_a4989d65e8ac45ed9886c150b4bf556e" style="width: 100.0%; height: 100.0%;">City: San Antonio<br>Tweet: @davila0910 just let nature take its course bruh💆🏻‍♀️ not worth the headache</div>`)[0];
+            popup_a0ef0d383b3b4926b2dc73f80f6db0f8.setContent(html_a4989d65e8ac45ed9886c150b4bf556e);
+        
+
+        circle_marker_c1a91c4cca434bbe8bc213df78270a1b.bindPopup(popup_a0ef0d383b3b4926b2dc73f80f6db0f8)
+        ;
+
+        
+    
+    
+            var circle_marker_38e2be2092ae422c8db7435dd36d4568 = L.circleMarker(
+                [36.17497, -115.13722],
+                {"bubblingMouseEvents": true, "color": "#007849", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#007849", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1.5, "stroke": true, "weight": 3}
+            ).addTo(map_13ff94fb36d4408c821496a7b782ad3a);
+        
+    
+        var popup_5191d0334bf44bf1b38a7055f3c424fd = L.popup({"maxWidth": "100%"});
+
+        
+            var html_2ddfbbb0db104534b279fd8df9dbe729 = $(`<div id="html_2ddfbbb0db104534b279fd8df9dbe729" style="width: 100.0%; height: 100.0%;">City: Las Vegas<br>Tweet: i’m sick with a nasty cold again for like the 3rd time this season. 😤</div>`)[0];
+            popup_5191d0334bf44bf1b38a7055f3c424fd.setContent(html_2ddfbbb0db104534b279fd8df9dbe729);
+        
+
+        circle_marker_38e2be2092ae422c8db7435dd36d4568.bindPopup(popup_5191d0334bf44bf1b38a7055f3c424fd)
+        ;
+
+        
+    
+    
+            var circle_marker_f6a9408ee5294fb4b315b0473c4acecb = L.circleMarker(
+                [40.71427, -74.00597],
+                {"bubblingMouseEvents": true, "color": "#007849", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#007849", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1.5, "stroke": true, "weight": 3}
+            ).addTo(map_13ff94fb36d4408c821496a7b782ad3a);
+        
+    
+        var popup_b6f11b5db32f40c19d6dd3a4c9717253 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_d826c75412514be8bec0514aa9d69e1e = $(`<div id="html_d826c75412514be8bec0514aa9d69e1e" style="width: 100.0%; height: 100.0%;">City: New York<br>Tweet: @hoodhalle you cold blooded😭😂💀</div>`)[0];
+            popup_b6f11b5db32f40c19d6dd3a4c9717253.setContent(html_d826c75412514be8bec0514aa9d69e1e);
+        
+
+        circle_marker_f6a9408ee5294fb4b315b0473c4acecb.bindPopup(popup_b6f11b5db32f40c19d6dd3a4c9717253)
+        ;
+
+        
+    
+    
+            var circle_marker_9ccf1ee999cb414489abb59439f8a105 = L.circleMarker(
+                [40.71427, -74.00597],
+                {"bubblingMouseEvents": true, "color": "#007849", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#007849", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1.5, "stroke": true, "weight": 3}
+            ).addTo(map_13ff94fb36d4408c821496a7b782ad3a);
+        
+    
+        var popup_d8fb35b899a54110915c50f6ca3d7e35 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_c56529d4ecb14f4799d7041ac992415c = $(`<div id="html_c56529d4ecb14f4799d7041ac992415c" style="width: 100.0%; height: 100.0%;">City: New York<br>Tweet: @kjgober1 @hoodhalle im fucking weak bro😭😂</div>`)[0];
+            popup_d8fb35b899a54110915c50f6ca3d7e35.setContent(html_c56529d4ecb14f4799d7041ac992415c);
+        
+
+        circle_marker_9ccf1ee999cb414489abb59439f8a105.bindPopup(popup_d8fb35b899a54110915c50f6ca3d7e35)
+        ;
+
+        
+    
+    
+            var circle_marker_141e1ae99782420dbca59c47951f8980 = L.circleMarker(
+                [40.71427, -74.00597],
+                {"bubblingMouseEvents": true, "color": "#007849", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#007849", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1.5, "stroke": true, "weight": 3}
+            ).addTo(map_13ff94fb36d4408c821496a7b782ad3a);
+        
+    
+        var popup_0b450ff40da74a7b92e1ac3142cc7c2f = L.popup({"maxWidth": "100%"});
+
+        
+            var html_e71f9e27c39548f4bc137dac995df748 = $(`<div id="html_e71f9e27c39548f4bc137dac995df748" style="width: 100.0%; height: 100.0%;">City: New York<br>Tweet: @telltelly_ i’m gonna call you when this headache stops lol.</div>`)[0];
+            popup_0b450ff40da74a7b92e1ac3142cc7c2f.setContent(html_e71f9e27c39548f4bc137dac995df748);
+        
+
+        circle_marker_141e1ae99782420dbca59c47951f8980.bindPopup(popup_0b450ff40da74a7b92e1ac3142cc7c2f)
+        ;
+
+        
+    
+    
+            var circle_marker_3e779ebac4e84bd3898399de5370bd12 = L.circleMarker(
+                [34.05223, -118.24368],
+                {"bubblingMouseEvents": true, "color": "#007849", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#007849", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1.5, "stroke": true, "weight": 3}
+            ).addTo(map_13ff94fb36d4408c821496a7b782ad3a);
+        
+    
+        var popup_67a90dd157884f81b7272d3aa4328d86 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_3db2619b9275469da106cda939663fe5 = $(`<div id="html_3db2619b9275469da106cda939663fe5" style="width: 100.0%; height: 100.0%;">City: Los Angeles<br>Tweet: @mrs_darkcuckold @thesbwagency ill be searching for you to 😘</div>`)[0];
+            popup_67a90dd157884f81b7272d3aa4328d86.setContent(html_3db2619b9275469da106cda939663fe5);
+        
+
+        circle_marker_3e779ebac4e84bd3898399de5370bd12.bindPopup(popup_67a90dd157884f81b7272d3aa4328d86)
+        ;
+
+        
+    
+    
+            var circle_marker_b2b14736ec394b03b782527c966cb876 = L.circleMarker(
+                [29.42412, -98.49363],
+                {"bubblingMouseEvents": true, "color": "#007849", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#007849", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1.5, "stroke": true, "weight": 3}
+            ).addTo(map_13ff94fb36d4408c821496a7b782ad3a);
+        
+    
+        var popup_ee0ac732e3f0474aba292d9fa9c48a9f = L.popup({"maxWidth": "100%"});
+
+        
+            var html_bfc8ba6e44594fa79daeefcd28f0d063 = $(`<div id="html_bfc8ba6e44594fa79daeefcd28f0d063" style="width: 100.0%; height: 100.0%;">City: San Antonio<br>Tweet: i’m sick of mfs coughing, sneezing, walking round with fevers and shit like bitch/nigga do not come to work if you… https://t.co/kv8wp1tzuf</div>`)[0];
+            popup_ee0ac732e3f0474aba292d9fa9c48a9f.setContent(html_bfc8ba6e44594fa79daeefcd28f0d063);
+        
+
+        circle_marker_b2b14736ec394b03b782527c966cb876.bindPopup(popup_ee0ac732e3f0474aba292d9fa9c48a9f)
+        ;
+
+        
+    
+    
+            var circle_marker_276be529e33049a9887ab5353f0c9aff = L.circleMarker(
+                [50.41359, 2.96485],
+                {"bubblingMouseEvents": true, "color": "#007849", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#007849", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1.5, "stroke": true, "weight": 3}
+            ).addTo(map_13ff94fb36d4408c821496a7b782ad3a);
+        
+    
+        var popup_85f0813b6dec43939e7e3cd4e3f342be = L.popup({"maxWidth": "100%"});
+
+        
+            var html_0eb1484ebcab4a83a05fde78316d7d38 = $(`<div id="html_0eb1484ebcab4a83a05fde78316d7d38" style="width: 100.0%; height: 100.0%;">City: Beaumont<br>Tweet: so ready to get over this cold</div>`)[0];
+            popup_85f0813b6dec43939e7e3cd4e3f342be.setContent(html_0eb1484ebcab4a83a05fde78316d7d38);
+        
+
+        circle_marker_276be529e33049a9887ab5353f0c9aff.bindPopup(popup_85f0813b6dec43939e7e3cd4e3f342be)
+        ;
+
+        
+    
+    
+            var circle_marker_b23d33ab72be4fd9a1a5e85fd2b56e85 = L.circleMarker(
+                [23.21667, -75.11167],
+                {"bubblingMouseEvents": true, "color": "#007849", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#007849", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1.5, "stroke": true, "weight": 3}
+            ).addTo(map_13ff94fb36d4408c821496a7b782ad3a);
+        
+    
+        var popup_0d3d75a42e234403bc1904911bf96c29 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_d595845709de466f92dfea991fa97d5a = $(`<div id="html_d595845709de466f92dfea991fa97d5a" style="width: 100.0%; height: 100.0%;">City: Long Island<br>Tweet: * yup, on my stomach.</div>`)[0];
+            popup_0d3d75a42e234403bc1904911bf96c29.setContent(html_d595845709de466f92dfea991fa97d5a);
+        
+
+        circle_marker_b23d33ab72be4fd9a1a5e85fd2b56e85.bindPopup(popup_0d3d75a42e234403bc1904911bf96c29)
+        ;
+
+        
+    
+    
+            var circle_marker_8ca37be595c248a1bdcf75d6878c7242 = L.circleMarker(
+                [33.76696, -118.18923],
+                {"bubblingMouseEvents": true, "color": "#007849", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#007849", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1.5, "stroke": true, "weight": 3}
+            ).addTo(map_13ff94fb36d4408c821496a7b782ad3a);
+        
+    
+        var popup_64d60005aea6443d87c89281a54ec9b0 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_955513a96b964deaa01dac9901fa2425 = $(`<div id="html_955513a96b964deaa01dac9901fa2425" style="width: 100.0%; height: 100.0%;">City: Long Beach<br>Tweet: i legit have had a headache for 5 fucking hours.. what in the fuck</div>`)[0];
+            popup_64d60005aea6443d87c89281a54ec9b0.setContent(html_955513a96b964deaa01dac9901fa2425);
+        
+
+        circle_marker_8ca37be595c248a1bdcf75d6878c7242.bindPopup(popup_64d60005aea6443d87c89281a54ec9b0)
+        ;
+
+        
+    
+    
+            var circle_marker_b71ec489ee8e473991d5dac127d76002 = L.circleMarker(
+                [29.42412, -98.49363],
+                {"bubblingMouseEvents": true, "color": "#007849", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#007849", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1.5, "stroke": true, "weight": 3}
+            ).addTo(map_13ff94fb36d4408c821496a7b782ad3a);
+        
+    
+        var popup_4786d9046d2b4882881721b00de0e4d4 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_9bae41c62f4d4eaab99d6969b6067fc1 = $(`<div id="html_9bae41c62f4d4eaab99d6969b6067fc1" style="width: 100.0%; height: 100.0%;">City: San Antonio<br>Tweet: it’s a cold world ❄️ https://t.co/7bfom9r3h2</div>`)[0];
+            popup_4786d9046d2b4882881721b00de0e4d4.setContent(html_9bae41c62f4d4eaab99d6969b6067fc1);
+        
+
+        circle_marker_b71ec489ee8e473991d5dac127d76002.bindPopup(popup_4786d9046d2b4882881721b00de0e4d4)
+        ;
+
+        
+    
+    
+            var circle_marker_52c8bfe730104076b1f2ccfcbf7d9b76 = L.circleMarker(
+                [34.05223, -118.24368],
+                {"bubblingMouseEvents": true, "color": "#007849", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#007849", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1.5, "stroke": true, "weight": 3}
+            ).addTo(map_13ff94fb36d4408c821496a7b782ad3a);
+        
+    
+        var popup_ff4712a376884484b479dee6c568907e = L.popup({"maxWidth": "100%"});
+
+        
+            var html_a79507f1f0f640cf919650c22bdad328 = $(`<div id="html_a79507f1f0f640cf919650c22bdad328" style="width: 100.0%; height: 100.0%;">City: Los Angeles<br>Tweet: i cannot be getting sick again 🙃
+ i literally just got over being sick not even a month ago</div>`)[0];
+            popup_ff4712a376884484b479dee6c568907e.setContent(html_a79507f1f0f640cf919650c22bdad328);
+        
+
+        circle_marker_52c8bfe730104076b1f2ccfcbf7d9b76.bindPopup(popup_ff4712a376884484b479dee6c568907e)
+        ;
+
+        
+    
+    
+            var circle_marker_4129ec6285b84924ac215b3f43ee5430 = L.circleMarker(
+                [29.95465, -90.07507],
+                {"bubblingMouseEvents": true, "color": "#007849", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#007849", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1.5, "stroke": true, "weight": 3}
+            ).addTo(map_13ff94fb36d4408c821496a7b782ad3a);
+        
+    
+        var popup_0ac4a51b7ac34519acb512540ed49035 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_756034c0df614f1aa61aed3d58d550ba = $(`<div id="html_756034c0df614f1aa61aed3d58d550ba" style="width: 100.0%; height: 100.0%;">City: New Orleans<br>Tweet: y’all so stupid brah.. i am so weak right now</div>`)[0];
+            popup_0ac4a51b7ac34519acb512540ed49035.setContent(html_756034c0df614f1aa61aed3d58d550ba);
+        
+
+        circle_marker_4129ec6285b84924ac215b3f43ee5430.bindPopup(popup_0ac4a51b7ac34519acb512540ed49035)
+        ;
+
+        
+    
+    
+            var circle_marker_38a479331d124b73905271633bd41c17 = L.circleMarker(
+                [37.77493, -122.41942],
+                {"bubblingMouseEvents": true, "color": "#007849", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#007849", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1.5, "stroke": true, "weight": 3}
+            ).addTo(map_13ff94fb36d4408c821496a7b782ad3a);
+        
+    
+        var popup_3952f04fe39847a5958e21ee8b598c08 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_edf9448cbb04491ea4cb15d3f709dce8 = $(`<div id="html_edf9448cbb04491ea4cb15d3f709dce8" style="width: 100.0%; height: 100.0%;">City: San Francisco<br>Tweet: just took nyquil for the first time in my life because this cough has been keeping me awake and i'm getting despera… https://t.co/wjo29eerce</div>`)[0];
+            popup_3952f04fe39847a5958e21ee8b598c08.setContent(html_edf9448cbb04491ea4cb15d3f709dce8);
+        
+
+        circle_marker_38a479331d124b73905271633bd41c17.bindPopup(popup_3952f04fe39847a5958e21ee8b598c08)
+        ;
+
+        
+    
+    
+            var circle_marker_c44616a9be03488a812b2f86b57ad870 = L.circleMarker(
+                [9.93333, -84.08333],
+                {"bubblingMouseEvents": true, "color": "#007849", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#007849", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1.5, "stroke": true, "weight": 3}
+            ).addTo(map_13ff94fb36d4408c821496a7b782ad3a);
+        
+    
+        var popup_a03b52e93eed4fe18147b39e20741155 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_cda746da39964397872a899e70ff4711 = $(`<div id="html_cda746da39964397872a899e70ff4711" style="width: 100.0%; height: 100.0%;">City: San Jose<br>Tweet: me too my stomach going thru it</div>`)[0];
+            popup_a03b52e93eed4fe18147b39e20741155.setContent(html_cda746da39964397872a899e70ff4711);
+        
+
+        circle_marker_c44616a9be03488a812b2f86b57ad870.bindPopup(popup_a03b52e93eed4fe18147b39e20741155)
+        ;
+
+        
+    
+    
+            var circle_marker_e26e0ac3656348ff84bf6032b8c89ffd = L.circleMarker(
+                [34.05223, -118.24368],
+                {"bubblingMouseEvents": true, "color": "#007849", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#007849", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1.5, "stroke": true, "weight": 3}
+            ).addTo(map_13ff94fb36d4408c821496a7b782ad3a);
+        
+    
+        var popup_622317300e364c3a8c997d60c47d13c4 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_620d81991af14642b32f513a70948bbc = $(`<div id="html_620d81991af14642b32f513a70948bbc" style="width: 100.0%; height: 100.0%;">City: Los Angeles<br>Tweet: @cyrusmmcqueen @donholley0 @quirkykatie sick</div>`)[0];
+            popup_622317300e364c3a8c997d60c47d13c4.setContent(html_620d81991af14642b32f513a70948bbc);
+        
+
+        circle_marker_e26e0ac3656348ff84bf6032b8c89ffd.bindPopup(popup_622317300e364c3a8c997d60c47d13c4)
+        ;
+
+        
+    
+    
+            var circle_marker_014a325fd3774c9ea76c142a6ef9bece = L.circleMarker(
+                [29.76328, -95.36327],
+                {"bubblingMouseEvents": true, "color": "#007849", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#007849", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1.5, "stroke": true, "weight": 3}
+            ).addTo(map_13ff94fb36d4408c821496a7b782ad3a);
+        
+    
+        var popup_1a2063c44c34409197fb4653da8531a0 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_4697f06474c94c2092be64c96823eb3c = $(`<div id="html_4697f06474c94c2092be64c96823eb3c" style="width: 100.0%; height: 100.0%;">City: Houston<br>Tweet: im weak</div>`)[0];
+            popup_1a2063c44c34409197fb4653da8531a0.setContent(html_4697f06474c94c2092be64c96823eb3c);
+        
+
+        circle_marker_014a325fd3774c9ea76c142a6ef9bece.bindPopup(popup_1a2063c44c34409197fb4653da8531a0)
+        ;
+
+        
+    
+    
+            var circle_marker_cb16ae7045e1474cbb72ec469a0f3dad = L.circleMarker(
+                [34.05223, -118.24368],
+                {"bubblingMouseEvents": true, "color": "#007849", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#007849", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1.5, "stroke": true, "weight": 3}
+            ).addTo(map_13ff94fb36d4408c821496a7b782ad3a);
+        
+    
+        var popup_2d184bcb84074defa4364bba8080596b = L.popup({"maxWidth": "100%"});
+
+        
+            var html_f8613c8861f0407e98d0208416cdaa24 = $(`<div id="html_f8613c8861f0407e98d0208416cdaa24" style="width: 100.0%; height: 100.0%;">City: Los Angeles<br>Tweet: my twitter is fucking sick</div>`)[0];
+            popup_2d184bcb84074defa4364bba8080596b.setContent(html_f8613c8861f0407e98d0208416cdaa24);
+        
+
+        circle_marker_cb16ae7045e1474cbb72ec469a0f3dad.bindPopup(popup_2d184bcb84074defa4364bba8080596b)
+        ;
+
+        
+    
+    
+            var circle_marker_69dd069483f14f30b6f90e185c3674fd = L.circleMarker(
+                [29.95465, -90.07507],
+                {"bubblingMouseEvents": true, "color": "#007849", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#007849", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1.5, "stroke": true, "weight": 3}
+            ).addTo(map_13ff94fb36d4408c821496a7b782ad3a);
+        
+    
+        var popup_2826dd149ba8405ab374edd2fe5cf0db = L.popup({"maxWidth": "100%"});
+
+        
+            var html_bc1a994717ab482cba0cccce3d08bd0a = $(`<div id="html_bc1a994717ab482cba0cccce3d08bd0a" style="width: 100.0%; height: 100.0%;">City: New Orleans<br>Tweet: i’m so weak 😂😂😂</div>`)[0];
+            popup_2826dd149ba8405ab374edd2fe5cf0db.setContent(html_bc1a994717ab482cba0cccce3d08bd0a);
+        
+
+        circle_marker_69dd069483f14f30b6f90e185c3674fd.bindPopup(popup_2826dd149ba8405ab374edd2fe5cf0db)
+        ;
+
+        
+    
+    
+            var circle_marker_939c51d9a4c14143a9f55bc7fde56546 = L.circleMarker(
+                [29.95465, -90.07507],
+                {"bubblingMouseEvents": true, "color": "#007849", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#007849", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1.5, "stroke": true, "weight": 3}
+            ).addTo(map_13ff94fb36d4408c821496a7b782ad3a);
+        
+    
+        var popup_a27a5048d1ca44e58b401dc5c5c6421f = L.popup({"maxWidth": "100%"});
+
+        
+            var html_23d2f5e909eb4d89bd689b7938f5903d = $(`<div id="html_23d2f5e909eb4d89bd689b7938f5903d" style="width: 100.0%; height: 100.0%;">City: New Orleans<br>Tweet: twitter got me so weak</div>`)[0];
+            popup_a27a5048d1ca44e58b401dc5c5c6421f.setContent(html_23d2f5e909eb4d89bd689b7938f5903d);
+        
+
+        circle_marker_939c51d9a4c14143a9f55bc7fde56546.bindPopup(popup_a27a5048d1ca44e58b401dc5c5c6421f)
+        ;
+
+        
+    
+    
+            var circle_marker_95cef5c5006d43e39d1eb9bae2097c9c = L.circleMarker(
+                [29.95465, -90.07507],
+                {"bubblingMouseEvents": true, "color": "#007849", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#007849", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1.5, "stroke": true, "weight": 3}
+            ).addTo(map_13ff94fb36d4408c821496a7b782ad3a);
+        
+    
+        var popup_8c45c604fc654649ade2b89241513032 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_5bc969caabdf4918808a0c8cf27a2f27 = $(`<div id="html_5bc969caabdf4918808a0c8cf27a2f27" style="width: 100.0%; height: 100.0%;">City: New Orleans<br>Tweet: listen i been weak and still weak... i been wiping my eyes for an hour straight</div>`)[0];
+            popup_8c45c604fc654649ade2b89241513032.setContent(html_5bc969caabdf4918808a0c8cf27a2f27);
+        
+
+        circle_marker_95cef5c5006d43e39d1eb9bae2097c9c.bindPopup(popup_8c45c604fc654649ade2b89241513032)
+        ;
+
+        
+    
+    
+            var circle_marker_84209de78340484484453007e21f7967 = L.circleMarker(
+                [34.10834, -117.28977],
+                {"bubblingMouseEvents": true, "color": "#007849", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#007849", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1.5, "stroke": true, "weight": 3}
+            ).addTo(map_13ff94fb36d4408c821496a7b782ad3a);
+        
+    
+        var popup_60583cfec903432e9c96b9168545874c = L.popup({"maxWidth": "100%"});
+
+        
+            var html_045c7817d89c43529dcbb067b11851ed = $(`<div id="html_045c7817d89c43529dcbb067b11851ed" style="width: 100.0%; height: 100.0%;">City: San Bernardino<br>Tweet: cold ❄️❄️❄️❄️</div>`)[0];
+            popup_60583cfec903432e9c96b9168545874c.setContent(html_045c7817d89c43529dcbb067b11851ed);
+        
+
+        circle_marker_84209de78340484484453007e21f7967.bindPopup(popup_60583cfec903432e9c96b9168545874c)
+        ;
+
+        
+    
+    
+            var circle_marker_0d4c2e0ce5dd4b94ae3e2b0ecd0d62b5 = L.circleMarker(
+                [40.6501, -73.94958],
+                {"bubblingMouseEvents": true, "color": "#007849", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#007849", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1.5, "stroke": true, "weight": 3}
+            ).addTo(map_13ff94fb36d4408c821496a7b782ad3a);
+        
+    
+        var popup_dae5cd75cf4f4c328656c462961ed1be = L.popup({"maxWidth": "100%"});
+
+        
+            var html_41aaa90c127c44c3be156dd3dc8a5ae2 = $(`<div id="html_41aaa90c127c44c3be156dd3dc8a5ae2" style="width: 100.0%; height: 100.0%;">City: Brooklyn<br>Tweet: @jayxcarterr pretty sick</div>`)[0];
+            popup_dae5cd75cf4f4c328656c462961ed1be.setContent(html_41aaa90c127c44c3be156dd3dc8a5ae2);
+        
+
+        circle_marker_0d4c2e0ce5dd4b94ae3e2b0ecd0d62b5.bindPopup(popup_dae5cd75cf4f4c328656c462961ed1be)
+        ;
+
+        
+    
+    
+            var circle_marker_e7d3444af55742d3938bb2d7e9da489e = L.circleMarker(
+                [29.95465, -90.07507],
+                {"bubblingMouseEvents": true, "color": "#007849", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#007849", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1.5, "stroke": true, "weight": 3}
+            ).addTo(map_13ff94fb36d4408c821496a7b782ad3a);
+        
+    
+        var popup_feb935a1473f4d6ca68a785adb50fb81 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_f1acadfb748e456ba6452f78b8f704bc = $(`<div id="html_f1acadfb748e456ba6452f78b8f704bc" style="width: 100.0%; height: 100.0%;">City: New Orleans<br>Tweet: i’m weak 💀</div>`)[0];
+            popup_feb935a1473f4d6ca68a785adb50fb81.setContent(html_f1acadfb748e456ba6452f78b8f704bc);
+        
+
+        circle_marker_e7d3444af55742d3938bb2d7e9da489e.bindPopup(popup_feb935a1473f4d6ca68a785adb50fb81)
+        ;
+
+        
+    
+    
+            var circle_marker_89597d93c5ae4d72a6c912cf62592a7a = L.circleMarker(
+                [33.749, -84.38798],
+                {"bubblingMouseEvents": true, "color": "#007849", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#007849", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1.5, "stroke": true, "weight": 3}
+            ).addTo(map_13ff94fb36d4408c821496a7b782ad3a);
+        
+    
+        var popup_8a74c9521d044c9d81df072c5e42ea80 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_cb98fc52b1a24a0a81f3bae67ac3ca29 = $(`<div id="html_cb98fc52b1a24a0a81f3bae67ac3ca29" style="width: 100.0%; height: 100.0%;">City: Atlanta<br>Tweet: i just want my headache to go tf away</div>`)[0];
+            popup_8a74c9521d044c9d81df072c5e42ea80.setContent(html_cb98fc52b1a24a0a81f3bae67ac3ca29);
+        
+
+        circle_marker_89597d93c5ae4d72a6c912cf62592a7a.bindPopup(popup_8a74c9521d044c9d81df072c5e42ea80)
+        ;
+
+        
+    
+    
+            var circle_marker_5ecbf5cc30a648d98808b8c74ea12edd = L.circleMarker(
+                [34.05223, -118.24368],
+                {"bubblingMouseEvents": true, "color": "#007849", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#007849", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1.5, "stroke": true, "weight": 3}
+            ).addTo(map_13ff94fb36d4408c821496a7b782ad3a);
+        
+    
+        var popup_044e5ed916c44e0287d0f78e9ae1ec1d = L.popup({"maxWidth": "100%"});
+
+        
+            var html_437da93c1f7746a1aa99069e36530140 = $(`<div id="html_437da93c1f7746a1aa99069e36530140" style="width: 100.0%; height: 100.0%;">City: Los Angeles<br>Tweet: i’m tired but this cough isn’t letting me sleep 😭😴</div>`)[0];
+            popup_044e5ed916c44e0287d0f78e9ae1ec1d.setContent(html_437da93c1f7746a1aa99069e36530140);
+        
+
+        circle_marker_5ecbf5cc30a648d98808b8c74ea12edd.bindPopup(popup_044e5ed916c44e0287d0f78e9ae1ec1d)
+        ;
+
+        
+    
+    
+            var circle_marker_89a301dcbe404806bf568a73b4b7b890 = L.circleMarker(
+                [34.39166, -118.54259],
+                {"bubblingMouseEvents": true, "color": "#007849", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#007849", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1.5, "stroke": true, "weight": 3}
+            ).addTo(map_13ff94fb36d4408c821496a7b782ad3a);
+        
+    
+        var popup_aa640df2c7994d4b8901c7bb39d9035b = L.popup({"maxWidth": "100%"});
+
+        
+            var html_e1679ec7320441b4b677bccf203fcebd = $(`<div id="html_e1679ec7320441b4b677bccf203fcebd" style="width: 100.0%; height: 100.0%;">City: Santa Clarita<br>Tweet: this one hurting my stomach 😂😂😂😂😂😂😂</div>`)[0];
+            popup_aa640df2c7994d4b8901c7bb39d9035b.setContent(html_e1679ec7320441b4b677bccf203fcebd);
+        
+
+        circle_marker_89a301dcbe404806bf568a73b4b7b890.bindPopup(popup_aa640df2c7994d4b8901c7bb39d9035b)
+        ;
+
+        
+    
+    
+            var circle_marker_adee29f076574256981ffb985d5b0c83 = L.circleMarker(
+                [29.42412, -98.49363],
+                {"bubblingMouseEvents": true, "color": "#007849", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#007849", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1.5, "stroke": true, "weight": 3}
+            ).addTo(map_13ff94fb36d4408c821496a7b782ad3a);
+        
+    
+        var popup_4ebe9bd313f942248cd16012da0a0d76 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_ea160c1506d04d9dbe47f2d6647ca9eb = $(`<div id="html_ea160c1506d04d9dbe47f2d6647ca9eb" style="width: 100.0%; height: 100.0%;">City: San Antonio<br>Tweet: @nihilisims ill cry with u den</div>`)[0];
+            popup_4ebe9bd313f942248cd16012da0a0d76.setContent(html_ea160c1506d04d9dbe47f2d6647ca9eb);
+        
+
+        circle_marker_adee29f076574256981ffb985d5b0c83.bindPopup(popup_4ebe9bd313f942248cd16012da0a0d76)
+        ;
+
+        
+    
+    
+            var circle_marker_f3bbaa95f5184c8f846c9cd6c3c60617 = L.circleMarker(
+                [31.25044, -99.25061],
+                {"bubblingMouseEvents": true, "color": "#007849", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#007849", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1.5, "stroke": true, "weight": 3}
+            ).addTo(map_13ff94fb36d4408c821496a7b782ad3a);
+        
+    
+        var popup_b8dc3b7442f74dc48a67ba2b501adf4d = L.popup({"maxWidth": "100%"});
+
+        
+            var html_821360421b624fe8bf915f4ad60b1803 = $(`<div id="html_821360421b624fe8bf915f4ad60b1803" style="width: 100.0%; height: 100.0%;">City: Texas<br>Tweet: my chest is hurting because of all this coughing.</div>`)[0];
+            popup_b8dc3b7442f74dc48a67ba2b501adf4d.setContent(html_821360421b624fe8bf915f4ad60b1803);
+        
+
+        circle_marker_f3bbaa95f5184c8f846c9cd6c3c60617.bindPopup(popup_b8dc3b7442f74dc48a67ba2b501adf4d)
+        ;
+
+        
+    
+    
+            var circle_marker_6a12e9a0db714cf99b09b703fa1cbd63 = L.circleMarker(
+                [30.44332, -91.18747],
+                {"bubblingMouseEvents": true, "color": "#007849", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#007849", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1.5, "stroke": true, "weight": 3}
+            ).addTo(map_13ff94fb36d4408c821496a7b782ad3a);
+        
+    
+        var popup_d550d6ab69d244d899e996c4b9980fb0 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_25f3f533298349fa83ed63c5e216b6c3 = $(`<div id="html_25f3f533298349fa83ed63c5e216b6c3" style="width: 100.0%; height: 100.0%;">City: Baton Rouge<br>Tweet: im cold af</div>`)[0];
+            popup_d550d6ab69d244d899e996c4b9980fb0.setContent(html_25f3f533298349fa83ed63c5e216b6c3);
+        
+
+        circle_marker_6a12e9a0db714cf99b09b703fa1cbd63.bindPopup(popup_d550d6ab69d244d899e996c4b9980fb0)
+        ;
+
+        
+    
+    
+            var circle_marker_ebb8a167518c4a609f9edddd16df589d = L.circleMarker(
+                [43.10012, -79.06627],
+                {"bubblingMouseEvents": true, "color": "#007849", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#007849", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1.5, "stroke": true, "weight": 3}
+            ).addTo(map_13ff94fb36d4408c821496a7b782ad3a);
+        
+    
+        var popup_057884ad90194a2a95ab51d2c9631f21 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_41401df32dff4b15925ee4ec4a5f0998 = $(`<div id="html_41401df32dff4b15925ee4ec4a5f0998" style="width: 100.0%; height: 100.0%;">City: Niagara Falls<br>Tweet: really sick</div>`)[0];
+            popup_057884ad90194a2a95ab51d2c9631f21.setContent(html_41401df32dff4b15925ee4ec4a5f0998);
+        
+
+        circle_marker_ebb8a167518c4a609f9edddd16df589d.bindPopup(popup_057884ad90194a2a95ab51d2c9631f21)
+        ;
+
+        
+    
+    
+            var circle_marker_e06c82610df34efe9e2dc6502cf529f2 = L.circleMarker(
+                [36.17497, -115.13722],
+                {"bubblingMouseEvents": true, "color": "#007849", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#007849", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1.5, "stroke": true, "weight": 3}
+            ).addTo(map_13ff94fb36d4408c821496a7b782ad3a);
+        
+    
+        var popup_d83acc5df1854a478ace1066da7b0c09 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_dd7fee04505e4519bd859d37b166cf90 = $(`<div id="html_dd7fee04505e4519bd859d37b166cf90" style="width: 100.0%; height: 100.0%;">City: Las Vegas<br>Tweet: @phimmasaurus ill show u one sec</div>`)[0];
+            popup_d83acc5df1854a478ace1066da7b0c09.setContent(html_dd7fee04505e4519bd859d37b166cf90);
+        
+
+        circle_marker_e06c82610df34efe9e2dc6502cf529f2.bindPopup(popup_d83acc5df1854a478ace1066da7b0c09)
+        ;
+
+        
+    
+    
+            var circle_marker_fd0aaa2d14744e2aba819056d0a1f127 = L.circleMarker(
+                [10.27969, -61.46835],
+                {"bubblingMouseEvents": true, "color": "#007849", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#007849", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1.5, "stroke": true, "weight": 3}
+            ).addTo(map_13ff94fb36d4408c821496a7b782ad3a);
+        
+    
+        var popup_8ba66d45644a4679866df9fd9b87c822 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_c6c650beec1a4836b6fe08e968304912 = $(`<div id="html_c6c650beec1a4836b6fe08e968304912" style="width: 100.0%; height: 100.0%;">City: San Fernando<br>Tweet: it’s cold out hereee🥶🥶</div>`)[0];
+            popup_8ba66d45644a4679866df9fd9b87c822.setContent(html_c6c650beec1a4836b6fe08e968304912);
+        
+
+        circle_marker_fd0aaa2d14744e2aba819056d0a1f127.bindPopup(popup_8ba66d45644a4679866df9fd9b87c822)
+        ;
+
+        
+    
+    
+            var circle_marker_3b658420439c4bb18eca8dcb269caca8 = L.circleMarker(
+                [34.57943, -118.11646],
+                {"bubblingMouseEvents": true, "color": "#007849", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#007849", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1.5, "stroke": true, "weight": 3}
+            ).addTo(map_13ff94fb36d4408c821496a7b782ad3a);
+        
+    
+        var popup_345397f14a1742f69bc5844517bcd860 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_ffdd604a55944f679226f41331b89e9e = $(`<div id="html_ffdd604a55944f679226f41331b89e9e" style="width: 100.0%; height: 100.0%;">City: Palmdale<br>Tweet: i have the worst stomach pain happening rn now 😩</div>`)[0];
+            popup_345397f14a1742f69bc5844517bcd860.setContent(html_ffdd604a55944f679226f41331b89e9e);
+        
+
+        circle_marker_3b658420439c4bb18eca8dcb269caca8.bindPopup(popup_345397f14a1742f69bc5844517bcd860)
+        ;
+
+        
+    
+    
+            var circle_marker_fb4336b9818f47ffbc28942fb33c084e = L.circleMarker(
+                [37.08339, -76.46965],
+                {"bubblingMouseEvents": true, "color": "#007849", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#007849", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1.5, "stroke": true, "weight": 3}
+            ).addTo(map_13ff94fb36d4408c821496a7b782ad3a);
+        
+    
+        var popup_1943c7e0c15b4d7386cf2b2de5abe014 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_b9d47c10f8224e459db2ff7e17293262 = $(`<div id="html_b9d47c10f8224e459db2ff7e17293262" style="width: 100.0%; height: 100.0%;">City: Newport News<br>Tweet: stomach on e</div>`)[0];
+            popup_1943c7e0c15b4d7386cf2b2de5abe014.setContent(html_b9d47c10f8224e459db2ff7e17293262);
+        
+
+        circle_marker_fb4336b9818f47ffbc28942fb33c084e.bindPopup(popup_1943c7e0c15b4d7386cf2b2de5abe014)
+        ;
+
+        
+    
+    
+            var circle_marker_afbffc315954462a9a2c4f3578391c3a = L.circleMarker(
+                [34.74648, -92.28959],
+                {"bubblingMouseEvents": true, "color": "#007849", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#007849", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1.5, "stroke": true, "weight": 3}
+            ).addTo(map_13ff94fb36d4408c821496a7b782ad3a);
+        
+    
+        var popup_a46b11595c9b476b8c1308490f44b6ab = L.popup({"maxWidth": "100%"});
+
+        
+            var html_86c79c940118480c83a2f9e3c2fabac6 = $(`<div id="html_86c79c940118480c83a2f9e3c2fabac6" style="width: 100.0%; height: 100.0%;">City: Little Rock<br>Tweet: stomach on fire 🥴</div>`)[0];
+            popup_a46b11595c9b476b8c1308490f44b6ab.setContent(html_86c79c940118480c83a2f9e3c2fabac6);
+        
+
+        circle_marker_afbffc315954462a9a2c4f3578391c3a.bindPopup(popup_a46b11595c9b476b8c1308490f44b6ab)
+        ;
+
+        
+    
+    
+            var circle_marker_34aa484bf609486fbe5435b17881210e = L.circleMarker(
+                [29.95465, -90.07507],
+                {"bubblingMouseEvents": true, "color": "#007849", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#007849", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1.5, "stroke": true, "weight": 3}
+            ).addTo(map_13ff94fb36d4408c821496a7b782ad3a);
+        
+    
+        var popup_0a352c9507524822b402cd0f5c611cd1 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_8430264c2aa345f78db2c5eb2741fdc2 = $(`<div id="html_8430264c2aa345f78db2c5eb2741fdc2" style="width: 100.0%; height: 100.0%;">City: New Orleans<br>Tweet: i’m weak asf🤣</div>`)[0];
+            popup_0a352c9507524822b402cd0f5c611cd1.setContent(html_8430264c2aa345f78db2c5eb2741fdc2);
+        
+
+        circle_marker_34aa484bf609486fbe5435b17881210e.bindPopup(popup_0a352c9507524822b402cd0f5c611cd1)
+        ;
+
+        
+    
+    
+            var circle_marker_b1b9a8821147476b94abbbd8c3b245f3 = L.circleMarker(
+                [43.70011, -79.4163],
+                {"bubblingMouseEvents": true, "color": "#007849", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#007849", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1.5, "stroke": true, "weight": 3}
+            ).addTo(map_13ff94fb36d4408c821496a7b782ad3a);
+        
+    
+        var popup_c938efeb44d342e7a4c2a4227d868718 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_af3633564ad9471a9da9b4f1601f9f02 = $(`<div id="html_af3633564ad9471a9da9b4f1601f9f02" style="width: 100.0%; height: 100.0%;">City: Toronto<br>Tweet: this cold needs to go away. up for an hour coughing in the middle of the night #theplague #hownottotrainfordopey</div>`)[0];
+            popup_c938efeb44d342e7a4c2a4227d868718.setContent(html_af3633564ad9471a9da9b4f1601f9f02);
+        
+
+        circle_marker_b1b9a8821147476b94abbbd8c3b245f3.bindPopup(popup_c938efeb44d342e7a4c2a4227d868718)
+        ;
+
+        
+    
+    
+            var circle_marker_fa509d3efec944a6bc8548fd53879249 = L.circleMarker(
+                [18.38078, -65.95739],
+                {"bubblingMouseEvents": true, "color": "#007849", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#007849", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1.5, "stroke": true, "weight": 3}
+            ).addTo(map_13ff94fb36d4408c821496a7b782ad3a);
+        
+    
+        var popup_4b89e9e6acfe41c9ac280d64193478be = L.popup({"maxWidth": "100%"});
+
+        
+            var html_900bab035d2848629676143d89748649 = $(`<div id="html_900bab035d2848629676143d89748649" style="width: 100.0%; height: 100.0%;">City: Carolina<br>Tweet: flu is kicking my ass!</div>`)[0];
+            popup_4b89e9e6acfe41c9ac280d64193478be.setContent(html_900bab035d2848629676143d89748649);
+        
+
+        circle_marker_fa509d3efec944a6bc8548fd53879249.bindPopup(popup_4b89e9e6acfe41c9ac280d64193478be)
+        ;
+
+        
+    
+    
+            var circle_marker_8d87802f6c114b17bfa51d99bb985887 = L.circleMarker(
+                [33.76696, -118.18923],
+                {"bubblingMouseEvents": true, "color": "#007849", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#007849", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1.5, "stroke": true, "weight": 3}
+            ).addTo(map_13ff94fb36d4408c821496a7b782ad3a);
+        
+    
+        var popup_fc027810a4dc4b55b4c24a3230403e79 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_8fd217eb8345403a9bb48438ed389227 = $(`<div id="html_8fd217eb8345403a9bb48438ed389227" style="width: 100.0%; height: 100.0%;">City: Long Beach<br>Tweet: you’re weak, @realdonaldtrump https://t.co/dn6tzgc3ga</div>`)[0];
+            popup_fc027810a4dc4b55b4c24a3230403e79.setContent(html_8fd217eb8345403a9bb48438ed389227);
+        
+
+        circle_marker_8d87802f6c114b17bfa51d99bb985887.bindPopup(popup_fc027810a4dc4b55b4c24a3230403e79)
+        ;
+
+        
+    
+    
+            var circle_marker_5743100d372a4239a117918eae1e4b25 = L.circleMarker(
+                [41.66113, -91.53017],
+                {"bubblingMouseEvents": true, "color": "#007849", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#007849", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1.5, "stroke": true, "weight": 3}
+            ).addTo(map_13ff94fb36d4408c821496a7b782ad3a);
+        
+    
+        var popup_184deafaf212429187381bffae255dcc = L.popup({"maxWidth": "100%"});
+
+        
+            var html_86f3f4edd3494a98b01842374c558084 = $(`<div id="html_86f3f4edd3494a98b01842374c558084" style="width: 100.0%; height: 100.0%;">City: Iowa City<br>Tweet: went to bed with a headache .. woke up with a headache ... i am a headache</div>`)[0];
+            popup_184deafaf212429187381bffae255dcc.setContent(html_86f3f4edd3494a98b01842374c558084);
+        
+
+        circle_marker_5743100d372a4239a117918eae1e4b25.bindPopup(popup_184deafaf212429187381bffae255dcc)
+        ;
+
+        
+    
+    
+            var circle_marker_c72b68c07e024947a102245e982fe972 = L.circleMarker(
+                [30.44332, -91.18747],
+                {"bubblingMouseEvents": true, "color": "#007849", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#007849", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1.5, "stroke": true, "weight": 3}
+            ).addTo(map_13ff94fb36d4408c821496a7b782ad3a);
+        
+    
+        var popup_91b3362c4bce4d91bddbad28a603092a = L.popup({"maxWidth": "100%"});
+
+        
+            var html_1f9b2886f4f24fe08f411b6d1fdf7e66 = $(`<div id="html_1f9b2886f4f24fe08f411b6d1fdf7e66" style="width: 100.0%; height: 100.0%;">City: Baton Rouge<br>Tweet: it’s cold af in here 😕</div>`)[0];
+            popup_91b3362c4bce4d91bddbad28a603092a.setContent(html_1f9b2886f4f24fe08f411b6d1fdf7e66);
+        
+
+        circle_marker_c72b68c07e024947a102245e982fe972.bindPopup(popup_91b3362c4bce4d91bddbad28a603092a)
+        ;
+
+        
+    
+    
+            var circle_marker_0c888b72635940629b260c5fb8ba420a = L.circleMarker(
+                [22.14982, -100.97916],
+                {"bubblingMouseEvents": true, "color": "#007849", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#007849", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1.5, "stroke": true, "weight": 3}
+            ).addTo(map_13ff94fb36d4408c821496a7b782ad3a);
+        
+    
+        var popup_809a1db7919b49998425e81bdf25fd62 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_e17bff1e20af4ae0b317d988cd4233a2 = $(`<div id="html_e17bff1e20af4ae0b317d988cd4233a2" style="width: 100.0%; height: 100.0%;">City: San Luis<br>Tweet: @askjillian it’s hard , terrible disease. just lost my mom in september. we we’re having a nice conversation and th… https://t.co/af9wcx8nb9</div>`)[0];
+            popup_809a1db7919b49998425e81bdf25fd62.setContent(html_e17bff1e20af4ae0b317d988cd4233a2);
+        
+
+        circle_marker_0c888b72635940629b260c5fb8ba420a.bindPopup(popup_809a1db7919b49998425e81bdf25fd62)
+        ;
+
+        
+    
+    
+            var circle_marker_781917aca1a74a5f97dd30786345a46c = L.circleMarker(
+                [34.05223, -118.24368],
+                {"bubblingMouseEvents": true, "color": "#007849", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#007849", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1.5, "stroke": true, "weight": 3}
+            ).addTo(map_13ff94fb36d4408c821496a7b782ad3a);
+        
+    
+        var popup_a34f60633f084745b64f1d07518b5f3c = L.popup({"maxWidth": "100%"});
+
+        
+            var html_7ca13e20d64948ad9c0dd9998419ecd3 = $(`<div id="html_7ca13e20d64948ad9c0dd9998419ecd3" style="width: 100.0%; height: 100.0%;">City: Los Angeles<br>Tweet: i wish i wasn’t sick so i can actually breath and not feel like i’m swallowing glass whenever i cough</div>`)[0];
+            popup_a34f60633f084745b64f1d07518b5f3c.setContent(html_7ca13e20d64948ad9c0dd9998419ecd3);
+        
+
+        circle_marker_781917aca1a74a5f97dd30786345a46c.bindPopup(popup_a34f60633f084745b64f1d07518b5f3c)
+        ;
+
+        
+    
+    
+            var circle_marker_d751b762dcf5476dbae8c9174ce202a4 = L.circleMarker(
+                [29.95465, -90.07507],
+                {"bubblingMouseEvents": true, "color": "#007849", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#007849", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1.5, "stroke": true, "weight": 3}
+            ).addTo(map_13ff94fb36d4408c821496a7b782ad3a);
+        
+    
+        var popup_ffaa1367cabc43f5b80c14cc1e7871b3 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_c1f1585c7ba749f2a532986f1510b247 = $(`<div id="html_c1f1585c7ba749f2a532986f1510b247" style="width: 100.0%; height: 100.0%;">City: New Orleans<br>Tweet: man im fucking weak 😂😂😂😂😂😂😂😂😂😂😂</div>`)[0];
+            popup_ffaa1367cabc43f5b80c14cc1e7871b3.setContent(html_c1f1585c7ba749f2a532986f1510b247);
+        
+
+        circle_marker_d751b762dcf5476dbae8c9174ce202a4.bindPopup(popup_ffaa1367cabc43f5b80c14cc1e7871b3)
+        ;
+
+        
+    
+    
+            var circle_marker_5a5cbe01394f4c5db503750566c7a822 = L.circleMarker(
+                [34.05223, -118.24368],
+                {"bubblingMouseEvents": true, "color": "#007849", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#007849", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1.5, "stroke": true, "weight": 3}
+            ).addTo(map_13ff94fb36d4408c821496a7b782ad3a);
+        
+    
+        var popup_8b1cf205b9f14416b219fff4b27d6b89 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_535f8fae82f64b5ea8ceb0e693db6d18 = $(`<div id="html_535f8fae82f64b5ea8ceb0e693db6d18" style="width: 100.0%; height: 100.0%;">City: Los Angeles<br>Tweet: i literally been sitting on my bed laughing for 20min straight. my stomach hurts😭😭</div>`)[0];
+            popup_8b1cf205b9f14416b219fff4b27d6b89.setContent(html_535f8fae82f64b5ea8ceb0e693db6d18);
+        
+
+        circle_marker_5a5cbe01394f4c5db503750566c7a822.bindPopup(popup_8b1cf205b9f14416b219fff4b27d6b89)
+        ;
+
+        
+    
+    
+            var circle_marker_619d4ceb180446269b1c202d59ffa871 = L.circleMarker(
+                [32.64005, -117.0842],
+                {"bubblingMouseEvents": true, "color": "#007849", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#007849", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1.5, "stroke": true, "weight": 3}
+            ).addTo(map_13ff94fb36d4408c821496a7b782ad3a);
+        
+    
+        var popup_69afcaeeff934a199ecf84a5e670b27e = L.popup({"maxWidth": "100%"});
+
+        
+            var html_576b6491847b4e4a993755e2a6d7978c = $(`<div id="html_576b6491847b4e4a993755e2a6d7978c" style="width: 100.0%; height: 100.0%;">City: Chula Vista<br>Tweet: my anxiety and depression finally did something for me. im too mentally ill to be drafted sksksksk. ill be in thera… https://t.co/k7rp5jsulf</div>`)[0];
+            popup_69afcaeeff934a199ecf84a5e670b27e.setContent(html_576b6491847b4e4a993755e2a6d7978c);
+        
+
+        circle_marker_619d4ceb180446269b1c202d59ffa871.bindPopup(popup_69afcaeeff934a199ecf84a5e670b27e)
+        ;
+
+        
+    
+    
+            var circle_marker_9ec9b558a16c41659ba6377dbe3b3956 = L.circleMarker(
+                [41.35565, -72.09952],
+                {"bubblingMouseEvents": true, "color": "#007849", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#007849", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1.5, "stroke": true, "weight": 3}
+            ).addTo(map_13ff94fb36d4408c821496a7b782ad3a);
+        
+    
+        var popup_ac334fdc6cc14b12be9d0df63a88c84c = L.popup({"maxWidth": "100%"});
+
+        
+            var html_1167088c887b4c60ba8031329f782a4f = $(`<div id="html_1167088c887b4c60ba8031329f782a4f" style="width: 100.0%; height: 100.0%;">City: New London<br>Tweet: @deannamccarvell shit got me weak lmao</div>`)[0];
+            popup_ac334fdc6cc14b12be9d0df63a88c84c.setContent(html_1167088c887b4c60ba8031329f782a4f);
+        
+
+        circle_marker_9ec9b558a16c41659ba6377dbe3b3956.bindPopup(popup_ac334fdc6cc14b12be9d0df63a88c84c)
+        ;
+
+        
+    
+    
+            var circle_marker_b85ba159225f4f0b8ccf7fa7d3dfd0a3 = L.circleMarker(
+                [50.08804, 14.42076],
+                {"bubblingMouseEvents": true, "color": "#007849", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#007849", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1.5, "stroke": true, "weight": 3}
+            ).addTo(map_13ff94fb36d4408c821496a7b782ad3a);
+        
+    
+        var popup_73ca1ea860ef4428837819a1e9597240 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_5fbf7a245dbb4f4da7da3a375b2ae821 = $(`<div id="html_5fbf7a245dbb4f4da7da3a375b2ae821" style="width: 100.0%; height: 100.0%;">City: Union City<br>Tweet: poor pops, it was his birthday yesterday and he’s been sick with a stomach virus for two days, i can hear him getting sick :/</div>`)[0];
+            popup_73ca1ea860ef4428837819a1e9597240.setContent(html_5fbf7a245dbb4f4da7da3a375b2ae821);
+        
+
+        circle_marker_b85ba159225f4f0b8ccf7fa7d3dfd0a3.bindPopup(popup_73ca1ea860ef4428837819a1e9597240)
+        ;
+
+        
+    
+    
+            var circle_marker_b283470791854e22bbc1017f38dd3f5b = L.circleMarker(
+                [28.75054, -82.5001],
+                {"bubblingMouseEvents": true, "color": "#007849", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#007849", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1.5, "stroke": true, "weight": 3}
+            ).addTo(map_13ff94fb36d4408c821496a7b782ad3a);
+        
+    
+        var popup_596b2406126745438bae343ea7e1718f = L.popup({"maxWidth": "100%"});
+
+        
+            var html_f37c0f684be049a099b48b394cc2c979 = $(`<div id="html_f37c0f684be049a099b48b394cc2c979" style="width: 100.0%; height: 100.0%;">City: Florida<br>Tweet: 💀💀💀💀 my stomach</div>`)[0];
+            popup_596b2406126745438bae343ea7e1718f.setContent(html_f37c0f684be049a099b48b394cc2c979);
+        
+
+        circle_marker_b283470791854e22bbc1017f38dd3f5b.bindPopup(popup_596b2406126745438bae343ea7e1718f)
+        ;
+
+        
+    
+    
+            var circle_marker_13905a922e4740f7bcedf5fb807519ab = L.circleMarker(
+                [41.85003, -87.65005],
+                {"bubblingMouseEvents": true, "color": "#007849", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#007849", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1.5, "stroke": true, "weight": 3}
+            ).addTo(map_13ff94fb36d4408c821496a7b782ad3a);
+        
+    
+        var popup_cae76b57b96c43558286d8b1d855ee06 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_2a245f7215954c418bbd91608f07ff33 = $(`<div id="html_2a245f7215954c418bbd91608f07ff33" style="width: 100.0%; height: 100.0%;">City: Chicago<br>Tweet: all of my games are ill gotten.</div>`)[0];
+            popup_cae76b57b96c43558286d8b1d855ee06.setContent(html_2a245f7215954c418bbd91608f07ff33);
+        
+
+        circle_marker_13905a922e4740f7bcedf5fb807519ab.bindPopup(popup_cae76b57b96c43558286d8b1d855ee06)
+        ;
+
+        
+    
+    
+            var circle_marker_a28f86ddf2da4d0a8a0c58d7a4b63723 = L.circleMarker(
+                [40.76078, -111.89105],
+                {"bubblingMouseEvents": true, "color": "#007849", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#007849", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1.5, "stroke": true, "weight": 3}
+            ).addTo(map_13ff94fb36d4408c821496a7b782ad3a);
+        
+    
+        var popup_faf923053cb7499396542460c6ceecb7 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_50aaf725339f49738411893e75bee1b6 = $(`<div id="html_50aaf725339f49738411893e75bee1b6" style="width: 100.0%; height: 100.0%;">City: Salt Lake<br>Tweet: @repchrisstewart you're a sick man.</div>`)[0];
+            popup_faf923053cb7499396542460c6ceecb7.setContent(html_50aaf725339f49738411893e75bee1b6);
+        
+
+        circle_marker_a28f86ddf2da4d0a8a0c58d7a4b63723.bindPopup(popup_faf923053cb7499396542460c6ceecb7)
+        ;
+
+        
+    
+    
+            var circle_marker_f614d7b9a9764f979f07a3aeae7408da = L.circleMarker(
+                [40.71427, -74.00597],
+                {"bubblingMouseEvents": true, "color": "#007849", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#007849", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1.5, "stroke": true, "weight": 3}
+            ).addTo(map_13ff94fb36d4408c821496a7b782ad3a);
+        
+    
+        var popup_eca7870d1f004b83911a7a3e24ec5aef = L.popup({"maxWidth": "100%"});
+
+        
+            var html_7e8c85920624414da293bf4cce9970f4 = $(`<div id="html_7e8c85920624414da293bf4cce9970f4" style="width: 100.0%; height: 100.0%;">City: New York<br>Tweet: i’m hungry and cold</div>`)[0];
+            popup_eca7870d1f004b83911a7a3e24ec5aef.setContent(html_7e8c85920624414da293bf4cce9970f4);
+        
+
+        circle_marker_f614d7b9a9764f979f07a3aeae7408da.bindPopup(popup_eca7870d1f004b83911a7a3e24ec5aef)
+        ;
+
+        
+    
+    
+            var circle_marker_5e52c92ac2254c84b3beb2bb1042e184 = L.circleMarker(
+                [38.83388, -104.82136],
+                {"bubblingMouseEvents": true, "color": "#007849", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#007849", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1.5, "stroke": true, "weight": 3}
+            ).addTo(map_13ff94fb36d4408c821496a7b782ad3a);
+        
+    
+        var popup_28eb2581e065407683df635419bf89bc = L.popup({"maxWidth": "100%"});
+
+        
+            var html_d7eb65b265ad4a7787d5be2513f33783 = $(`<div id="html_d7eb65b265ad4a7787d5be2513f33783" style="width: 100.0%; height: 100.0%;">City: Colorado<br>Tweet: @hawleymo weak dude.</div>`)[0];
+            popup_28eb2581e065407683df635419bf89bc.setContent(html_d7eb65b265ad4a7787d5be2513f33783);
+        
+
+        circle_marker_5e52c92ac2254c84b3beb2bb1042e184.bindPopup(popup_28eb2581e065407683df635419bf89bc)
+        ;
+
+        
+    
+    
+            var circle_marker_49afa163fe524a92aebc1df1c4c6a0d9 = L.circleMarker(
+                [38.83388, -104.82136],
+                {"bubblingMouseEvents": true, "color": "#007849", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#007849", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1.5, "stroke": true, "weight": 3}
+            ).addTo(map_13ff94fb36d4408c821496a7b782ad3a);
+        
+    
+        var popup_573b63ae6d494408902c0daab5b24d50 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_6544fb69f32844ea825115eb8a7c01d4 = $(`<div id="html_6544fb69f32844ea825115eb8a7c01d4" style="width: 100.0%; height: 100.0%;">City: Colorado<br>Tweet: @ryanafournier weak.</div>`)[0];
+            popup_573b63ae6d494408902c0daab5b24d50.setContent(html_6544fb69f32844ea825115eb8a7c01d4);
+        
+
+        circle_marker_49afa163fe524a92aebc1df1c4c6a0d9.bindPopup(popup_573b63ae6d494408902c0daab5b24d50)
+        ;
+
+        
+    
+    
+            var circle_marker_d3ffe3e3a9644625ba3418ec7543520f = L.circleMarker(
+                [29.42412, -98.49363],
+                {"bubblingMouseEvents": true, "color": "#007849", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#007849", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1.5, "stroke": true, "weight": 3}
+            ).addTo(map_13ff94fb36d4408c821496a7b782ad3a);
+        
+    
+        var popup_e28ff5ecbc3340499e70cd2d45fa5839 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_4ff10d89da5044ddba390b3b03df0a25 = $(`<div id="html_4ff10d89da5044ddba390b3b03df0a25" style="width: 100.0%; height: 100.0%;">City: San Antonio<br>Tweet: @bankroll_dada i’m weak 😂😂😂</div>`)[0];
+            popup_e28ff5ecbc3340499e70cd2d45fa5839.setContent(html_4ff10d89da5044ddba390b3b03df0a25);
+        
+
+        circle_marker_d3ffe3e3a9644625ba3418ec7543520f.bindPopup(popup_e28ff5ecbc3340499e70cd2d45fa5839)
+        ;
+
+        
+    
+    
+            var circle_marker_f879d4d501054af6b6e170717f94edf3 = L.circleMarker(
+                [39.29038, -76.61219],
+                {"bubblingMouseEvents": true, "color": "#007849", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#007849", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1.5, "stroke": true, "weight": 3}
+            ).addTo(map_13ff94fb36d4408c821496a7b782ad3a);
+        
+    
+        var popup_0fb5b41ac3fd46d68d4ffe910b262c93 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_982a1447a0ed4c3e96fd147f355d9359 = $(`<div id="html_982a1447a0ed4c3e96fd147f355d9359" style="width: 100.0%; height: 100.0%;">City: Baltimore<br>Tweet: i’ve been fighting the flu since new years!
+ i’m winning but still feel like shit!
+ 
+ 😫😫😫🥺🥺🥺</div>`)[0];
+            popup_0fb5b41ac3fd46d68d4ffe910b262c93.setContent(html_982a1447a0ed4c3e96fd147f355d9359);
+        
+
+        circle_marker_f879d4d501054af6b6e170717f94edf3.bindPopup(popup_0fb5b41ac3fd46d68d4ffe910b262c93)
+        ;
+
+        
+    
+    
+            var circle_marker_073330530ead45ce95ffd3e16f084019 = L.circleMarker(
+                [43.70011, -79.4163],
+                {"bubblingMouseEvents": true, "color": "#007849", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#007849", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1.5, "stroke": true, "weight": 3}
+            ).addTo(map_13ff94fb36d4408c821496a7b782ad3a);
+        
+    
+        var popup_fc82180c5cac4269a3b0e1e42b0b41a4 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_fa6dbb38d16f4aa3ac1937c5f2ea4d05 = $(`<div id="html_fa6dbb38d16f4aa3ac1937c5f2ea4d05" style="width: 100.0%; height: 100.0%;">City: Toronto<br>Tweet: only beef: it was too short, but the flu, i get it</div>`)[0];
+            popup_fc82180c5cac4269a3b0e1e42b0b41a4.setContent(html_fa6dbb38d16f4aa3ac1937c5f2ea4d05);
+        
+
+        circle_marker_073330530ead45ce95ffd3e16f084019.bindPopup(popup_fc82180c5cac4269a3b0e1e42b0b41a4)
+        ;
+
+        
+    
+    
+            var circle_marker_6db977879cf74fe195c420df3a0bed2d = L.circleMarker(
+                [34.05223, -118.24368],
+                {"bubblingMouseEvents": true, "color": "#007849", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#007849", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1.5, "stroke": true, "weight": 3}
+            ).addTo(map_13ff94fb36d4408c821496a7b782ad3a);
+        
+    
+        var popup_569f20dc7bb34c57bf9a2f5a526798e0 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_342f0c9277884a4795af990d37c9c6f3 = $(`<div id="html_342f0c9277884a4795af990d37c9c6f3" style="width: 100.0%; height: 100.0%;">City: Los Angeles<br>Tweet: man where are these people. ill start selling weed again.</div>`)[0];
+            popup_569f20dc7bb34c57bf9a2f5a526798e0.setContent(html_342f0c9277884a4795af990d37c9c6f3);
+        
+
+        circle_marker_6db977879cf74fe195c420df3a0bed2d.bindPopup(popup_569f20dc7bb34c57bf9a2f5a526798e0)
+        ;
+
+        
+    
+    
+            var circle_marker_a8246d7661714e94aa8f3ad0cc11c9fd = L.circleMarker(
+                [36.17497, -115.13722],
+                {"bubblingMouseEvents": true, "color": "#007849", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#007849", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1.5, "stroke": true, "weight": 3}
+            ).addTo(map_13ff94fb36d4408c821496a7b782ad3a);
+        
+    
+        var popup_279260d7f56645e49e9a4d86da7f39fb = L.popup({"maxWidth": "100%"});
+
+        
+            var html_bce3e40d1c2f4d49b81d94a5feb9e5c4 = $(`<div id="html_bce3e40d1c2f4d49b81d94a5feb9e5c4" style="width: 100.0%; height: 100.0%;">City: Las Vegas<br>Tweet: @formerlybad lmaoooo i’m so weak.</div>`)[0];
+            popup_279260d7f56645e49e9a4d86da7f39fb.setContent(html_bce3e40d1c2f4d49b81d94a5feb9e5c4);
+        
+
+        circle_marker_a8246d7661714e94aa8f3ad0cc11c9fd.bindPopup(popup_279260d7f56645e49e9a4d86da7f39fb)
+        ;
+
+        
+    
+    
+            var circle_marker_42a498c4cec34e93be69b3cd52254932 = L.circleMarker(
+                [36.85293, -75.97799],
+                {"bubblingMouseEvents": true, "color": "#007849", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#007849", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1.5, "stroke": true, "weight": 3}
+            ).addTo(map_13ff94fb36d4408c821496a7b782ad3a);
+        
+    
+        var popup_1fd9dace580a4984ba67a3852393de02 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_0b0b3ddbfe2646cba683731de6976485 = $(`<div id="html_0b0b3ddbfe2646cba683731de6976485" style="width: 100.0%; height: 100.0%;">City: Virginia Beach<br>Tweet: yall are sick! 😂</div>`)[0];
+            popup_1fd9dace580a4984ba67a3852393de02.setContent(html_0b0b3ddbfe2646cba683731de6976485);
+        
+
+        circle_marker_42a498c4cec34e93be69b3cd52254932.bindPopup(popup_1fd9dace580a4984ba67a3852393de02)
+        ;
+
+        
+    
+    
+            var circle_marker_1929cc985e254cd0b46cce30029a414d = L.circleMarker(
+                [34.05223, -118.24368],
+                {"bubblingMouseEvents": true, "color": "#007849", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#007849", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1.5, "stroke": true, "weight": 3}
+            ).addTo(map_13ff94fb36d4408c821496a7b782ad3a);
+        
+    
+        var popup_c145d3548e7e40eea4f01999046c7bda = L.popup({"maxWidth": "100%"});
+
+        
+            var html_2c65731ee9d642f39b0653d5f879aa09 = $(`<div id="html_2c65731ee9d642f39b0653d5f879aa09" style="width: 100.0%; height: 100.0%;">City: Los Angeles<br>Tweet: @actionbronson that’s weak as fuck</div>`)[0];
+            popup_c145d3548e7e40eea4f01999046c7bda.setContent(html_2c65731ee9d642f39b0653d5f879aa09);
+        
+
+        circle_marker_1929cc985e254cd0b46cce30029a414d.bindPopup(popup_c145d3548e7e40eea4f01999046c7bda)
+        ;
+
+        
+    
+    
+            var circle_marker_7b9c4cfa5dd1467c87ce5ab3063760cd = L.circleMarker(
+                [36.11708, -115.33001],
+                {"bubblingMouseEvents": true, "color": "#007849", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#007849", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1.5, "stroke": true, "weight": 3}
+            ).addTo(map_13ff94fb36d4408c821496a7b782ad3a);
+        
+    
+        var popup_6f4bff52a7874cc98e79462197275a0e = L.popup({"maxWidth": "100%"});
+
+        
+            var html_3cc53bfff2e64950a8c4a99a745162ec = $(`<div id="html_3cc53bfff2e64950a8c4a99a745162ec" style="width: 100.0%; height: 100.0%;">City: Summerlin South<br>Tweet: weak asf 😂😂💀💀💀💀</div>`)[0];
+            popup_6f4bff52a7874cc98e79462197275a0e.setContent(html_3cc53bfff2e64950a8c4a99a745162ec);
+        
+
+        circle_marker_7b9c4cfa5dd1467c87ce5ab3063760cd.bindPopup(popup_6f4bff52a7874cc98e79462197275a0e)
+        ;
+
+        
+    
+    
+            var circle_marker_67645c17bd214280919d717b463882a2 = L.circleMarker(
+                [13.99417, -89.55972],
+                {"bubblingMouseEvents": true, "color": "#007849", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#007849", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1.5, "stroke": true, "weight": 3}
+            ).addTo(map_13ff94fb36d4408c821496a7b782ad3a);
+        
+    
+        var popup_6b5658d9bab04155ad51b06da29e32d1 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_437e69a27cd7469685a4e7a9227f8dc2 = $(`<div id="html_437e69a27cd7469685a4e7a9227f8dc2" style="width: 100.0%; height: 100.0%;">City: Santa Ana<br>Tweet: hate feeling sick 😷</div>`)[0];
+            popup_6b5658d9bab04155ad51b06da29e32d1.setContent(html_437e69a27cd7469685a4e7a9227f8dc2);
+        
+
+        circle_marker_67645c17bd214280919d717b463882a2.bindPopup(popup_6b5658d9bab04155ad51b06da29e32d1)
+        ;
+
+        
+    
+    
+            var circle_marker_c9fb68dcee18435aa5bbc5e445abd9b0 = L.circleMarker(
+                [9.93333, -84.08333],
+                {"bubblingMouseEvents": true, "color": "#007849", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#007849", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1.5, "stroke": true, "weight": 3}
+            ).addTo(map_13ff94fb36d4408c821496a7b782ad3a);
+        
+    
+        var popup_5c957f2a39e44e0b87520d08a2945864 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_1f17cfe789a24504a946c533ddd42fad = $(`<div id="html_1f17cfe789a24504a946c533ddd42fad" style="width: 100.0%; height: 100.0%;">City: San Jose<br>Tweet: @realdonaldtrump, weak you say..</div>`)[0];
+            popup_5c957f2a39e44e0b87520d08a2945864.setContent(html_1f17cfe789a24504a946c533ddd42fad);
+        
+
+        circle_marker_c9fb68dcee18435aa5bbc5e445abd9b0.bindPopup(popup_5c957f2a39e44e0b87520d08a2945864)
+        ;
+
+        
+    
+    
+            var circle_marker_e1b3fd075e4f496686cccf8be0c54cbf = L.circleMarker(
+                [34.18667, -118.44897],
+                {"bubblingMouseEvents": true, "color": "#007849", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#007849", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1.5, "stroke": true, "weight": 3}
+            ).addTo(map_13ff94fb36d4408c821496a7b782ad3a);
+        
+    
+        var popup_dd18c5bf5c5a41d0ab242b0aef3508c7 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_af78cc845ac9466281b399940a775b04 = $(`<div id="html_af78cc845ac9466281b399940a775b04" style="width: 100.0%; height: 100.0%;">City: Van Nuys<br>Tweet: why did i even bother to reach out. this cold is cold enough</div>`)[0];
+            popup_dd18c5bf5c5a41d0ab242b0aef3508c7.setContent(html_af78cc845ac9466281b399940a775b04);
+        
+
+        circle_marker_e1b3fd075e4f496686cccf8be0c54cbf.bindPopup(popup_dd18c5bf5c5a41d0ab242b0aef3508c7)
+        ;
+
+        
+    
+    
+            var circle_marker_bbb6ad8c833441a299dfb91d9352f99a = L.circleMarker(
+                [36.09719, -115.14666],
+                {"bubblingMouseEvents": true, "color": "#007849", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#007849", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1.5, "stroke": true, "weight": 3}
+            ).addTo(map_13ff94fb36d4408c821496a7b782ad3a);
+        
+    
+        var popup_8493bd9c9b8946b8878c113ef5fd1f92 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_8e99facf68cf4af7a8cff2221ec7d94d = $(`<div id="html_8e99facf68cf4af7a8cff2221ec7d94d" style="width: 100.0%; height: 100.0%;">City: Paradise<br>Tweet: 4th day of being really sick and i’m over it 🥺</div>`)[0];
+            popup_8493bd9c9b8946b8878c113ef5fd1f92.setContent(html_8e99facf68cf4af7a8cff2221ec7d94d);
+        
+
+        circle_marker_bbb6ad8c833441a299dfb91d9352f99a.bindPopup(popup_8493bd9c9b8946b8878c113ef5fd1f92)
+        ;
+
+        
+    
+    
+            var circle_marker_41f2689e42b14dbab7c7425f5b4eb3b5 = L.circleMarker(
+                [38.89511, -77.03637],
+                {"bubblingMouseEvents": true, "color": "#007849", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#007849", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1.5, "stroke": true, "weight": 3}
+            ).addTo(map_13ff94fb36d4408c821496a7b782ad3a);
+        
+    
+        var popup_e125df068f8549cdabe392782b5d754b = L.popup({"maxWidth": "100%"});
+
+        
+            var html_e241d1fda62945dd8141f92f8cf5d418 = $(`<div id="html_e241d1fda62945dd8141f92f8cf5d418" style="width: 100.0%; height: 100.0%;">City: Washington<br>Tweet: 🤣🤣🤣🤣 im weak</div>`)[0];
+            popup_e125df068f8549cdabe392782b5d754b.setContent(html_e241d1fda62945dd8141f92f8cf5d418);
+        
+
+        circle_marker_41f2689e42b14dbab7c7425f5b4eb3b5.bindPopup(popup_e125df068f8549cdabe392782b5d754b)
+        ;
+
+        
+    
+    
+            var circle_marker_0dfd2f347e084a8fa188e42b437070e1 = L.circleMarker(
+                [42.00833, -91.64407],
+                {"bubblingMouseEvents": true, "color": "#007849", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#007849", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1.5, "stroke": true, "weight": 3}
+            ).addTo(map_13ff94fb36d4408c821496a7b782ad3a);
+        
+    
+        var popup_43d6764628964cc6825b21bcd4fec69b = L.popup({"maxWidth": "100%"});
+
+        
+            var html_8e97c954ed19496d8252847bc1a54d9b = $(`<div id="html_8e97c954ed19496d8252847bc1a54d9b" style="width: 100.0%; height: 100.0%;">City: Cedar Rapids<br>Tweet: so cold</div>`)[0];
+            popup_43d6764628964cc6825b21bcd4fec69b.setContent(html_8e97c954ed19496d8252847bc1a54d9b);
+        
+
+        circle_marker_0dfd2f347e084a8fa188e42b437070e1.bindPopup(popup_43d6764628964cc6825b21bcd4fec69b)
+        ;
+
+        
+    
+    
+            var circle_marker_ab7ecfcd47354f5f83322a0adc614600 = L.circleMarker(
+                [39.00039, -76.74997],
+                {"bubblingMouseEvents": true, "color": "#007849", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#007849", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1.5, "stroke": true, "weight": 3}
+            ).addTo(map_13ff94fb36d4408c821496a7b782ad3a);
+        
+    
+        var popup_60fa1b84ae0f49e6a6201ff1d13ba29c = L.popup({"maxWidth": "100%"});
+
+        
+            var html_3fd591ca20844ac1bbee6f4505014a8e = $(`<div id="html_3fd591ca20844ac1bbee6f4505014a8e" style="width: 100.0%; height: 100.0%;">City: Maryland<br>Tweet: i better not be getting sick</div>`)[0];
+            popup_60fa1b84ae0f49e6a6201ff1d13ba29c.setContent(html_3fd591ca20844ac1bbee6f4505014a8e);
+        
+
+        circle_marker_ab7ecfcd47354f5f83322a0adc614600.bindPopup(popup_60fa1b84ae0f49e6a6201ff1d13ba29c)
+        ;
+
+        
+    
+    
+            var circle_marker_2d2cf44aa24d489a8f29113eca7dde84 = L.circleMarker(
+                [34.05223, -118.24368],
+                {"bubblingMouseEvents": true, "color": "#007849", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#007849", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1.5, "stroke": true, "weight": 3}
+            ).addTo(map_13ff94fb36d4408c821496a7b782ad3a);
+        
+    
+        var popup_fede32eca3794a19b003676a25d58e87 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_c8d18d1178094319b92995712f7f55a6 = $(`<div id="html_c8d18d1178094319b92995712f7f55a6" style="width: 100.0%; height: 100.0%;">City: Los Angeles<br>Tweet: @thedubblevee 9 of 12 ppl in my immediate area are sick with the flu and they're all baffled as to how they all got… https://t.co/bd7bfayahw</div>`)[0];
+            popup_fede32eca3794a19b003676a25d58e87.setContent(html_c8d18d1178094319b92995712f7f55a6);
+        
+
+        circle_marker_2d2cf44aa24d489a8f29113eca7dde84.bindPopup(popup_fede32eca3794a19b003676a25d58e87)
+        ;
+
+        
+    
+    
+            var circle_marker_b16f4c0df3614c5bb03e10ea6e1afd27 = L.circleMarker(
+                [50.08804, 14.42076],
+                {"bubblingMouseEvents": true, "color": "#007849", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#007849", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1.5, "stroke": true, "weight": 3}
+            ).addTo(map_13ff94fb36d4408c821496a7b782ad3a);
+        
+    
+        var popup_6d77247abf09458ba75b5663a5f18a70 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_befd827d9a874ffd8c2f0b4bf1d10244 = $(`<div id="html_befd827d9a874ffd8c2f0b4bf1d10244" style="width: 100.0%; height: 100.0%;">City: Union City<br>Tweet: lmfaooo im weak</div>`)[0];
+            popup_6d77247abf09458ba75b5663a5f18a70.setContent(html_befd827d9a874ffd8c2f0b4bf1d10244);
+        
+
+        circle_marker_b16f4c0df3614c5bb03e10ea6e1afd27.bindPopup(popup_6d77247abf09458ba75b5663a5f18a70)
+        ;
+
+        
+    
+    
+            var circle_marker_62ed0c2a4666450cafae0895b26e6820 = L.circleMarker(
+                [35.46756, -97.51643],
+                {"bubblingMouseEvents": true, "color": "#007849", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#007849", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1.5, "stroke": true, "weight": 3}
+            ).addTo(map_13ff94fb36d4408c821496a7b782ad3a);
+        
+    
+        var popup_95f83d1086614e67b9e3edbc28987582 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_5ee3f56f67404f09ae423af0f9f8384f = $(`<div id="html_5ee3f56f67404f09ae423af0f9f8384f" style="width: 100.0%; height: 100.0%;">City: Oklahoma City<br>Tweet: i have the most horrible headache ever and i need it to leave</div>`)[0];
+            popup_95f83d1086614e67b9e3edbc28987582.setContent(html_5ee3f56f67404f09ae423af0f9f8384f);
+        
+
+        circle_marker_62ed0c2a4666450cafae0895b26e6820.bindPopup(popup_95f83d1086614e67b9e3edbc28987582)
+        ;
+
+        
+    
+    
+            var circle_marker_2d10973778ef41479a54c918a36dcf0a = L.circleMarker(
+                [30.29469, -81.39314],
+                {"bubblingMouseEvents": true, "color": "#007849", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#007849", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1.5, "stroke": true, "weight": 3}
+            ).addTo(map_13ff94fb36d4408c821496a7b782ad3a);
+        
+    
+        var popup_235b0d128a5f4313b5eb43fee58ef503 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_15be79718f5b4fcebefd54ef2c8b77df = $(`<div id="html_15be79718f5b4fcebefd54ef2c8b77df" style="width: 100.0%; height: 100.0%;">City: Jacksonville Beach<br>Tweet: @hannahdrake628 i'm so sick of saying "i told you so..." https://t.co/bcymgkrjff</div>`)[0];
+            popup_235b0d128a5f4313b5eb43fee58ef503.setContent(html_15be79718f5b4fcebefd54ef2c8b77df);
+        
+
+        circle_marker_2d10973778ef41479a54c918a36dcf0a.bindPopup(popup_235b0d128a5f4313b5eb43fee58ef503)
+        ;
+
+        
+    
+    
+            var circle_marker_36b82e59f64e4a39b08adcc12f40d95f = L.circleMarker(
+                [40.71427, -74.00597],
+                {"bubblingMouseEvents": true, "color": "#007849", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#007849", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1.5, "stroke": true, "weight": 3}
+            ).addTo(map_13ff94fb36d4408c821496a7b782ad3a);
+        
+    
+        var popup_d174d3d8e7e7469fa30c818b34d9ab27 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_472ebf62f2aa42d2aeccae43b761f67b = $(`<div id="html_472ebf62f2aa42d2aeccae43b761f67b" style="width: 100.0%; height: 100.0%;">City: New York<br>Tweet: https://t.co/fvuxlku5pt. quel surprise cough cough</div>`)[0];
+            popup_d174d3d8e7e7469fa30c818b34d9ab27.setContent(html_472ebf62f2aa42d2aeccae43b761f67b);
+        
+
+        circle_marker_36b82e59f64e4a39b08adcc12f40d95f.bindPopup(popup_d174d3d8e7e7469fa30c818b34d9ab27)
+        ;
+
+        
+    
+    
+            var circle_marker_037aca7e76bf46d8850fc651f4199866 = L.circleMarker(
+                [35.46756, -97.51643],
+                {"bubblingMouseEvents": true, "color": "#007849", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#007849", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1.5, "stroke": true, "weight": 3}
+            ).addTo(map_13ff94fb36d4408c821496a7b782ad3a);
+        
+    
+        var popup_dfc9df42047d4657994a44792b6031e5 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_9d1c2292e634472caf15bac17da1d8de = $(`<div id="html_9d1c2292e634472caf15bac17da1d8de" style="width: 100.0%; height: 100.0%;">City: Oklahoma<br>Tweet: i am sick and it sucks!</div>`)[0];
+            popup_dfc9df42047d4657994a44792b6031e5.setContent(html_9d1c2292e634472caf15bac17da1d8de);
+        
+
+        circle_marker_037aca7e76bf46d8850fc651f4199866.bindPopup(popup_dfc9df42047d4657994a44792b6031e5)
+        ;
+
+        
+    
+    
+            var circle_marker_b56ec9d20e07413ab661ffab67e5e159 = L.circleMarker(
+                [34.05223, -118.24368],
+                {"bubblingMouseEvents": true, "color": "#007849", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#007849", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1.5, "stroke": true, "weight": 3}
+            ).addTo(map_13ff94fb36d4408c821496a7b782ad3a);
+        
+    
+        var popup_14d6d3809cab461cbf4992bfa3ac083e = L.popup({"maxWidth": "100%"});
+
+        
+            var html_67882ceb51174c9fb672afe4b9ff882d = $(`<div id="html_67882ceb51174c9fb672afe4b9ff882d" style="width: 100.0%; height: 100.0%;">City: Los Angeles<br>Tweet: i don’t talk about no weak shit i don’t touch it</div>`)[0];
+            popup_14d6d3809cab461cbf4992bfa3ac083e.setContent(html_67882ceb51174c9fb672afe4b9ff882d);
+        
+
+        circle_marker_b56ec9d20e07413ab661ffab67e5e159.bindPopup(popup_14d6d3809cab461cbf4992bfa3ac083e)
+        ;
+
+        
+    
+    
+            var circle_marker_face43cf7f39478283af7139a7b85e01 = L.circleMarker(
+                [39.62953, -79.9559],
+                {"bubblingMouseEvents": true, "color": "#007849", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#007849", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1.5, "stroke": true, "weight": 3}
+            ).addTo(map_13ff94fb36d4408c821496a7b782ad3a);
+        
+    
+        var popup_f16fb6d5ef9840d18302b5f35b17545f = L.popup({"maxWidth": "100%"});
+
+        
+            var html_458f1001fe79424b9fec2563b4e20c72 = $(`<div id="html_458f1001fe79424b9fec2563b4e20c72" style="width: 100.0%; height: 100.0%;">City: Morgantown<br>Tweet: i am weak 😂</div>`)[0];
+            popup_f16fb6d5ef9840d18302b5f35b17545f.setContent(html_458f1001fe79424b9fec2563b4e20c72);
+        
+
+        circle_marker_face43cf7f39478283af7139a7b85e01.bindPopup(popup_f16fb6d5ef9840d18302b5f35b17545f)
+        ;
+
+        
+    
+    
+            var circle_marker_337908b2adae473585dfa6743450f1d1 = L.circleMarker(
+                [32.78306, -96.80667],
+                {"bubblingMouseEvents": true, "color": "#007849", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#007849", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1.5, "stroke": true, "weight": 3}
+            ).addTo(map_13ff94fb36d4408c821496a7b782ad3a);
+        
+    
+        var popup_579dd0dc6fbb43048d1d369955736b24 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_c306b7a0db484f49a0c4e7f12219d463 = $(`<div id="html_c306b7a0db484f49a0c4e7f12219d463" style="width: 100.0%; height: 100.0%;">City: Dallas<br>Tweet: my stomach hurt 😩</div>`)[0];
+            popup_579dd0dc6fbb43048d1d369955736b24.setContent(html_c306b7a0db484f49a0c4e7f12219d463);
+        
+
+        circle_marker_337908b2adae473585dfa6743450f1d1.bindPopup(popup_579dd0dc6fbb43048d1d369955736b24)
+        ;
+
+        
+    
+    
+            var circle_marker_643c40dcd34d4e94bdce407b0c36522f = L.circleMarker(
+                [39.01695, -94.28161],
+                {"bubblingMouseEvents": true, "color": "#007849", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#007849", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1.5, "stroke": true, "weight": 3}
+            ).addTo(map_13ff94fb36d4408c821496a7b782ad3a);
+        
+    
+        var popup_26c2fb13b0ee43e08424da8432eaea8e = L.popup({"maxWidth": "100%"});
+
+        
+            var html_b08da5ea26fd45e595821fac553c8781 = $(`<div id="html_b08da5ea26fd45e595821fac553c8781" style="width: 100.0%; height: 100.0%;">City: Blue Springs<br>Tweet: this is sick 👇👇👇</div>`)[0];
+            popup_26c2fb13b0ee43e08424da8432eaea8e.setContent(html_b08da5ea26fd45e595821fac553c8781);
+        
+
+        circle_marker_643c40dcd34d4e94bdce407b0c36522f.bindPopup(popup_26c2fb13b0ee43e08424da8432eaea8e)
+        ;
+
+        
+    
+    
+            var circle_marker_1d04abcfdba349178f9c0bcf188e882a = L.circleMarker(
+                [42.96336, -85.66809],
+                {"bubblingMouseEvents": true, "color": "#007849", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#007849", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1.5, "stroke": true, "weight": 3}
+            ).addTo(map_13ff94fb36d4408c821496a7b782ad3a);
+        
+    
+        var popup_98286390dbeb43039de506f44d56f620 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_f4ee68401df64d21b14770892ad85a7f = $(`<div id="html_f4ee68401df64d21b14770892ad85a7f" style="width: 100.0%; height: 100.0%;">City: Grand Rapids<br>Tweet: @dreamsofskitch that’s sick</div>`)[0];
+            popup_98286390dbeb43039de506f44d56f620.setContent(html_f4ee68401df64d21b14770892ad85a7f);
+        
+
+        circle_marker_1d04abcfdba349178f9c0bcf188e882a.bindPopup(popup_98286390dbeb43039de506f44d56f620)
+        ;
+
+        
+    
+    
+            var circle_marker_f04efd1fe894419fbe45456612140fb0 = L.circleMarker(
+                [36.17497, -115.13722],
+                {"bubblingMouseEvents": true, "color": "#007849", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#007849", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1.5, "stroke": true, "weight": 3}
+            ).addTo(map_13ff94fb36d4408c821496a7b782ad3a);
+        
+    
+        var popup_5d2f78ef70a246d6b9940a2060b98dd0 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_118ee813a10242a998311c464abee48a = $(`<div id="html_118ee813a10242a998311c464abee48a" style="width: 100.0%; height: 100.0%;">City: Las Vegas<br>Tweet: i’m weak</div>`)[0];
+            popup_5d2f78ef70a246d6b9940a2060b98dd0.setContent(html_118ee813a10242a998311c464abee48a);
+        
+
+        circle_marker_f04efd1fe894419fbe45456612140fb0.bindPopup(popup_5d2f78ef70a246d6b9940a2060b98dd0)
+        ;
+
+        
+    
+    
+            var circle_marker_ce8392d780a84573883db6136de71973 = L.circleMarker(
+                [34.05223, -118.24368],
+                {"bubblingMouseEvents": true, "color": "#007849", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#007849", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1.5, "stroke": true, "weight": 3}
+            ).addTo(map_13ff94fb36d4408c821496a7b782ad3a);
+        
+    
+        var popup_cf262379cf904576a8b4ca7c98cd5bcc = L.popup({"maxWidth": "100%"});
+
+        
+            var html_cc753cb92904492ca11552aaad72ad2a = $(`<div id="html_cc753cb92904492ca11552aaad72ad2a" style="width: 100.0%; height: 100.0%;">City: Los Angeles<br>Tweet: 🇺🇸 long post for twitter so ill share this link: 🇺🇸 https://t.co/aa5tdw8oyk</div>`)[0];
+            popup_cf262379cf904576a8b4ca7c98cd5bcc.setContent(html_cc753cb92904492ca11552aaad72ad2a);
+        
+
+        circle_marker_ce8392d780a84573883db6136de71973.bindPopup(popup_cf262379cf904576a8b4ca7c98cd5bcc)
+        ;
+
+        
+    
+    
+            var circle_marker_a2fca2dd9c8b4332be4a14ce1c08d768 = L.circleMarker(
+                [42.3173, -85.17816],
+                {"bubblingMouseEvents": true, "color": "#007849", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#007849", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1.5, "stroke": true, "weight": 3}
+            ).addTo(map_13ff94fb36d4408c821496a7b782ad3a);
+        
+    
+        var popup_0b06e0f8309c4666be6a77507af57523 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_c6982d3c4421471dbc119c780b394403 = $(`<div id="html_c6982d3c4421471dbc119c780b394403" style="width: 100.0%; height: 100.0%;">City: Battle Creek<br>Tweet: lincoln is coughing. idk if it’s from teething or if he’s getting a cold ☹️ tips??</div>`)[0];
+            popup_0b06e0f8309c4666be6a77507af57523.setContent(html_c6982d3c4421471dbc119c780b394403);
+        
+
+        circle_marker_a2fca2dd9c8b4332be4a14ce1c08d768.bindPopup(popup_0b06e0f8309c4666be6a77507af57523)
+        ;
+
+        
+    
+    
+            var circle_marker_0bf5fabc614f42bba5b949fad418be8c = L.circleMarker(
+                [41.1306, -85.12886],
+                {"bubblingMouseEvents": true, "color": "#007849", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#007849", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1.5, "stroke": true, "weight": 3}
+            ).addTo(map_13ff94fb36d4408c821496a7b782ad3a);
+        
+    
+        var popup_56a2d9b117d2460795c362f8b44cb345 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_1a48db2ddc204e79b99b4a14ed1e925d = $(`<div id="html_1a48db2ddc204e79b99b4a14ed1e925d" style="width: 100.0%; height: 100.0%;">City: Fort Wayne<br>Tweet: @tenspeeddanny @saiyanstaxx said you was sick</div>`)[0];
+            popup_56a2d9b117d2460795c362f8b44cb345.setContent(html_1a48db2ddc204e79b99b4a14ed1e925d);
+        
+
+        circle_marker_0bf5fabc614f42bba5b949fad418be8c.bindPopup(popup_56a2d9b117d2460795c362f8b44cb345)
+        ;
+
+        
+    
+    
+            var circle_marker_d4397dfc789241f3a094c9f12294ddb5 = L.circleMarker(
+                [40.71427, -74.00597],
+                {"bubblingMouseEvents": true, "color": "#007849", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#007849", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1.5, "stroke": true, "weight": 3}
+            ).addTo(map_13ff94fb36d4408c821496a7b782ad3a);
+        
+    
+        var popup_7c20c95fdfc546f0a0a1100157cb0df6 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_8be56d6e1df1419282558ab03386398e = $(`<div id="html_8be56d6e1df1419282558ab03386398e" style="width: 100.0%; height: 100.0%;">City: New York<br>Tweet: y’all make me sick 😭😭😭</div>`)[0];
+            popup_7c20c95fdfc546f0a0a1100157cb0df6.setContent(html_8be56d6e1df1419282558ab03386398e);
+        
+
+        circle_marker_d4397dfc789241f3a094c9f12294ddb5.bindPopup(popup_7c20c95fdfc546f0a0a1100157cb0df6)
+        ;
+
+        
+    
+    
+            var circle_marker_ba365edf7cac4c1fb4c8fa23ebfdff54 = L.circleMarker(
+                [32.2504, -101.47874],
+                {"bubblingMouseEvents": true, "color": "#007849", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#007849", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1.5, "stroke": true, "weight": 3}
+            ).addTo(map_13ff94fb36d4408c821496a7b782ad3a);
+        
+    
+        var popup_c9ccc0ed137343fb83b4bebbdebde2a5 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_9d98a119603440e5bfbb1f3e678c3c70 = $(`<div id="html_9d98a119603440e5bfbb1f3e678c3c70" style="width: 100.0%; height: 100.0%;">City: Big Spring<br>Tweet: me! i’m so sick of @thedemocrats thinking more of terrorist than we the american people sick of them</div>`)[0];
+            popup_c9ccc0ed137343fb83b4bebbdebde2a5.setContent(html_9d98a119603440e5bfbb1f3e678c3c70);
+        
+
+        circle_marker_ba365edf7cac4c1fb4c8fa23ebfdff54.bindPopup(popup_c9ccc0ed137343fb83b4bebbdebde2a5)
+        ;
+
+        
+    
+    
+            var circle_marker_f7dcdb22c5fa48e49a2f4335b583ec5b = L.circleMarker(
+                [13.66108, -89.18252],
+                {"bubblingMouseEvents": true, "color": "#007849", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#007849", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1.5, "stroke": true, "weight": 3}
+            ).addTo(map_13ff94fb36d4408c821496a7b782ad3a);
+        
+    
+        var popup_770352ceb7c94d93b09cf110bc7b87f8 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_9eb14e52351a461eae4a63e43f1f7d06 = $(`<div id="html_9eb14e52351a461eae4a63e43f1f7d06" style="width: 100.0%; height: 100.0%;">City: San Marcos<br>Tweet: omg 💀 i'm weak</div>`)[0];
+            popup_770352ceb7c94d93b09cf110bc7b87f8.setContent(html_9eb14e52351a461eae4a63e43f1f7d06);
+        
+
+        circle_marker_f7dcdb22c5fa48e49a2f4335b583ec5b.bindPopup(popup_770352ceb7c94d93b09cf110bc7b87f8)
+        ;
+
+        
+    
+    
+            var circle_marker_82d10b588d1240f5862fc8062f24ac9a = L.circleMarker(
+                [34.05223, -118.24368],
+                {"bubblingMouseEvents": true, "color": "#007849", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#007849", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1.5, "stroke": true, "weight": 3}
+            ).addTo(map_13ff94fb36d4408c821496a7b782ad3a);
+        
+    
+        var popup_bc06e1f16a6f46dfaa278c1e84c20a86 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_6955432e4aab4b828af3becffc114307 = $(`<div id="html_6955432e4aab4b828af3becffc114307" style="width: 100.0%; height: 100.0%;">City: Los Angeles<br>Tweet: love to be up all night sick to my stomach</div>`)[0];
+            popup_bc06e1f16a6f46dfaa278c1e84c20a86.setContent(html_6955432e4aab4b828af3becffc114307);
+        
+
+        circle_marker_82d10b588d1240f5862fc8062f24ac9a.bindPopup(popup_bc06e1f16a6f46dfaa278c1e84c20a86)
+        ;
+
+        
+    
+    
+            var circle_marker_2288e011f7b04ad4a165eb6842b82f40 = L.circleMarker(
+                [34.35417, -119.05927],
+                {"bubblingMouseEvents": true, "color": "#007849", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#007849", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1.5, "stroke": true, "weight": 3}
+            ).addTo(map_13ff94fb36d4408c821496a7b782ad3a);
+        
+    
+        var popup_4d150ec2f28640e69a5ad1360cf1c803 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_00a306a3b1494f02bc6f3c5e6ff07ea4 = $(`<div id="html_00a306a3b1494f02bc6f3c5e6ff07ea4" style="width: 100.0%; height: 100.0%;">City: Santa Paula<br>Tweet: @trinitytryk ill show you what i use bb i got you 🤩</div>`)[0];
+            popup_4d150ec2f28640e69a5ad1360cf1c803.setContent(html_00a306a3b1494f02bc6f3c5e6ff07ea4);
+        
+
+        circle_marker_2288e011f7b04ad4a165eb6842b82f40.bindPopup(popup_4d150ec2f28640e69a5ad1360cf1c803)
+        ;
+
+        
+    
+    
+            var circle_marker_7237310d6a084d5eb6755ce59bcef41f = L.circleMarker(
+                [32.71571, -117.16472],
+                {"bubblingMouseEvents": true, "color": "#007849", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#007849", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1.5, "stroke": true, "weight": 3}
+            ).addTo(map_13ff94fb36d4408c821496a7b782ad3a);
+        
+    
+        var popup_13f751ed1c1d4fd384f5f1ad68998024 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_24f4d89c331944c280374fbc3b93881c = $(`<div id="html_24f4d89c331944c280374fbc3b93881c" style="width: 100.0%; height: 100.0%;">City: San Diego<br>Tweet: i really think i’m getting sick. 🤕🤒</div>`)[0];
+            popup_13f751ed1c1d4fd384f5f1ad68998024.setContent(html_24f4d89c331944c280374fbc3b93881c);
+        
+
+        circle_marker_7237310d6a084d5eb6755ce59bcef41f.bindPopup(popup_13f751ed1c1d4fd384f5f1ad68998024)
+        ;
+
+        
+    
+    
+            var circle_marker_9ddb95b972014ed08b050fe56ec3d722 = L.circleMarker(
+                [29.95465, -90.07507],
+                {"bubblingMouseEvents": true, "color": "#007849", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#007849", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1.5, "stroke": true, "weight": 3}
+            ).addTo(map_13ff94fb36d4408c821496a7b782ad3a);
+        
+    
+        var popup_c61439f61cb94e0c8c57253989078631 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_667ab6d8fe4c42d2aca3fee5e7433fe1 = $(`<div id="html_667ab6d8fe4c42d2aca3fee5e7433fe1" style="width: 100.0%; height: 100.0%;">City: New Orleans<br>Tweet: @badasssnikkii no yo stomach bro chill</div>`)[0];
+            popup_c61439f61cb94e0c8c57253989078631.setContent(html_667ab6d8fe4c42d2aca3fee5e7433fe1);
+        
+
+        circle_marker_9ddb95b972014ed08b050fe56ec3d722.bindPopup(popup_c61439f61cb94e0c8c57253989078631)
+        ;
+
+        
+    
+    
+            var circle_marker_71046871577349adb46ad4b800a09ad8 = L.circleMarker(
+                [22.66667, -80.98333],
+                {"bubblingMouseEvents": true, "color": "#007849", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#007849", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1.5, "stroke": true, "weight": 3}
+            ).addTo(map_13ff94fb36d4408c821496a7b782ad3a);
+        
+    
+        var popup_4782bd5384de4348afd1d561fafbedc2 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_6abbfaa2115c4eeeab27ce98553616e6 = $(`<div id="html_6abbfaa2115c4eeeab27ce98553616e6" style="width: 100.0%; height: 100.0%;">City: El Centro<br>Tweet: i’m sick of this</div>`)[0];
+            popup_4782bd5384de4348afd1d561fafbedc2.setContent(html_6abbfaa2115c4eeeab27ce98553616e6);
+        
+
+        circle_marker_71046871577349adb46ad4b800a09ad8.bindPopup(popup_4782bd5384de4348afd1d561fafbedc2)
+        ;
+
+        
+    
+    
+            var circle_marker_5f642595124946d39e036ac59c01d86e = L.circleMarker(
+                [32.78306, -96.80667],
+                {"bubblingMouseEvents": true, "color": "#007849", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#007849", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1.5, "stroke": true, "weight": 3}
+            ).addTo(map_13ff94fb36d4408c821496a7b782ad3a);
+        
+    
+        var popup_6a95917108644c99baf8fd760ed230d8 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_ae4e18136fcd4ae0963e22e2d29a5f6f = $(`<div id="html_ae4e18136fcd4ae0963e22e2d29a5f6f" style="width: 100.0%; height: 100.0%;">City: Dallas<br>Tweet: ill probably never do that shit ever</div>`)[0];
+            popup_6a95917108644c99baf8fd760ed230d8.setContent(html_ae4e18136fcd4ae0963e22e2d29a5f6f);
+        
+
+        circle_marker_5f642595124946d39e036ac59c01d86e.bindPopup(popup_6a95917108644c99baf8fd760ed230d8)
+        ;
+
+        
+    
+    
+            var circle_marker_6ce50affa8ec449bbcaa89b3933afef1 = L.circleMarker(
+                [29.95465, -90.07507],
+                {"bubblingMouseEvents": true, "color": "#007849", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#007849", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1.5, "stroke": true, "weight": 3}
+            ).addTo(map_13ff94fb36d4408c821496a7b782ad3a);
+        
+    
+        var popup_7c440ef0cda34f2dadce04bd87f294d5 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_dba4a704aa0c4bdcad6803c5b956611b = $(`<div id="html_dba4a704aa0c4bdcad6803c5b956611b" style="width: 100.0%; height: 100.0%;">City: New Orleans<br>Tweet: my stomach just hurting for no reason</div>`)[0];
+            popup_7c440ef0cda34f2dadce04bd87f294d5.setContent(html_dba4a704aa0c4bdcad6803c5b956611b);
+        
+
+        circle_marker_6ce50affa8ec449bbcaa89b3933afef1.bindPopup(popup_7c440ef0cda34f2dadce04bd87f294d5)
+        ;
+
+        
+    
+    
+            var circle_marker_7eadd8111c164e4eb22377e123bece12 = L.circleMarker(
+                [29.95465, -90.07507],
+                {"bubblingMouseEvents": true, "color": "#007849", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#007849", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1.5, "stroke": true, "weight": 3}
+            ).addTo(map_13ff94fb36d4408c821496a7b782ad3a);
+        
+    
+        var popup_8995f1f66309413eb8abb89aa25deed7 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_01ea16129379436a94d315ff83359f88 = $(`<div id="html_01ea16129379436a94d315ff83359f88" style="width: 100.0%; height: 100.0%;">City: New Orleans<br>Tweet: ill try it</div>`)[0];
+            popup_8995f1f66309413eb8abb89aa25deed7.setContent(html_01ea16129379436a94d315ff83359f88);
+        
+
+        circle_marker_7eadd8111c164e4eb22377e123bece12.bindPopup(popup_8995f1f66309413eb8abb89aa25deed7)
+        ;
+
+        
+    
+    
+            var circle_marker_de4cee1f25654ad59db3ccf2da936e81 = L.circleMarker(
+                [34.05223, -118.24368],
+                {"bubblingMouseEvents": true, "color": "#007849", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#007849", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1.5, "stroke": true, "weight": 3}
+            ).addTo(map_13ff94fb36d4408c821496a7b782ad3a);
+        
+    
+        var popup_99c73bb070b74172897e445685abde8b = L.popup({"maxWidth": "100%"});
+
+        
+            var html_1b8233a614424497a4c61d49213b3791 = $(`<div id="html_1b8233a614424497a4c61d49213b3791" style="width: 100.0%; height: 100.0%;">City: Los Angeles<br>Tweet: i'm about to leave my luggage here and just go home. so tired and have a headache.</div>`)[0];
+            popup_99c73bb070b74172897e445685abde8b.setContent(html_1b8233a614424497a4c61d49213b3791);
+        
+
+        circle_marker_de4cee1f25654ad59db3ccf2da936e81.bindPopup(popup_99c73bb070b74172897e445685abde8b)
+        ;
+
+        
+    
+    
+            var circle_marker_0722f48f82b44bd5aa6bbdac7e0b2923 = L.circleMarker(
+                [39.00039, -76.74997],
+                {"bubblingMouseEvents": true, "color": "#007849", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#007849", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1.5, "stroke": true, "weight": 3}
+            ).addTo(map_13ff94fb36d4408c821496a7b782ad3a);
+        
+    
+        var popup_44092f7a2cfa47319a51998297711f6b = L.popup({"maxWidth": "100%"});
+
+        
+            var html_1b21b12ba29846c3994031e032ac4bf9 = $(`<div id="html_1b21b12ba29846c3994031e032ac4bf9" style="width: 100.0%; height: 100.0%;">City: Maryland<br>Tweet: happy new year! i have a stomach bug. 🤮</div>`)[0];
+            popup_44092f7a2cfa47319a51998297711f6b.setContent(html_1b21b12ba29846c3994031e032ac4bf9);
+        
+
+        circle_marker_0722f48f82b44bd5aa6bbdac7e0b2923.bindPopup(popup_44092f7a2cfa47319a51998297711f6b)
+        ;
+
+        
+    
+    
+            var circle_marker_08fc8a11737d40ef8d204e8230f7afab = L.circleMarker(
+                [32.58847, -96.95612],
+                {"bubblingMouseEvents": true, "color": "#007849", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#007849", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1.5, "stroke": true, "weight": 3}
+            ).addTo(map_13ff94fb36d4408c821496a7b782ad3a);
+        
+    
+        var popup_0889864d21b143cdadb521ef67e394a8 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_67586eaee0c846efab47121d1603f533 = $(`<div id="html_67586eaee0c846efab47121d1603f533" style="width: 100.0%; height: 100.0%;">City: Cedar Hill<br>Tweet: @khalilorbekilld 🤣🤣🤣 the dance use to have me weak</div>`)[0];
+            popup_0889864d21b143cdadb521ef67e394a8.setContent(html_67586eaee0c846efab47121d1603f533);
+        
+
+        circle_marker_08fc8a11737d40ef8d204e8230f7afab.bindPopup(popup_0889864d21b143cdadb521ef67e394a8)
+        ;
+
+        
+    
+    
+            var circle_marker_00ac6b17d3584cf5a065f991b6791781 = L.circleMarker(
+                [38.83388, -104.82136],
+                {"bubblingMouseEvents": true, "color": "#007849", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#007849", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1.5, "stroke": true, "weight": 3}
+            ).addTo(map_13ff94fb36d4408c821496a7b782ad3a);
+        
+    
+        var popup_b51354e77ed34abe845511ddb2b9e8b0 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_c1e160dc333d44de97beb17a755aa178 = $(`<div id="html_c1e160dc333d44de97beb17a755aa178" style="width: 100.0%; height: 100.0%;">City: Colorado<br>Tweet: "they're alpha by way of their sick dicks work both ways."
+ 
+ 'himosexuakkty is a disease.'
+ 
+ "bisexual people have up… https://t.co/piyfjv8rkd</div>`)[0];
+            popup_b51354e77ed34abe845511ddb2b9e8b0.setContent(html_c1e160dc333d44de97beb17a755aa178);
+        
+
+        circle_marker_00ac6b17d3584cf5a065f991b6791781.bindPopup(popup_b51354e77ed34abe845511ddb2b9e8b0)
+        ;
+
+        
+    
+    
+            var circle_marker_614ada45ce444b62afd0dcdc3246ef3b = L.circleMarker(
+                [40.71427, -74.00597],
+                {"bubblingMouseEvents": true, "color": "#007849", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#007849", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1.5, "stroke": true, "weight": 3}
+            ).addTo(map_13ff94fb36d4408c821496a7b782ad3a);
+        
+    
+        var popup_6d64cd590ffd4721ba83d7503ec61d5a = L.popup({"maxWidth": "100%"});
+
+        
+            var html_ced6d76948b94fc594c775f6f280a677 = $(`<div id="html_ced6d76948b94fc594c775f6f280a677" style="width: 100.0%; height: 100.0%;">City: New York<br>Tweet: i’m so weak rn🤣🤣🤣🤣</div>`)[0];
+            popup_6d64cd590ffd4721ba83d7503ec61d5a.setContent(html_ced6d76948b94fc594c775f6f280a677);
+        
+
+        circle_marker_614ada45ce444b62afd0dcdc3246ef3b.bindPopup(popup_6d64cd590ffd4721ba83d7503ec61d5a)
+        ;
+
+        
+    
+    
+            var circle_marker_43dc62a385ab4b7d9ac5fc2356f3c95c = L.circleMarker(
+                [29.95465, -90.07507],
+                {"bubblingMouseEvents": true, "color": "#007849", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#007849", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1.5, "stroke": true, "weight": 3}
+            ).addTo(map_13ff94fb36d4408c821496a7b782ad3a);
+        
+    
+        var popup_9be6336617f7497bbdc7ba7f86dade61 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_e9ddd72d3a63406aa1f7195b12fabc01 = $(`<div id="html_e9ddd72d3a63406aa1f7195b12fabc01" style="width: 100.0%; height: 100.0%;">City: New Orleans<br>Tweet: @damuhfugga stomach was toe up huh lol</div>`)[0];
+            popup_9be6336617f7497bbdc7ba7f86dade61.setContent(html_e9ddd72d3a63406aa1f7195b12fabc01);
+        
+
+        circle_marker_43dc62a385ab4b7d9ac5fc2356f3c95c.bindPopup(popup_9be6336617f7497bbdc7ba7f86dade61)
+        ;
+
+        
+    
+    
+            var circle_marker_e884301d561340c69d89c7c5a88551e1 = L.circleMarker(
+                [41.35565, -72.09952],
+                {"bubblingMouseEvents": true, "color": "#007849", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#007849", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1.5, "stroke": true, "weight": 3}
+            ).addTo(map_13ff94fb36d4408c821496a7b782ad3a);
+        
+    
+        var popup_bca3964a2edc40e4aad529919acac76f = L.popup({"maxWidth": "100%"});
+
+        
+            var html_1e95d9c27e634c22953598083fb2ba4e = $(`<div id="html_1e95d9c27e634c22953598083fb2ba4e" style="width: 100.0%; height: 100.0%;">City: New London<br>Tweet: @realdonaldtrump you're sick af</div>`)[0];
+            popup_bca3964a2edc40e4aad529919acac76f.setContent(html_1e95d9c27e634c22953598083fb2ba4e);
+        
+
+        circle_marker_e884301d561340c69d89c7c5a88551e1.bindPopup(popup_bca3964a2edc40e4aad529919acac76f)
+        ;
+
+        
+    
+    
+            var circle_marker_f50319269c4b4848b46eb88aa4b73d84 = L.circleMarker(
+                [30.44332, -91.18747],
+                {"bubblingMouseEvents": true, "color": "#007849", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#007849", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1.5, "stroke": true, "weight": 3}
+            ).addTo(map_13ff94fb36d4408c821496a7b782ad3a);
+        
+    
+        var popup_2a8f41e29d59407db4f54ff537b22bb5 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_1f927b198be4473192fbcbceadafcb26 = $(`<div id="html_1f927b198be4473192fbcbceadafcb26" style="width: 100.0%; height: 100.0%;">City: Baton Rouge<br>Tweet: my headache got a headache 🤦🏾‍♀️</div>`)[0];
+            popup_2a8f41e29d59407db4f54ff537b22bb5.setContent(html_1f927b198be4473192fbcbceadafcb26);
+        
+
+        circle_marker_f50319269c4b4848b46eb88aa4b73d84.bindPopup(popup_2a8f41e29d59407db4f54ff537b22bb5)
+        ;
+
+        
+    
+    
+            var circle_marker_cbd50cd0f8ce478c897a554ee048255e = L.circleMarker(
+                [40.71427, -74.00597],
+                {"bubblingMouseEvents": true, "color": "#007849", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#007849", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1.5, "stroke": true, "weight": 3}
+            ).addTo(map_13ff94fb36d4408c821496a7b782ad3a);
+        
+    
+        var popup_6eb0fbace609418bbed403b1e3513a7e = L.popup({"maxWidth": "100%"});
+
+        
+            var html_8402954392df46b69ab527a6b389d71f = $(`<div id="html_8402954392df46b69ab527a6b389d71f" style="width: 100.0%; height: 100.0%;">City: New York<br>Tweet: 😂😂😂bro u got me weak</div>`)[0];
+            popup_6eb0fbace609418bbed403b1e3513a7e.setContent(html_8402954392df46b69ab527a6b389d71f);
+        
+
+        circle_marker_cbd50cd0f8ce478c897a554ee048255e.bindPopup(popup_6eb0fbace609418bbed403b1e3513a7e)
+        ;
+
+        
+    
+    
+            var circle_marker_c531f9ade8574132a12f3a54c490c2ad = L.circleMarker(
+                [34.06862, -118.02757],
+                {"bubblingMouseEvents": true, "color": "#007849", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#007849", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1.5, "stroke": true, "weight": 3}
+            ).addTo(map_13ff94fb36d4408c821496a7b782ad3a);
+        
+    
+        var popup_3f30884c47d042fb9c55e2b1c79f96f2 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_c17b9edaa0ac4ae28d0e07fe90db8d32 = $(`<div id="html_c17b9edaa0ac4ae28d0e07fe90db8d32" style="width: 100.0%; height: 100.0%;">City: El Monte<br>Tweet: *pops open a cold modelo*</div>`)[0];
+            popup_3f30884c47d042fb9c55e2b1c79f96f2.setContent(html_c17b9edaa0ac4ae28d0e07fe90db8d32);
+        
+
+        circle_marker_c531f9ade8574132a12f3a54c490c2ad.bindPopup(popup_3f30884c47d042fb9c55e2b1c79f96f2)
+        ;
+
+        
+    
+    
+            var circle_marker_b3b82fc080664a82be6191efc1c78fd9 = L.circleMarker(
+                [32.71571, -117.16472],
+                {"bubblingMouseEvents": true, "color": "#007849", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#007849", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1.5, "stroke": true, "weight": 3}
+            ).addTo(map_13ff94fb36d4408c821496a7b782ad3a);
+        
+    
+        var popup_9597e1ce815d4bf7820ef0efff31fe7b = L.popup({"maxWidth": "100%"});
+
+        
+            var html_7265b0bf09f846b49a1b80cc40934bfd = $(`<div id="html_7265b0bf09f846b49a1b80cc40934bfd" style="width: 100.0%; height: 100.0%;">City: San Diego<br>Tweet: haven’t been this sick in years</div>`)[0];
+            popup_9597e1ce815d4bf7820ef0efff31fe7b.setContent(html_7265b0bf09f846b49a1b80cc40934bfd);
+        
+
+        circle_marker_b3b82fc080664a82be6191efc1c78fd9.bindPopup(popup_9597e1ce815d4bf7820ef0efff31fe7b)
+        ;
+
+        
+    
+    
+            var circle_marker_3025969a270348d59029d5db5c93d2ec = L.circleMarker(
+                [35.46756, -97.51643],
+                {"bubblingMouseEvents": true, "color": "#007849", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#007849", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1.5, "stroke": true, "weight": 3}
+            ).addTo(map_13ff94fb36d4408c821496a7b782ad3a);
+        
+    
+        var popup_fd434bc0670046d0944f25663887eb09 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_18fa13223f9341aab206fe0b2bf2869e = $(`<div id="html_18fa13223f9341aab206fe0b2bf2869e" style="width: 100.0%; height: 100.0%;">City: Oklahoma<br>Tweet: @davidrocknyc cold calling.</div>`)[0];
+            popup_fd434bc0670046d0944f25663887eb09.setContent(html_18fa13223f9341aab206fe0b2bf2869e);
+        
+
+        circle_marker_3025969a270348d59029d5db5c93d2ec.bindPopup(popup_fd434bc0670046d0944f25663887eb09)
+        ;
+
+        
+    
+    
+            var circle_marker_2aa4171ffb124a2fb44955c351a4f891 = L.circleMarker(
+                [34.09834, -118.32674],
+                {"bubblingMouseEvents": true, "color": "#007849", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#007849", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1.5, "stroke": true, "weight": 3}
+            ).addTo(map_13ff94fb36d4408c821496a7b782ad3a);
+        
+    
+        var popup_4768b4444a0a468f994a47e1956f9b6b = L.popup({"maxWidth": "100%"});
+
+        
+            var html_092568a8fa6f4d66980022105066563c = $(`<div id="html_092568a8fa6f4d66980022105066563c" style="width: 100.0%; height: 100.0%;">City: West Hollywood<br>Tweet: do i have the flu</div>`)[0];
+            popup_4768b4444a0a468f994a47e1956f9b6b.setContent(html_092568a8fa6f4d66980022105066563c);
+        
+
+        circle_marker_2aa4171ffb124a2fb44955c351a4f891.bindPopup(popup_4768b4444a0a468f994a47e1956f9b6b)
+        ;
+
+        
+    
+    
+            var circle_marker_152c798782e84ce5981a7fdbf3aed171 = L.circleMarker(
+                [32.71571, -117.16472],
+                {"bubblingMouseEvents": true, "color": "#007849", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#007849", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1.5, "stroke": true, "weight": 3}
+            ).addTo(map_13ff94fb36d4408c821496a7b782ad3a);
+        
+    
+        var popup_09fce7a637c946cbb804ff821ba60d3b = L.popup({"maxWidth": "100%"});
+
+        
+            var html_1b60bd6e71724bd882f1928dee811db1 = $(`<div id="html_1b60bd6e71724bd882f1928dee811db1" style="width: 100.0%; height: 100.0%;">City: San Diego<br>Tweet: free #essentialoils class!
+ 
+ winter has come… and so has the cold &amp; flu!
+ 
+ runny nose! cough! sore throat! achy muscl… https://t.co/mg5vczd2vf</div>`)[0];
+            popup_09fce7a637c946cbb804ff821ba60d3b.setContent(html_1b60bd6e71724bd882f1928dee811db1);
+        
+
+        circle_marker_152c798782e84ce5981a7fdbf3aed171.bindPopup(popup_09fce7a637c946cbb804ff821ba60d3b)
+        ;
+
+        
+    
+    
+            var circle_marker_b07e11e73fab40c29b94778483400a05 = L.circleMarker(
+                [32.71571, -117.16472],
+                {"bubblingMouseEvents": true, "color": "#007849", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#007849", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1.5, "stroke": true, "weight": 3}
+            ).addTo(map_13ff94fb36d4408c821496a7b782ad3a);
+        
+    
+        var popup_63217eb3af0a4b24bc1cd0ce8ad96c15 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_5a53a6bf5867426bad1557698ebbd82a = $(`<div id="html_5a53a6bf5867426bad1557698ebbd82a" style="width: 100.0%; height: 100.0%;">City: San Diego<br>Tweet: no thanks to cold</div>`)[0];
+            popup_63217eb3af0a4b24bc1cd0ce8ad96c15.setContent(html_5a53a6bf5867426bad1557698ebbd82a);
+        
+
+        circle_marker_b07e11e73fab40c29b94778483400a05.bindPopup(popup_63217eb3af0a4b24bc1cd0ce8ad96c15)
+        ;
+
+        
+    
+    
+            var circle_marker_5381efe301374b5ba5ef7bf28b237dfb = L.circleMarker(
+                [40.76078, -111.89105],
+                {"bubblingMouseEvents": true, "color": "#007849", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#007849", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1.5, "stroke": true, "weight": 3}
+            ).addTo(map_13ff94fb36d4408c821496a7b782ad3a);
+        
+    
+        var popup_fbd74b5f62074ec4bbde9c2646341060 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_fe9928e0617d43e9b135171b74a245b2 = $(`<div id="html_fe9928e0617d43e9b135171b74a245b2" style="width: 100.0%; height: 100.0%;">City: Salt Lake<br>Tweet: @elemetalangel this makes me ill.</div>`)[0];
+            popup_fbd74b5f62074ec4bbde9c2646341060.setContent(html_fe9928e0617d43e9b135171b74a245b2);
+        
+
+        circle_marker_5381efe301374b5ba5ef7bf28b237dfb.bindPopup(popup_fbd74b5f62074ec4bbde9c2646341060)
+        ;
+
+        
+    
+    
+            var circle_marker_7e78489047d343b39d028c58a81d27f4 = L.circleMarker(
+                [38.5767, -92.17352],
+                {"bubblingMouseEvents": true, "color": "#007849", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#007849", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1.5, "stroke": true, "weight": 3}
+            ).addTo(map_13ff94fb36d4408c821496a7b782ad3a);
+        
+    
+        var popup_c5b4c00d3fbf405fb5b81af9b5116522 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_b8267e7d55aa435ab2190972238a5858 = $(`<div id="html_b8267e7d55aa435ab2190972238a5858" style="width: 100.0%; height: 100.0%;">City: Jefferson City<br>Tweet: so i’m sick. and each time i’ve had to apologize for coughing during an interview, “oh i’m getting over a cold,” th… https://t.co/hboay6ckua</div>`)[0];
+            popup_c5b4c00d3fbf405fb5b81af9b5116522.setContent(html_b8267e7d55aa435ab2190972238a5858);
+        
+
+        circle_marker_7e78489047d343b39d028c58a81d27f4.bindPopup(popup_c5b4c00d3fbf405fb5b81af9b5116522)
+        ;
+
+        
+    
+    
+            var circle_marker_b8431c58b6f245cdafa92ff7001ade9b = L.circleMarker(
+                [36.17497, -115.13722],
+                {"bubblingMouseEvents": true, "color": "#007849", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#007849", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1.5, "stroke": true, "weight": 3}
+            ).addTo(map_13ff94fb36d4408c821496a7b782ad3a);
+        
+    
+        var popup_cd106b669c4447fa95fc4e4ded1a7e66 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_ca5db8875feb4c1b83af1f77220ff6a2 = $(`<div id="html_ca5db8875feb4c1b83af1f77220ff6a2" style="width: 100.0%; height: 100.0%;">City: Las Vegas<br>Tweet: sick</div>`)[0];
+            popup_cd106b669c4447fa95fc4e4ded1a7e66.setContent(html_ca5db8875feb4c1b83af1f77220ff6a2);
+        
+
+        circle_marker_b8431c58b6f245cdafa92ff7001ade9b.bindPopup(popup_cd106b669c4447fa95fc4e4ded1a7e66)
+        ;
+
+        
+    
+    
+            var circle_marker_7245b794d51c4dab885d65ea20deb37b = L.circleMarker(
+                [34.05223, -118.24368],
+                {"bubblingMouseEvents": true, "color": "#007849", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#007849", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1.5, "stroke": true, "weight": 3}
+            ).addTo(map_13ff94fb36d4408c821496a7b782ad3a);
+        
+    
+        var popup_029ae33cc6694b68b3746384e4725a2b = L.popup({"maxWidth": "100%"});
+
+        
+            var html_3c5ee7278cbe4c07a2a14733e8f61d87 = $(`<div id="html_3c5ee7278cbe4c07a2a14733e8f61d87" style="width: 100.0%; height: 100.0%;">City: Los Angeles<br>Tweet: @melinavguez when does flu season start? i got the flu shot oct!!!!! thank you hope you feel better soon!</div>`)[0];
+            popup_029ae33cc6694b68b3746384e4725a2b.setContent(html_3c5ee7278cbe4c07a2a14733e8f61d87);
+        
+
+        circle_marker_7245b794d51c4dab885d65ea20deb37b.bindPopup(popup_029ae33cc6694b68b3746384e4725a2b)
+        ;
+
+        
+    
+    
+            var circle_marker_39c3ebfc150a47d8aaa1a2cdb772e51b = L.circleMarker(
+                [40.71427, -74.00597],
+                {"bubblingMouseEvents": true, "color": "#007849", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#007849", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1.5, "stroke": true, "weight": 3}
+            ).addTo(map_13ff94fb36d4408c821496a7b782ad3a);
+        
+    
+        var popup_da0c32ccfaf248269761f32d6a818df6 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_363f56cd53254b6d88cd62dce0e352ac = $(`<div id="html_363f56cd53254b6d88cd62dce0e352ac" style="width: 100.0%; height: 100.0%;">City: New York<br>Tweet: i’m weak 🤣🤣 the look on her face tho 🤪😂 https://t.co/ydipvalhd9</div>`)[0];
+            popup_da0c32ccfaf248269761f32d6a818df6.setContent(html_363f56cd53254b6d88cd62dce0e352ac);
+        
+
+        circle_marker_39c3ebfc150a47d8aaa1a2cdb772e51b.bindPopup(popup_da0c32ccfaf248269761f32d6a818df6)
+        ;
+
+        
+    
+    
+            var circle_marker_ad2d8438e2664183bdc208d57530ea13 = L.circleMarker(
+                [29.95465, -90.07507],
+                {"bubblingMouseEvents": true, "color": "#007849", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#007849", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1.5, "stroke": true, "weight": 3}
+            ).addTo(map_13ff94fb36d4408c821496a7b782ad3a);
+        
+    
+        var popup_0ad30f2fa99b49a58b45ce17ca35617d = L.popup({"maxWidth": "100%"});
+
+        
+            var html_183c1fa9417a4f81ae15e5cbbf8e947d = $(`<div id="html_183c1fa9417a4f81ae15e5cbbf8e947d" style="width: 100.0%; height: 100.0%;">City: New Orleans<br>Tweet: i’m having the worst headache everr</div>`)[0];
+            popup_0ad30f2fa99b49a58b45ce17ca35617d.setContent(html_183c1fa9417a4f81ae15e5cbbf8e947d);
+        
+
+        circle_marker_ad2d8438e2664183bdc208d57530ea13.bindPopup(popup_0ad30f2fa99b49a58b45ce17ca35617d)
+        ;
+
+        
+    
+    
+            var circle_marker_ae92e8095f6f43a5a24beb8c3b1d577e = L.circleMarker(
+                [34.05223, -118.24368],
+                {"bubblingMouseEvents": true, "color": "#007849", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#007849", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1.5, "stroke": true, "weight": 3}
+            ).addTo(map_13ff94fb36d4408c821496a7b782ad3a);
+        
+    
+        var popup_35de7f251b43478294b2bffce5c6d42b = L.popup({"maxWidth": "100%"});
+
+        
+            var html_df224fa4b6bc41b59b800dcee4d5ab42 = $(`<div id="html_df224fa4b6bc41b59b800dcee4d5ab42" style="width: 100.0%; height: 100.0%;">City: Los Angeles<br>Tweet: wow. so my period came early because of my flu. lol. fuck you.</div>`)[0];
+            popup_35de7f251b43478294b2bffce5c6d42b.setContent(html_df224fa4b6bc41b59b800dcee4d5ab42);
+        
+
+        circle_marker_ae92e8095f6f43a5a24beb8c3b1d577e.bindPopup(popup_35de7f251b43478294b2bffce5c6d42b)
+        ;
+
+        
+    
+    
+            var circle_marker_6d10d1dd84d84c9e9a187c486c603302 = L.circleMarker(
+                [34.09834, -118.32674],
+                {"bubblingMouseEvents": true, "color": "#007849", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#007849", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1.5, "stroke": true, "weight": 3}
+            ).addTo(map_13ff94fb36d4408c821496a7b782ad3a);
+        
+    
+        var popup_89f7bc2720ae4845a30037ca3805e1f0 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_cf11848fafb04541a3c5450d88f5bd2d = $(`<div id="html_cf11848fafb04541a3c5450d88f5bd2d" style="width: 100.0%; height: 100.0%;">City: West Hollywood<br>Tweet: over being sick</div>`)[0];
+            popup_89f7bc2720ae4845a30037ca3805e1f0.setContent(html_cf11848fafb04541a3c5450d88f5bd2d);
+        
+
+        circle_marker_6d10d1dd84d84c9e9a187c486c603302.bindPopup(popup_89f7bc2720ae4845a30037ca3805e1f0)
+        ;
+
+        
+    
+    
+            var circle_marker_4dd1cb3357714cea913bef7f9ab928f5 = L.circleMarker(
+                [35.97987, -78.50972],
+                {"bubblingMouseEvents": true, "color": "#007849", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#007849", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1.5, "stroke": true, "weight": 3}
+            ).addTo(map_13ff94fb36d4408c821496a7b782ad3a);
+        
+    
+        var popup_ab15a8b4410e4dddb8c2405594c509d8 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_37ecfd24cf284083955fc31307b981d5 = $(`<div id="html_37ecfd24cf284083955fc31307b981d5" style="width: 100.0%; height: 100.0%;">City: Wake Forest<br>Tweet: i’m weak asf😂😂😂 #2016 @lo_purnell @zakyawall23</div>`)[0];
+            popup_ab15a8b4410e4dddb8c2405594c509d8.setContent(html_37ecfd24cf284083955fc31307b981d5);
+        
+
+        circle_marker_4dd1cb3357714cea913bef7f9ab928f5.bindPopup(popup_ab15a8b4410e4dddb8c2405594c509d8)
+        ;
+
+        
+    
+    
+            var circle_marker_82fbd36c2fbc4112bbab7bf45ba9d384 = L.circleMarker(
+                [32.71571, -117.16472],
+                {"bubblingMouseEvents": true, "color": "#007849", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#007849", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1.5, "stroke": true, "weight": 3}
+            ).addTo(map_13ff94fb36d4408c821496a7b782ad3a);
+        
+    
+        var popup_64bc5661d7fa4ded918fd08153f3b408 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_dbdb0e488201434aaa1363d0d000cf7b = $(`<div id="html_dbdb0e488201434aaa1363d0d000cf7b" style="width: 100.0%; height: 100.0%;">City: San Diego<br>Tweet: everybody coughing and sneezing at work 😤 https://t.co/yrhwgbdqlc</div>`)[0];
+            popup_64bc5661d7fa4ded918fd08153f3b408.setContent(html_dbdb0e488201434aaa1363d0d000cf7b);
+        
+
+        circle_marker_82fbd36c2fbc4112bbab7bf45ba9d384.bindPopup(popup_64bc5661d7fa4ded918fd08153f3b408)
+        ;
+
+        
+    
+    
+            var circle_marker_559bcf54a3964561932bb6ed914b474e = L.circleMarker(
+                [34.05223, -118.24368],
+                {"bubblingMouseEvents": true, "color": "#007849", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#007849", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1.5, "stroke": true, "weight": 3}
+            ).addTo(map_13ff94fb36d4408c821496a7b782ad3a);
+        
+    
+        var popup_39b137f2e36149129eb2906e8531eacd = L.popup({"maxWidth": "100%"});
+
+        
+            var html_74452f10e24a41ae9db83227855806e6 = $(`<div id="html_74452f10e24a41ae9db83227855806e6" style="width: 100.0%; height: 100.0%;">City: Los Angeles<br>Tweet: @jeffmasters1 @hearluminary ill clean that up</div>`)[0];
+            popup_39b137f2e36149129eb2906e8531eacd.setContent(html_74452f10e24a41ae9db83227855806e6);
+        
+
+        circle_marker_559bcf54a3964561932bb6ed914b474e.bindPopup(popup_39b137f2e36149129eb2906e8531eacd)
+        ;
+
+        
+    
+    
+            var circle_marker_ab0d7a9d1d074985995d1b902b9866a1 = L.circleMarker(
+                [40.71427, -74.00597],
+                {"bubblingMouseEvents": true, "color": "#007849", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#007849", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1.5, "stroke": true, "weight": 3}
+            ).addTo(map_13ff94fb36d4408c821496a7b782ad3a);
+        
+    
+        var popup_d00eb2a73aa242c0a3789d9ce38df998 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_2dabbafda42140788b12d97ee99b40a0 = $(`<div id="html_2dabbafda42140788b12d97ee99b40a0" style="width: 100.0%; height: 100.0%;">City: New York<br>Tweet: if one more person says you get sick because it’s cold outside i’m going to flip. you get sick from a virus idiots,… https://t.co/xkvybvfnsf</div>`)[0];
+            popup_d00eb2a73aa242c0a3789d9ce38df998.setContent(html_2dabbafda42140788b12d97ee99b40a0);
+        
+
+        circle_marker_ab0d7a9d1d074985995d1b902b9866a1.bindPopup(popup_d00eb2a73aa242c0a3789d9ce38df998)
+        ;
+
+        
+    
+    
+            var circle_marker_83b38984882541b59ea430de12087850 = L.circleMarker(
+                [27.80058, -97.39638],
+                {"bubblingMouseEvents": true, "color": "#007849", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#007849", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1.5, "stroke": true, "weight": 3}
+            ).addTo(map_13ff94fb36d4408c821496a7b782ad3a);
+        
+    
+        var popup_77114c42e89f47f4a702b186ae87256b = L.popup({"maxWidth": "100%"});
+
+        
+            var html_499c19b0d19d4c438a39fd37fffa9716 = $(`<div id="html_499c19b0d19d4c438a39fd37fffa9716" style="width: 100.0%; height: 100.0%;">City: Corpus Christi<br>Tweet: me every time my stomach hurts https://t.co/iy5yy2v9rc</div>`)[0];
+            popup_77114c42e89f47f4a702b186ae87256b.setContent(html_499c19b0d19d4c438a39fd37fffa9716);
+        
+
+        circle_marker_83b38984882541b59ea430de12087850.bindPopup(popup_77114c42e89f47f4a702b186ae87256b)
+        ;
+
+        
+    
+    
+            var circle_marker_41559cb2acb84a5db7fdaa181a327973 = L.circleMarker(
+                [40.71427, -74.00597],
+                {"bubblingMouseEvents": true, "color": "#007849", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#007849", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1.5, "stroke": true, "weight": 3}
+            ).addTo(map_13ff94fb36d4408c821496a7b782ad3a);
+        
+    
+        var popup_2f53140e95004ee0888a6b2c359a4ed7 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_a63a4879d4034aff8c84bb4280999d34 = $(`<div id="html_a63a4879d4034aff8c84bb4280999d34" style="width: 100.0%; height: 100.0%;">City: New York<br>Tweet: cold weather https://t.co/xo5cauunle</div>`)[0];
+            popup_2f53140e95004ee0888a6b2c359a4ed7.setContent(html_a63a4879d4034aff8c84bb4280999d34);
+        
+
+        circle_marker_41559cb2acb84a5db7fdaa181a327973.bindPopup(popup_2f53140e95004ee0888a6b2c359a4ed7)
+        ;
+
+        
+    
+    
+            var circle_marker_4afc3f5d89f44f0b956506471d4518c6 = L.circleMarker(
+                [28.75054, -82.5001],
+                {"bubblingMouseEvents": true, "color": "#007849", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#007849", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1.5, "stroke": true, "weight": 3}
+            ).addTo(map_13ff94fb36d4408c821496a7b782ad3a);
+        
+    
+        var popup_9f498a43cb5640d2a1213fb0449eac6d = L.popup({"maxWidth": "100%"});
+
+        
+            var html_514a794ecdfa4048a9d094dfb2e70420 = $(`<div id="html_514a794ecdfa4048a9d094dfb2e70420" style="width: 100.0%; height: 100.0%;">City: Florida<br>Tweet: @todd_poirier she's really sick!👎</div>`)[0];
+            popup_9f498a43cb5640d2a1213fb0449eac6d.setContent(html_514a794ecdfa4048a9d094dfb2e70420);
+        
+
+        circle_marker_4afc3f5d89f44f0b956506471d4518c6.bindPopup(popup_9f498a43cb5640d2a1213fb0449eac6d)
+        ;
+
+        
+    
+    
+            var circle_marker_ddecf80e52b244088c9e142052543075 = L.circleMarker(
+                [26.12231, -80.14338],
+                {"bubblingMouseEvents": true, "color": "#007849", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#007849", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1.5, "stroke": true, "weight": 3}
+            ).addTo(map_13ff94fb36d4408c821496a7b782ad3a);
+        
+    
+        var popup_4a2e9d74ae394a51860c62afab771864 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_1a07248249a24b289fefe34c58ee5efa = $(`<div id="html_1a07248249a24b289fefe34c58ee5efa" style="width: 100.0%; height: 100.0%;">City: Fort Lauderdale<br>Tweet: @meekmill i’ve never been, ill roll out</div>`)[0];
+            popup_4a2e9d74ae394a51860c62afab771864.setContent(html_1a07248249a24b289fefe34c58ee5efa);
+        
+
+        circle_marker_ddecf80e52b244088c9e142052543075.bindPopup(popup_4a2e9d74ae394a51860c62afab771864)
+        ;
+
+        
+    
+    
+            var circle_marker_9652984832c24b87b1ee7397b1785ed4 = L.circleMarker(
+                [34.42083, -119.69819],
+                {"bubblingMouseEvents": true, "color": "#007849", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#007849", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1.5, "stroke": true, "weight": 3}
+            ).addTo(map_13ff94fb36d4408c821496a7b782ad3a);
+        
+    
+        var popup_5ac79722cce84ee29bedb23b8b01d222 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_33832c52aa8546c7bf04b8d7d8d08c1f = $(`<div id="html_33832c52aa8546c7bf04b8d7d8d08c1f" style="width: 100.0%; height: 100.0%;">City: Santa Barbara<br>Tweet: but has a headache killed you ... https://t.co/pjfarp5esr</div>`)[0];
+            popup_5ac79722cce84ee29bedb23b8b01d222.setContent(html_33832c52aa8546c7bf04b8d7d8d08c1f);
+        
+
+        circle_marker_9652984832c24b87b1ee7397b1785ed4.bindPopup(popup_5ac79722cce84ee29bedb23b8b01d222)
+        ;
+
+        
+    
+    
+            var circle_marker_f2af12d7c6874442809a8544ad940293 = L.circleMarker(
+                [26.20341, -98.23001],
+                {"bubblingMouseEvents": true, "color": "#007849", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#007849", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1.5, "stroke": true, "weight": 3}
+            ).addTo(map_13ff94fb36d4408c821496a7b782ad3a);
+        
+    
+        var popup_f2acd57194d74698b29dc04c0a2d815a = L.popup({"maxWidth": "100%"});
+
+        
+            var html_3958d7d63ed14faab1a15e6128e4ee17 = $(`<div id="html_3958d7d63ed14faab1a15e6128e4ee17" style="width: 100.0%; height: 100.0%;">City: Mcallen<br>Tweet: it’s wet and cold.</div>`)[0];
+            popup_f2acd57194d74698b29dc04c0a2d815a.setContent(html_3958d7d63ed14faab1a15e6128e4ee17);
+        
+
+        circle_marker_f2af12d7c6874442809a8544ad940293.bindPopup(popup_f2acd57194d74698b29dc04c0a2d815a)
+        ;
+
+        
+    
+    
+            var circle_marker_e31864f56ec94a39a81f9b647a2e324d = L.circleMarker(
+                [30.44332, -91.18747],
+                {"bubblingMouseEvents": true, "color": "#007849", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#007849", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1.5, "stroke": true, "weight": 3}
+            ).addTo(map_13ff94fb36d4408c821496a7b782ad3a);
+        
+    
+        var popup_f863a3c1d47049599b77a1e05ff73514 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_2d84aca8069a40dd8dc4527f17ca5df5 = $(`<div id="html_2d84aca8069a40dd8dc4527f17ca5df5" style="width: 100.0%; height: 100.0%;">City: Baton Rouge<br>Tweet: bruh i’m so weak 😂😂😂😂</div>`)[0];
+            popup_f863a3c1d47049599b77a1e05ff73514.setContent(html_2d84aca8069a40dd8dc4527f17ca5df5);
+        
+
+        circle_marker_e31864f56ec94a39a81f9b647a2e324d.bindPopup(popup_f863a3c1d47049599b77a1e05ff73514)
+        ;
+
+        
+    
+    
+            var circle_marker_584ee639734e47629e3b1cf603b5421c = L.circleMarker(
+                [33.76696, -118.18923],
+                {"bubblingMouseEvents": true, "color": "#007849", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#007849", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1.5, "stroke": true, "weight": 3}
+            ).addTo(map_13ff94fb36d4408c821496a7b782ad3a);
+        
+    
+        var popup_ba2fc1bf85d144c78446200f9d7d40cf = L.popup({"maxWidth": "100%"});
+
+        
+            var html_a238b4ffe44a451ba42a703fb4982125 = $(`<div id="html_a238b4ffe44a451ba42a703fb4982125" style="width: 100.0%; height: 100.0%;">City: Long Beach<br>Tweet: 😂😂😂 cold world 🥶🥶</div>`)[0];
+            popup_ba2fc1bf85d144c78446200f9d7d40cf.setContent(html_a238b4ffe44a451ba42a703fb4982125);
+        
+
+        circle_marker_584ee639734e47629e3b1cf603b5421c.bindPopup(popup_ba2fc1bf85d144c78446200f9d7d40cf)
+        ;
+
+        
+    
+    
+            var circle_marker_65584c44277f4f2abdc5070418cd2818 = L.circleMarker(
+                [30.26715, -97.74306],
+                {"bubblingMouseEvents": true, "color": "#007849", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#007849", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1.5, "stroke": true, "weight": 3}
+            ).addTo(map_13ff94fb36d4408c821496a7b782ad3a);
+        
+    
+        var popup_dac61bdd029a4d2fb657f4a571f6d3e6 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_5110483a44ca445cb8831a0e7d621081 = $(`<div id="html_5110483a44ca445cb8831a0e7d621081" style="width: 100.0%; height: 100.0%;">City: Austin<br>Tweet: @thatguycedd are you sick?</div>`)[0];
+            popup_dac61bdd029a4d2fb657f4a571f6d3e6.setContent(html_5110483a44ca445cb8831a0e7d621081);
+        
+
+        circle_marker_65584c44277f4f2abdc5070418cd2818.bindPopup(popup_dac61bdd029a4d2fb657f4a571f6d3e6)
+        ;
+
+        
+    
+    
+            var circle_marker_bf93b66b333646628a69111b034bd6fd = L.circleMarker(
+                [40.71427, -74.00597],
+                {"bubblingMouseEvents": true, "color": "#007849", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#007849", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1.5, "stroke": true, "weight": 3}
+            ).addTo(map_13ff94fb36d4408c821496a7b782ad3a);
+        
+    
+        var popup_bcc7b3ea437b4274a033654732d8ecc9 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_1c63594c668243ca9ed61c2c4cfde1e9 = $(`<div id="html_1c63594c668243ca9ed61c2c4cfde1e9" style="width: 100.0%; height: 100.0%;">City: New York<br>Tweet: it’s only a bad thing for the weak.</div>`)[0];
+            popup_bcc7b3ea437b4274a033654732d8ecc9.setContent(html_1c63594c668243ca9ed61c2c4cfde1e9);
+        
+
+        circle_marker_bf93b66b333646628a69111b034bd6fd.bindPopup(popup_bcc7b3ea437b4274a033654732d8ecc9)
+        ;
+
+        
+    
+    
+            var circle_marker_bea2840750884d519ab417d2d33bd605 = L.circleMarker(
+                [36.17497, -115.13722],
+                {"bubblingMouseEvents": true, "color": "#007849", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#007849", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1.5, "stroke": true, "weight": 3}
+            ).addTo(map_13ff94fb36d4408c821496a7b782ad3a);
+        
+    
+        var popup_8bebe6520b244a2b8399828e90d6414c = L.popup({"maxWidth": "100%"});
+
+        
+            var html_e1dffa1efb0e425c8789f7740b7f975f = $(`<div id="html_e1dffa1efb0e425c8789f7740b7f975f" style="width: 100.0%; height: 100.0%;">City: Las Vegas<br>Tweet: @spicydoug that’s weak id do it better lol</div>`)[0];
+            popup_8bebe6520b244a2b8399828e90d6414c.setContent(html_e1dffa1efb0e425c8789f7740b7f975f);
+        
+
+        circle_marker_bea2840750884d519ab417d2d33bd605.bindPopup(popup_8bebe6520b244a2b8399828e90d6414c)
+        ;
+
+        
+    
+    
+            var circle_marker_bd6d79f75fca4a4dbd94d4e56b56f8f8 = L.circleMarker(
+                [36.17497, -115.13722],
+                {"bubblingMouseEvents": true, "color": "#007849", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#007849", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1.5, "stroke": true, "weight": 3}
+            ).addTo(map_13ff94fb36d4408c821496a7b782ad3a);
+        
+    
+        var popup_e6b26b357b4c4f07bf55975de0e502f2 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_02862c82e7a744228b51de3e52b33333 = $(`<div id="html_02862c82e7a744228b51de3e52b33333" style="width: 100.0%; height: 100.0%;">City: Las Vegas<br>Tweet: you ever had anxiety so bad you felt sick to your stomach?</div>`)[0];
+            popup_e6b26b357b4c4f07bf55975de0e502f2.setContent(html_02862c82e7a744228b51de3e52b33333);
+        
+
+        circle_marker_bd6d79f75fca4a4dbd94d4e56b56f8f8.bindPopup(popup_e6b26b357b4c4f07bf55975de0e502f2)
+        ;
+
+        
+    
+    
+            var circle_marker_90e72bff3532465b9dbcaa62dab77911 = L.circleMarker(
+                [40.71427, -74.00597],
+                {"bubblingMouseEvents": true, "color": "#007849", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#007849", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1.5, "stroke": true, "weight": 3}
+            ).addTo(map_13ff94fb36d4408c821496a7b782ad3a);
+        
+    
+        var popup_2f009e2afefa47439a2233785a3db306 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_fd140c5bb68a4b60a0c186c951970585 = $(`<div id="html_fd140c5bb68a4b60a0c186c951970585" style="width: 100.0%; height: 100.0%;">City: New York<br>Tweet: it’s cold</div>`)[0];
+            popup_2f009e2afefa47439a2233785a3db306.setContent(html_fd140c5bb68a4b60a0c186c951970585);
+        
+
+        circle_marker_90e72bff3532465b9dbcaa62dab77911.bindPopup(popup_2f009e2afefa47439a2233785a3db306)
+        ;
+
+        
+    
+    
+            var circle_marker_f51b98161da149189282cee334da985a = L.circleMarker(
+                [34.05223, -118.24368],
+                {"bubblingMouseEvents": true, "color": "#007849", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#007849", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1.5, "stroke": true, "weight": 3}
+            ).addTo(map_13ff94fb36d4408c821496a7b782ad3a);
+        
+    
+        var popup_bfa0060190614c77bc939592efc1532e = L.popup({"maxWidth": "100%"});
+
+        
+            var html_9f7027e026c545c1b7a4db53172a0665 = $(`<div id="html_9f7027e026c545c1b7a4db53172a0665" style="width: 100.0%; height: 100.0%;">City: Los Angeles<br>Tweet: i’m weak!!!</div>`)[0];
+            popup_bfa0060190614c77bc939592efc1532e.setContent(html_9f7027e026c545c1b7a4db53172a0665);
+        
+
+        circle_marker_f51b98161da149189282cee334da985a.bindPopup(popup_bfa0060190614c77bc939592efc1532e)
+        ;
+
+        
+    
+    
+            var circle_marker_79b4fe9fca4a47d488d88abaa27a2a48 = L.circleMarker(
+                [21.81667, -82.95],
+                {"bubblingMouseEvents": true, "color": "#007849", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#007849", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1.5, "stroke": true, "weight": 3}
+            ).addTo(map_13ff94fb36d4408c821496a7b782ad3a);
+        
+    
+        var popup_f2339c9406bf4a88ae7d7616cc4f539a = L.popup({"maxWidth": "100%"});
+
+        
+            var html_79799dd7e1de43ab90c489797bee701d = $(`<div id="html_79799dd7e1de43ab90c489797bee701d" style="width: 100.0%; height: 100.0%;">City: Isla Vista<br>Tweet: sick thats sick</div>`)[0];
+            popup_f2339c9406bf4a88ae7d7616cc4f539a.setContent(html_79799dd7e1de43ab90c489797bee701d);
+        
+
+        circle_marker_79b4fe9fca4a47d488d88abaa27a2a48.bindPopup(popup_f2339c9406bf4a88ae7d7616cc4f539a)
+        ;
+
+        
+    
+    
+            var circle_marker_a68319f64f894d789212165f1097ffec = L.circleMarker(
+                [34.05223, -118.24368],
+                {"bubblingMouseEvents": true, "color": "#007849", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#007849", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1.5, "stroke": true, "weight": 3}
+            ).addTo(map_13ff94fb36d4408c821496a7b782ad3a);
+        
+    
+        var popup_18e61a84f4024212b141d95f560ad2b7 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_c3723002c4eb492485942cede5228391 = $(`<div id="html_c3723002c4eb492485942cede5228391" style="width: 100.0%; height: 100.0%;">City: Los Angeles<br>Tweet: @iamkingkyla_ i just coughed watching this.</div>`)[0];
+            popup_18e61a84f4024212b141d95f560ad2b7.setContent(html_c3723002c4eb492485942cede5228391);
+        
+
+        circle_marker_a68319f64f894d789212165f1097ffec.bindPopup(popup_18e61a84f4024212b141d95f560ad2b7)
+        ;
+
+        
+    
+    
+            var circle_marker_c4a541394cc54232b235547dcd72b3fd = L.circleMarker(
+                [33.76696, -118.18923],
+                {"bubblingMouseEvents": true, "color": "#007849", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#007849", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1.5, "stroke": true, "weight": 3}
+            ).addTo(map_13ff94fb36d4408c821496a7b782ad3a);
+        
+    
+        var popup_47f10a6512ab48788940a93f7ab1964f = L.popup({"maxWidth": "100%"});
+
+        
+            var html_95a27a611abe4fc38f476226b04d4cac = $(`<div id="html_95a27a611abe4fc38f476226b04d4cac" style="width: 100.0%; height: 100.0%;">City: Long Beach<br>Tweet: ain’t made for the weak 🤷🏽‍♂️</div>`)[0];
+            popup_47f10a6512ab48788940a93f7ab1964f.setContent(html_95a27a611abe4fc38f476226b04d4cac);
+        
+
+        circle_marker_c4a541394cc54232b235547dcd72b3fd.bindPopup(popup_47f10a6512ab48788940a93f7ab1964f)
+        ;
+
+        
+    
+    
+            var circle_marker_436bcc090649454688006ed00715a14d = L.circleMarker(
+                [39.12711, -84.51439],
+                {"bubblingMouseEvents": true, "color": "#007849", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#007849", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1.5, "stroke": true, "weight": 3}
+            ).addTo(map_13ff94fb36d4408c821496a7b782ad3a);
+        
+    
+        var popup_7428590372bb4771b1ae6bb95ccb41ca = L.popup({"maxWidth": "100%"});
+
+        
+            var html_57f137cab2884e9b826ca02c56bd7eaf = $(`<div id="html_57f137cab2884e9b826ca02c56bd7eaf" style="width: 100.0%; height: 100.0%;">City: Cincinnati<br>Tweet: @wandabfuller1 so sorry.  a flu shot almost killed me in 2005</div>`)[0];
+            popup_7428590372bb4771b1ae6bb95ccb41ca.setContent(html_57f137cab2884e9b826ca02c56bd7eaf);
+        
+
+        circle_marker_436bcc090649454688006ed00715a14d.bindPopup(popup_7428590372bb4771b1ae6bb95ccb41ca)
+        ;
+
+        
+    
+    
+            var circle_marker_efbba15e3dd348f6a2668fb6bbe10b6e = L.circleMarker(
+                [34.05223, -118.24368],
+                {"bubblingMouseEvents": true, "color": "#007849", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#007849", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1.5, "stroke": true, "weight": 3}
+            ).addTo(map_13ff94fb36d4408c821496a7b782ad3a);
+        
+    
+        var popup_11796625666b4e40a051908796db559e = L.popup({"maxWidth": "100%"});
+
+        
+            var html_438e7159f0094bddb439e02c4279556f = $(`<div id="html_438e7159f0094bddb439e02c4279556f" style="width: 100.0%; height: 100.0%;">City: Los Angeles<br>Tweet: @el_garbagio this is sick</div>`)[0];
+            popup_11796625666b4e40a051908796db559e.setContent(html_438e7159f0094bddb439e02c4279556f);
+        
+
+        circle_marker_efbba15e3dd348f6a2668fb6bbe10b6e.bindPopup(popup_11796625666b4e40a051908796db559e)
+        ;
+
+        
+    
+    
+            var circle_marker_59964f258d2542c4bc9b47c61e0211ea = L.circleMarker(
+                [41.85003, -87.65005],
+                {"bubblingMouseEvents": true, "color": "#007849", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#007849", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1.5, "stroke": true, "weight": 3}
+            ).addTo(map_13ff94fb36d4408c821496a7b782ad3a);
+        
+    
+        var popup_38707c95a23549babb67a5281ec5b7a6 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_977c4c0b97b8459580630605e4eeafea = $(`<div id="html_977c4c0b97b8459580630605e4eeafea" style="width: 100.0%; height: 100.0%;">City: Chicago<br>Tweet: lmfao i’m weak 😭</div>`)[0];
+            popup_38707c95a23549babb67a5281ec5b7a6.setContent(html_977c4c0b97b8459580630605e4eeafea);
+        
+
+        circle_marker_59964f258d2542c4bc9b47c61e0211ea.bindPopup(popup_38707c95a23549babb67a5281ec5b7a6)
+        ;
+
+        
+    
+    
+            var circle_marker_9ff8a5942d3a4de793745d4b08454de7 = L.circleMarker(
+                [37.77493, -122.41942],
+                {"bubblingMouseEvents": true, "color": "#007849", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#007849", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1.5, "stroke": true, "weight": 3}
+            ).addTo(map_13ff94fb36d4408c821496a7b782ad3a);
+        
+    
+        var popup_29a32909c1284c6b988194dd2dd39fdb = L.popup({"maxWidth": "100%"});
+
+        
+            var html_a7116d6897ad404faacd8e667779ad66 = $(`<div id="html_a7116d6897ad404faacd8e667779ad66" style="width: 100.0%; height: 100.0%;">City: San Francisco<br>Tweet: @editingemily and wonder if you ll catch the flu in flight</div>`)[0];
+            popup_29a32909c1284c6b988194dd2dd39fdb.setContent(html_a7116d6897ad404faacd8e667779ad66);
+        
+
+        circle_marker_9ff8a5942d3a4de793745d4b08454de7.bindPopup(popup_29a32909c1284c6b988194dd2dd39fdb)
+        ;
+
+        
+    
+</script>
