@@ -1,7 +1,7 @@
 metro_nonmetro,year,county_name,state_abbr,indicator,value
-Metropolitan,2017,Anchorage (B),AK,doctors-per-10000,0.00352612695429
-Metropolitan,2017,Fairbanks North Star (B),AK,doctors-per-10000,0.00189954633175
-Metropolitan,2017,Matanuska-Susitna (B),AK,doctors-per-10000,0.00094786729858
+Metropolitan,2017,Anchorage,AK,doctors-per-10000,0.00352612695429
+Metropolitan,2017,Fairbanks North Star,AK,doctors-per-10000,0.00189954633175
+Metropolitan,2017,Matanuska-Susitna,AK,doctors-per-10000,0.00094786729858
 Metropolitan,2017,Autauga,AL,doctors-per-10000,0.00068344094531
 Metropolitan,2017,Baldwin,AL,doctors-per-10000,0.00191265101687
 Metropolitan,2017,Bibb,AL,doctors-per-10000,0.00071428571429
@@ -1179,32 +1179,32 @@ Metropolitan,2017,Wirt,WV,doctors-per-10000,0.00017152658662
 Metropolitan,2017,Wood,WV,doctors-per-10000,0.00217331924041
 Metropolitan,2017,Laramie,WY,doctors-per-10000,0.00219245069512
 Metropolitan,2017,Natrona,WY,doctors-per-10000,0.00250268596347
-Nonmetropolitan,2017,Aleutians East (B),AK,doctors-per-10000,0
-Nonmetropolitan,2017,Aleutians West (CA),AK,doctors-per-10000,0.00017473353136
-Nonmetropolitan,2017,Bethel (CA),AK,doctors-per-10000,0.0012077294686
-Nonmetropolitan,2017,Bristol Bay (B),AK,doctors-per-10000,0
-Nonmetropolitan,2017,Denali (B),AK,doctors-per-10000,0
-Nonmetropolitan,2017,Dillingham (CA),AK,doctors-per-10000,0.0024
-Nonmetropolitan,2017,Haines (B),AK,doctors-per-10000,0.00282942603072
-Nonmetropolitan,2017,Hoonah-Angoon (CA),AK,doctors-per-10000,0
-Nonmetropolitan,2017,Juneau (B),AK,doctors-per-10000,0.00239778282938
-Nonmetropolitan,2017,Kenai Peninsula (B),AK,doctors-per-10000,0.00150342541814
-Nonmetropolitan,2017,Ketchikan Gateway (B),AK,doctors-per-10000,0.0018680844949
-Nonmetropolitan,2017,Kodiak Island (B),AK,doctors-per-10000,0.00172349194455
-Nonmetropolitan,2017,Kusilvak (CA),AK,doctors-per-10000,0
-Nonmetropolitan,2017,Lake and Peninsula (B),AK,doctors-per-10000,0
-Nonmetropolitan,2017,Nome (CA),AK,doctors-per-10000,0.00109912070344
-Nonmetropolitan,2017,North Slope (B),AK,doctors-per-10000,0.00040518638574
-Nonmetropolitan,2017,Northwest Arctic (B),AK,doctors-per-10000,0.00078216660149
-Nonmetropolitan,2017,Petersburg (B),AK,doctors-per-10000,0.00155231294629
+Nonmetropolitan,2017,Aleutians East,AK,doctors-per-10000,0
+Nonmetropolitan,2017,Aleutians West,AK,doctors-per-10000,0.00017473353136
+Nonmetropolitan,2017,Bethel,AK,doctors-per-10000,0.0012077294686
+Nonmetropolitan,2017,Bristol Bay,AK,doctors-per-10000,0
+Nonmetropolitan,2017,Denali,AK,doctors-per-10000,0
+Nonmetropolitan,2017,Dillingham,AK,doctors-per-10000,0.0024
+Nonmetropolitan,2017,Haines,AK,doctors-per-10000,0.00282942603072
+Nonmetropolitan,2017,Hoonah-Angoon,AK,doctors-per-10000,0
+Nonmetropolitan,2017,Juneau,AK,doctors-per-10000,0.00239778282938
+Nonmetropolitan,2017,Kenai Peninsula,AK,doctors-per-10000,0.00150342541814
+Nonmetropolitan,2017,Ketchikan Gateway,AK,doctors-per-10000,0.0018680844949
+Nonmetropolitan,2017,Kodiak Island,AK,doctors-per-10000,0.00172349194455
+Nonmetropolitan,2017,Kusilvak,AK,doctors-per-10000,0
+Nonmetropolitan,2017,Lake and Peninsula,AK,doctors-per-10000,0
+Nonmetropolitan,2017,Nome,AK,doctors-per-10000,0.00109912070344
+Nonmetropolitan,2017,North Slope,AK,doctors-per-10000,0.00040518638574
+Nonmetropolitan,2017,Northwest Arctic,AK,doctors-per-10000,0.00078216660149
+Nonmetropolitan,2017,Petersburg,AK,doctors-per-10000,0.00155231294629
 Nonmetropolitan,2017,Prince of Wales-Hyder(CA),AK,doctors-per-10000,0.00077857365307
-Nonmetropolitan,2017,Sitka (B),AK,doctors-per-10000,0.00312247022089
-Nonmetropolitan,2017,Skagway Municipality (B),AK,doctors-per-10000,0
-Nonmetropolitan,2017,Southeast Fairbanks (CA),AK,doctors-per-10000,0.00043365134432
-Nonmetropolitan,2017,Valdez-Cordova (CA),AK,doctors-per-10000,0.00098210388477
-Nonmetropolitan,2017,Wrangell (B),AK,doctors-per-10000,0.00119856172593
-Nonmetropolitan,2017,Yakutat (B),AK,doctors-per-10000,0
-Nonmetropolitan,2017,Yukon-Koyukuk (CA),AK,doctors-per-10000,0
+Nonmetropolitan,2017,Sitka,AK,doctors-per-10000,0.00312247022089
+Nonmetropolitan,2017,Skagway Municipality,AK,doctors-per-10000,0
+Nonmetropolitan,2017,Southeast Fairbanks,AK,doctors-per-10000,0.00043365134432
+Nonmetropolitan,2017,Valdez-Cordova,AK,doctors-per-10000,0.00098210388477
+Nonmetropolitan,2017,Wrangell,AK,doctors-per-10000,0.00119856172593
+Nonmetropolitan,2017,Yakutat,AK,doctors-per-10000,0
+Nonmetropolitan,2017,Yukon-Koyukuk,AK,doctors-per-10000,0
 Nonmetropolitan,2017,Barbour,AL,doctors-per-10000,0.00044210441703
 Nonmetropolitan,2017,Bullock,AL,doctors-per-10000,0.00039455513908
 Nonmetropolitan,2017,Butler,AL,doctors-per-10000,0.0005081300813
@@ -3141,9 +3141,9 @@ Nonmetropolitan,2017,Teton,WY,doctors-per-10000,0.00441921927126
 Nonmetropolitan,2017,Uinta,WY,doctors-per-10000,0.00113306074191
 Nonmetropolitan,2017,Washakie,WY,doctors-per-10000,0.00076093849081
 Nonmetropolitan,2017,Weston,WY,doctors-per-10000,0.00057413520884
-Metropolitan,2017,Anchorage (B),AK,physicians-under-35,0.07886017229954
-Metropolitan,2017,Fairbanks North Star (B),AK,physicians-under-35,0.071875
-Metropolitan,2017,Matanuska-Susitna (B),AK,physicians-under-35,0.03636363636364
+Metropolitan,2017,Anchorage,AK,physicians-under-35,0.07886017229954
+Metropolitan,2017,Fairbanks North Star,AK,physicians-under-35,0.071875
+Metropolitan,2017,Matanuska-Susitna,AK,physicians-under-35,0.03636363636364
 Metropolitan,2017,Autauga,AL,physicians-under-35,0.05172413793103
 Metropolitan,2017,Baldwin,AL,physicians-under-35,0.06203840472674
 Metropolitan,2017,Bibb,AL,physicians-under-35,0.21052631578947
@@ -4321,32 +4321,32 @@ Metropolitan,2017,Wirt,WV,physicians-under-35,0
 Metropolitan,2017,Wood,WV,physicians-under-35,0.03988603988604
 Metropolitan,2017,Laramie,WY,physicians-under-35,0.07536231884058
 Metropolitan,2017,Natrona,WY,physicians-under-35,0.06109324758842
-Nonmetropolitan,2017,Aleutians East (B),AK,physicians-under-35,0
-Nonmetropolitan,2017,Aleutians West (CA),AK,physicians-under-35,0
-Nonmetropolitan,2017,Bethel (CA),AK,physicians-under-35,0.1304347826087
-Nonmetropolitan,2017,Bristol Bay (B),AK,physicians-under-35,0
-Nonmetropolitan,2017,Denali (B),AK,physicians-under-35,0
-Nonmetropolitan,2017,Dillingham (CA),AK,physicians-under-35,0.21428571428571
-Nonmetropolitan,2017,Haines (B),AK,physicians-under-35,0.07692307692308
-Nonmetropolitan,2017,Hoonah-Angoon (CA),AK,physicians-under-35,0
-Nonmetropolitan,2017,Juneau (B),AK,physicians-under-35,0.06422018348624
-Nonmetropolitan,2017,Kenai Peninsula (B),AK,physicians-under-35,0.02054794520548
-Nonmetropolitan,2017,Ketchikan Gateway (B),AK,physicians-under-35,0
-Nonmetropolitan,2017,Kodiak Island (B),AK,physicians-under-35,0.10344827586207
-Nonmetropolitan,2017,Kusilvak (CA),AK,physicians-under-35,0
-Nonmetropolitan,2017,Lake and Peninsula (B),AK,physicians-under-35,0
-Nonmetropolitan,2017,Nome (CA),AK,physicians-under-35,0
-Nonmetropolitan,2017,North Slope (B),AK,physicians-under-35,0
-Nonmetropolitan,2017,Northwest Arctic (B),AK,physicians-under-35,0.16666666666667
-Nonmetropolitan,2017,Petersburg (B),AK,physicians-under-35,0.14285714285714
+Nonmetropolitan,2017,Aleutians East,AK,physicians-under-35,0
+Nonmetropolitan,2017,Aleutians West,AK,physicians-under-35,0
+Nonmetropolitan,2017,Bethel,AK,physicians-under-35,0.1304347826087
+Nonmetropolitan,2017,Bristol Bay,AK,physicians-under-35,0
+Nonmetropolitan,2017,Denali,AK,physicians-under-35,0
+Nonmetropolitan,2017,Dillingham,AK,physicians-under-35,0.21428571428571
+Nonmetropolitan,2017,Haines,AK,physicians-under-35,0.07692307692308
+Nonmetropolitan,2017,Hoonah-Angoon,AK,physicians-under-35,0
+Nonmetropolitan,2017,Juneau,AK,physicians-under-35,0.06422018348624
+Nonmetropolitan,2017,Kenai Peninsula,AK,physicians-under-35,0.02054794520548
+Nonmetropolitan,2017,Ketchikan Gateway,AK,physicians-under-35,0
+Nonmetropolitan,2017,Kodiak Island,AK,physicians-under-35,0.10344827586207
+Nonmetropolitan,2017,Kusilvak,AK,physicians-under-35,0
+Nonmetropolitan,2017,Lake and Peninsula,AK,physicians-under-35,0
+Nonmetropolitan,2017,Nome,AK,physicians-under-35,0
+Nonmetropolitan,2017,North Slope,AK,physicians-under-35,0
+Nonmetropolitan,2017,Northwest Arctic,AK,physicians-under-35,0.16666666666667
+Nonmetropolitan,2017,Petersburg,AK,physicians-under-35,0.14285714285714
 Nonmetropolitan,2017,Prince of Wales-Hyder(CA),AK,physicians-under-35,0
-Nonmetropolitan,2017,Sitka (B),AK,physicians-under-35,0.05128205128205
-Nonmetropolitan,2017,Skagway Municipality (B),AK,physicians-under-35,0
-Nonmetropolitan,2017,Southeast Fairbanks (CA),AK,physicians-under-35,0.2
-Nonmetropolitan,2017,Valdez-Cordova (CA),AK,physicians-under-35,0
-Nonmetropolitan,2017,Wrangell (B),AK,physicians-under-35,0
-Nonmetropolitan,2017,Yakutat (B),AK,physicians-under-35,0
-Nonmetropolitan,2017,Yukon-Koyukuk (CA),AK,physicians-under-35,0
+Nonmetropolitan,2017,Sitka,AK,physicians-under-35,0.05128205128205
+Nonmetropolitan,2017,Skagway Municipality,AK,physicians-under-35,0
+Nonmetropolitan,2017,Southeast Fairbanks,AK,physicians-under-35,0.2
+Nonmetropolitan,2017,Valdez-Cordova,AK,physicians-under-35,0
+Nonmetropolitan,2017,Wrangell,AK,physicians-under-35,0
+Nonmetropolitan,2017,Yakutat,AK,physicians-under-35,0
+Nonmetropolitan,2017,Yukon-Koyukuk,AK,physicians-under-35,0
 Nonmetropolitan,2017,Barbour,AL,physicians-under-35,0.06666666666667
 Nonmetropolitan,2017,Bullock,AL,physicians-under-35,0
 Nonmetropolitan,2017,Butler,AL,physicians-under-35,0
@@ -6283,9 +6283,9 @@ Nonmetropolitan,2017,Teton,WY,physicians-under-35,0.01449275362319
 Nonmetropolitan,2017,Uinta,WY,physicians-under-35,0
 Nonmetropolitan,2017,Washakie,WY,physicians-under-35,0
 Nonmetropolitan,2017,Weston,WY,physicians-under-35,0
-Metropolitan,2017,Anchorage (B),AK,physicians-per-10000,0.00399604854256
-Metropolitan,2017,Fairbanks North Star (B),AK,physicians-per-10000,0.00232391306544
-Metropolitan,2017,Matanuska-Susitna (B),AK,physicians-per-10000,0.0011801877149
+Metropolitan,2017,Anchorage,AK,physicians-per-10000,0.00399604854256
+Metropolitan,2017,Fairbanks North Star,AK,physicians-per-10000,0.00232391306544
+Metropolitan,2017,Matanuska-Susitna,AK,physicians-per-10000,0.0011801877149
 Metropolitan,2017,Autauga,AL,physicians-per-10000,0.00075538209744
 Metropolitan,2017,Baldwin,AL,physicians-per-10000,0.00208694535414
 Metropolitan,2017,Bibb,AL,physicians-per-10000,0.00084821428571
@@ -7463,32 +7463,32 @@ Metropolitan,2017,Wirt,WV,physicians-per-10000,0.00017152658662
 Metropolitan,2017,Wood,WV,physicians-per-10000,0.00262460957448
 Metropolitan,2017,Laramie,WY,physicians-per-10000,0.00245514064016
 Metropolitan,2017,Natrona,WY,physicians-per-10000,0.00276812235354
-Nonmetropolitan,2017,Aleutians East (B),AK,physicians-per-10000,0
-Nonmetropolitan,2017,Aleutians West (CA),AK,physicians-per-10000,0.00034946706273
-Nonmetropolitan,2017,Bethel (CA),AK,physicians-per-10000,0.00126262626263
-Nonmetropolitan,2017,Bristol Bay (B),AK,physicians-per-10000,0
-Nonmetropolitan,2017,Denali (B),AK,physicians-per-10000,0
-Nonmetropolitan,2017,Dillingham (CA),AK,physicians-per-10000,0.0028
-Nonmetropolitan,2017,Haines (B),AK,physicians-per-10000,0.00282942603072
-Nonmetropolitan,2017,Hoonah-Angoon (CA),AK,physicians-per-10000,0
-Nonmetropolitan,2017,Juneau (B),AK,physicians-per-10000,0.00264690312335
-Nonmetropolitan,2017,Kenai Peninsula (B),AK,physicians-per-10000,0.00177677549417
-Nonmetropolitan,2017,Ketchikan Gateway (B),AK,physicians-per-10000,0.00208363270585
-Nonmetropolitan,2017,Kodiak Island (B),AK,physicians-per-10000,0.00172349194455
-Nonmetropolitan,2017,Kusilvak (CA),AK,physicians-per-10000,0
-Nonmetropolitan,2017,Lake and Peninsula (B),AK,physicians-per-10000,0
-Nonmetropolitan,2017,Nome (CA),AK,physicians-per-10000,0.00119904076739
-Nonmetropolitan,2017,North Slope (B),AK,physicians-per-10000,0.00040518638574
-Nonmetropolitan,2017,Northwest Arctic (B),AK,physicians-per-10000,0.00078216660149
-Nonmetropolitan,2017,Petersburg (B),AK,physicians-per-10000,0.00217323812481
+Nonmetropolitan,2017,Aleutians East,AK,physicians-per-10000,0
+Nonmetropolitan,2017,Aleutians West,AK,physicians-per-10000,0.00034946706273
+Nonmetropolitan,2017,Bethel,AK,physicians-per-10000,0.00126262626263
+Nonmetropolitan,2017,Bristol Bay,AK,physicians-per-10000,0
+Nonmetropolitan,2017,Denali,AK,physicians-per-10000,0
+Nonmetropolitan,2017,Dillingham,AK,physicians-per-10000,0.0028
+Nonmetropolitan,2017,Haines,AK,physicians-per-10000,0.00282942603072
+Nonmetropolitan,2017,Hoonah-Angoon,AK,physicians-per-10000,0
+Nonmetropolitan,2017,Juneau,AK,physicians-per-10000,0.00264690312335
+Nonmetropolitan,2017,Kenai Peninsula,AK,physicians-per-10000,0.00177677549417
+Nonmetropolitan,2017,Ketchikan Gateway,AK,physicians-per-10000,0.00208363270585
+Nonmetropolitan,2017,Kodiak Island,AK,physicians-per-10000,0.00172349194455
+Nonmetropolitan,2017,Kusilvak,AK,physicians-per-10000,0
+Nonmetropolitan,2017,Lake and Peninsula,AK,physicians-per-10000,0
+Nonmetropolitan,2017,Nome,AK,physicians-per-10000,0.00119904076739
+Nonmetropolitan,2017,North Slope,AK,physicians-per-10000,0.00040518638574
+Nonmetropolitan,2017,Northwest Arctic,AK,physicians-per-10000,0.00078216660149
+Nonmetropolitan,2017,Petersburg,AK,physicians-per-10000,0.00217323812481
 Nonmetropolitan,2017,Prince of Wales-Hyder(CA),AK,physicians-per-10000,0.00093428838368
-Nonmetropolitan,2017,Sitka (B),AK,physicians-per-10000,0.00335376431132
-Nonmetropolitan,2017,Skagway Municipality (B),AK,physicians-per-10000,0
-Nonmetropolitan,2017,Southeast Fairbanks (CA),AK,physicians-per-10000,0.00115640358485
-Nonmetropolitan,2017,Valdez-Cordova (CA),AK,physicians-per-10000,0.00109122653863
-Nonmetropolitan,2017,Wrangell (B),AK,physicians-per-10000,0.00119856172593
-Nonmetropolitan,2017,Yakutat (B),AK,physicians-per-10000,0
-Nonmetropolitan,2017,Yukon-Koyukuk (CA),AK,physicians-per-10000,0.00018772292097
+Nonmetropolitan,2017,Sitka,AK,physicians-per-10000,0.00335376431132
+Nonmetropolitan,2017,Skagway Municipality,AK,physicians-per-10000,0
+Nonmetropolitan,2017,Southeast Fairbanks,AK,physicians-per-10000,0.00115640358485
+Nonmetropolitan,2017,Valdez-Cordova,AK,physicians-per-10000,0.00109122653863
+Nonmetropolitan,2017,Wrangell,AK,physicians-per-10000,0.00119856172593
+Nonmetropolitan,2017,Yakutat,AK,physicians-per-10000,0
+Nonmetropolitan,2017,Yukon-Koyukuk,AK,physicians-per-10000,0.00018772292097
 Nonmetropolitan,2017,Barbour,AL,physicians-per-10000,0.0005224870383
 Nonmetropolitan,2017,Bullock,AL,physicians-per-10000,0.00039455513908
 Nonmetropolitan,2017,Butler,AL,physicians-per-10000,0.0005081300813
